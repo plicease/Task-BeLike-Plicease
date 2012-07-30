@@ -76,10 +76,6 @@ Net::DNS
 
 =item *
 
-Net::DNS
-
-=item *
-
 Number::Bytes::Human
 
 =item *
