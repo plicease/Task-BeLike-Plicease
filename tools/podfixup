@@ -1,0 +1,46 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+use v5.10;
+use File::Spec;
+
+open my $fh, '<', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
+my @lines = <$fh>;
+chomp @lines;
+close $fh;
+
+my @modules = sort map { my $x = "$_"; $x =~ /^use\s+(.*) \(\);\s*$/; $1 } grep /^use\s+.* \(\);\s*$/, @lines;
+
+open $fh, '>', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
+
+while(defined $lines[0])
+{
+  $_ = shift @lines;
+  say $fh $_;
+  last if /^=over 4\s*$/
+}
+
+while(defined $lines[0])
+{
+  $_ = shift @lines;
+  last if /^=back\s*$/;
+}
+
+foreach my $module (@modules)
+{
+  say $fh "";
+  say $fh "=item *";
+  say $fh "";
+  say $fh "$module";
+}
+
+say $fh "=back";
+
+while(defined $lines[0])
+{
+  $_ = shift @lines;
+  say $fh $_;
+}
+
+close $fh;
