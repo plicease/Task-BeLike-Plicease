@@ -14,6 +14,149 @@ version 0.1
 
 Modules that I like to have installed when I am doing my Perl thing.
 
+=over 4
+
+=item *
+
+AnyEvent
+
+=item *
+
+App::Ack
+
+=item *
+
+App::cpanminus
+
+=item *
+
+DBD::SQLite
+
+=item *
+
+DBI
+
+=item *
+
+Digest::MD5
+
+=item *
+
+File::chdir
+
+=item *
+
+IPC::Run
+
+=item *
+
+JSON
+
+=item *
+
+JSON::XS
+
+=item *
+
+Log::Log4perl
+
+=item *
+
+Mojolicious
+
+=item *
+
+Moose
+
+=item *
+
+Net::DNS
+
+=item *
+
+Net::DNS
+
+=item *
+
+Number::Bytes::Human
+
+=item *
+
+Perl::Critic
+
+=item *
+
+Pod::POM::Web
+
+=item *
+
+Rose::DB
+
+=item *
+
+Rose::DB::Object
+
+=item *
+
+Template
+
+=item *
+
+Test::Dir
+
+=item *
+
+Test::EOL
+
+=item *
+
+Test::File
+
+=item *
+
+Test::Fixme
+
+=item *
+
+Test::Memory::Cycle
+
+=item *
+
+Test::NoTabs
+
+=item *
+
+Test::Spelling
+
+=item *
+
+Test::Strict
+
+=item *
+
+URI
+
+=item *
+
+URI::Encode
+
+=item *
+
+XML::Simple
+
+=item *
+
+XML::Writer
+
+=item *
+
+YAML
+
+=item *
+
+YAML::XS
+=back
+
 =head1 AUTHOR
 
 Graham Ollis <plicease@wdlabs.com>
