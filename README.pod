@@ -160,7 +160,7 @@ YAML::XS
 
 =head1 AUTHOR
 
-Graham Ollis <plicease@wdlabs.com>
+Graham Ollis <perl@wdlabs.com>
 
 =head1 COPYRIGHT AND LICENSE
 

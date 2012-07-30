@@ -178,7 +178,6 @@ use URI ();
 use Net::DNS ();
 use Test::File ();
 use Test::Dir ();
-use Net::DNS ();
 use Number::Bytes::Human ();
 use Mojolicious ();
 use App::Ack ();
