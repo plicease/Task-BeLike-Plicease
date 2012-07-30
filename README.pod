@@ -155,6 +155,7 @@ YAML
 =item *
 
 YAML::XS
+
 =back
 
 =head1 AUTHOR

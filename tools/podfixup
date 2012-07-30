@@ -35,6 +35,7 @@ foreach my $module (@modules)
   say $fh "$module";
 }
 
+say $fh "";
 say $fh "=back";
 
 while(defined $lines[0])
