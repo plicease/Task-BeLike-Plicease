@@ -1,4 +1,6 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.1       2012-08-11 13:14:39 America/New_York
 - initial version
