@@ -128,10 +128,6 @@ Test::Spelling
 
 =item *
 
-Test::Strict
-
-=item *
-
 URI
 
 =item *
@@ -185,7 +181,6 @@ use File::chdir ();
 use DBI ();
 use DBD::SQLite ();
 use Test::EOL ();
-use Test::Strict ();
 use Test::Fixme ();
 use Test::NoTabs ();
 use Rose::DB ();
