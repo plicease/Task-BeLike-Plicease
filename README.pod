@@ -172,7 +172,7 @@ YAML::XS
 
 =head1 AUTHOR
 
-Graham Ollis <perl@wdlabs.com>
+Graham Ollis <plicease@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
