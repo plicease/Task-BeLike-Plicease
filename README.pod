@@ -102,7 +102,15 @@ Test::Dir
 
 =item *
 
+Test::Dir
+
+=item *
+
 Test::EOL
+
+=item *
+
+Test::File
 
 =item *
 
@@ -122,11 +130,19 @@ Test::NoTabs
 
 =item *
 
-Test::Spelling
+Test::Pod
 
 =item *
 
-Test::Strict
+Test::Pod::Coverage
+
+=item *
+
+Test::Pod::Spelling::CommonMistakes
+
+=item *
+
+Test::Spelling
 
 =item *
 

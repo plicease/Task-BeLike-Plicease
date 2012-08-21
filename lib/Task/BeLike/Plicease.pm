@@ -104,7 +104,15 @@ Test::Dir
 
 =item *
 
+Test::Dir
+
+=item *
+
 Test::EOL
+
+=item *
+
+Test::File
 
 =item *
 
@@ -121,6 +129,18 @@ Test::Memory::Cycle
 =item *
 
 Test::NoTabs
+
+=item *
+
+Test::Pod
+
+=item *
+
+Test::Pod::Coverage
+
+=item *
+
+Test::Pod::Spelling::CommonMistakes
 
 =item *
 
@@ -187,6 +207,12 @@ use Rose::DB ();
 use Rose::DB::Object ();
 use Test::Spelling ();
 use Test::Memory::Cycle ();
+use Test::Pod ();
+use Test::Pod::Coverage ();
+use Test::Pod::Spelling::CommonMistakes ();
+use Test::File ();
+use Test::Dir ();
+use Test::Strict;
 
 1;
 
