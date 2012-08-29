@@ -68,6 +68,10 @@ Mojolicious
 
 =item *
 
+Mojolicious::Plugin::SslAuth
+
+=item *
+
 Mojolicious::Plugin::TtRenderer
 
 =item *
@@ -201,6 +205,7 @@ use Test::Dir ();
 use Number::Bytes::Human ();
 use Mojolicious ();
 use Mojolicious::Plugin::TtRenderer ();
+use Mojolicious::Plugin::SslAuth ();
 use App::Ack ();
 use Perl::Critic ();
 use Log::Log4perl ();
