@@ -68,6 +68,10 @@ Mojolicious
 
 =item *
 
+Mojolicious::Plugin::TtRenderer
+
+=item *
+
 Moose
 
 =item *
@@ -192,6 +196,7 @@ use Test::File ();
 use Test::Dir ();
 use Number::Bytes::Human ();
 use Mojolicious ();
+use Mojolicious::Plugin::TtRenderer ();
 use App::Ack ();
 use Perl::Critic ();
 use Log::Log4perl ();
