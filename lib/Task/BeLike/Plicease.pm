@@ -64,6 +64,10 @@ Log::Log4perl
 
 =item *
 
+Module::Which
+
+=item *
+
 Mojolicious
 
 =item *
@@ -227,6 +231,7 @@ use Test::Pod::Spelling::CommonMistakes ();
 use Test::File ();
 use Test::Dir ();
 use Test::Strict ();
+use Module::Which ();
 
 1;
 

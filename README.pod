@@ -62,6 +62,10 @@ Log::Log4perl
 
 =item *
 
+Module::Which
+
+=item *
+
 Mojolicious
 
 =item *
