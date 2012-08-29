@@ -1,3 +1,5 @@
+=pod
+
 =head1 NAME
 
 Task::BeLike::Plicease - Modules Plicease Uses.
@@ -63,6 +65,10 @@ Log::Log4perl
 =item *
 
 Mojolicious
+
+=item *
+
+Mojolicious::Plugin::TtRenderer
 
 =item *
 
@@ -143,6 +149,10 @@ Test::Pod::Spelling::CommonMistakes
 =item *
 
 Test::Spelling
+
+=item *
+
+Test::Strict
 
 =item *
 

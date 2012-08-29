@@ -152,6 +152,10 @@ Test::Spelling
 
 =item *
 
+Test::Strict
+
+=item *
+
 URI
 
 =item *
@@ -217,7 +221,7 @@ use Test::Pod::Coverage ();
 use Test::Pod::Spelling::CommonMistakes ();
 use Test::File ();
 use Test::Dir ();
-use Test::Strict;
+use Test::Strict ();
 
 1;
 
