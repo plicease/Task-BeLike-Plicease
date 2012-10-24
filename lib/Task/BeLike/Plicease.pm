@@ -24,6 +24,10 @@ AnyEvent
 
 =item *
 
+AnyEvent::Open3::Simple
+
+=item *
+
 App::Ack
 
 =item *
@@ -60,6 +64,10 @@ JSON::XS
 
 =item *
 
+Lingua::Alphabet::Phonetic::LAPD
+
+=item *
+
 Log::Log4perl
 
 =item *
@@ -69,6 +77,10 @@ Module::Which
 =item *
 
 Mojolicious
+
+=item *
+
+Mojolicious::Plugin::Ident
 
 =item *
 
@@ -232,6 +244,9 @@ use Test::File ();
 use Test::Dir ();
 use Test::Strict ();
 use Module::Which ();
+use AnyEvent::Open3::Simple ();
+use Lingua::Alphabet::Phonetic::LAPD ();
+use Mojolicious::Plugin::Ident ();
 
 1;
 
