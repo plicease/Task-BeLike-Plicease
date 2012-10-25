@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.24      2012-10-25 16:28:33 America/New_York
   - rm Test::Strict on cygwin
 
 0.23      2012-10-25 16:25:30 America/New_York
