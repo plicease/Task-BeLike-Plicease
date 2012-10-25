@@ -55,7 +55,15 @@ Clustericious::Log
 
 =item *
 
+DBD::PgPP
+
+=item *
+
 DBD::SQLite
+
+=item *
+
+DBD::mysqlPP
 
 =item *
 
@@ -286,6 +294,8 @@ use Clustericious::Config ();
 use Clustericious::Log ();
 use String::Template ();
 use autodie ();
+use DBD::PgPP ();
+use DBD::mysqlPP ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database
