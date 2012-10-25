@@ -147,10 +147,6 @@ Rose::DB::Object
 
 =item *
 
-Rose::Planter
-
-=item *
-
 String::Template
 
 =item *
@@ -288,9 +284,12 @@ use Devel::StackTrace ();
 use Clustericious::Client ();
 use Clustericious::Config ();
 use Clustericious::Log ();
-use Rose::Planter ();
 use String::Template ();
 use autodie ();
+
+# TODO: Rose::Planter
+# and   Module::Build::Database
+# would be nice but depend on DBD::Pg
 
 1;
 

@@ -146,10 +146,6 @@ Rose::DB::Object
 
 =item *
 
-Rose::Planter
-
-=item *
-
 String::Template
 
 =item *

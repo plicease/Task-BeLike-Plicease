@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm Rose::Planter because of dep on DBD::Pg
   - rm Test::Strict on cygwin for real
     (not just doco of it)
 
