@@ -38,11 +38,35 @@ App::cpanminus
 
 =item *
 
+Clustericious
+
+=item *
+
+Clustericious::Client
+
+=item *
+
+Clustericious::Config
+
+=item *
+
+Clustericious::Log
+
+=item *
+
 DBD::SQLite
 
 =item *
 
 DBI
+
+=item *
+
+Data::Downloader
+
+=item *
+
+Devel::StackTrace
 
 =item *
 
@@ -122,6 +146,14 @@ Rose::DB::Object
 
 =item *
 
+Rose::Planter
+
+=item *
+
+String::Template
+
+=item *
+
 Template
 
 =item *
@@ -178,6 +210,10 @@ Test::Strict
 
 =item *
 
+Test::Strict
+
+=item *
+
 URI
 
 =item *
@@ -199,6 +235,10 @@ YAML
 =item *
 
 YAML::XS
+
+=item *
+
+autodie
 
 =back
 

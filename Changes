@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm Data::Downloader on cygwin
+  - fixup AnyEvent::Open3::Simple
 
 0.22      2012-10-25 16:18:36 America/New_York
   - don't install modules under Cygwin and MSWin32 that I know don't work there.

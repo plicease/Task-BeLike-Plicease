@@ -27,7 +27,7 @@ if($^O eq 'MSWin32')
 elsif($^O eq 'cygwin')
 {
   delete $WriteMakefileArgs{PREREQ_PM}->{$_}
-    for (qw( Test::Strict ));
+    for (qw( Test::Strict Data::Downloader ));
 }
     
 unless ( eval { ExtUtils::MakeMaker->VERSION(6.56) } ) {

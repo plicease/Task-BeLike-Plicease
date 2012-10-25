@@ -39,11 +39,35 @@ App::cpanminus
 
 =item *
 
+Clustericious
+
+=item *
+
+Clustericious::Client
+
+=item *
+
+Clustericious::Config
+
+=item *
+
+Clustericious::Log
+
+=item *
+
 DBD::SQLite
 
 =item *
 
 DBI
+
+=item *
+
+Data::Downloader
+
+=item *
+
+Devel::StackTrace
 
 =item *
 
@@ -123,6 +147,14 @@ Rose::DB::Object
 
 =item *
 
+Rose::Planter
+
+=item *
+
+String::Template
+
+=item *
+
 Template
 
 =item *
@@ -179,6 +211,10 @@ Test::Strict
 
 =item *
 
+Test::Strict
+
+=item *
+
 URI
 
 =item *
@@ -200,6 +236,10 @@ YAML
 =item *
 
 YAML::XS
+
+=item *
+
+autodie
 
 =back
 
@@ -247,7 +287,6 @@ use Test::File ();
 use Test::Dir ();
 use Test::Strict ();
 use Module::Which ();
-use AnyEvent::Open3::Simple ();
 use Lingua::Alphabet::Phonetic::LAPD ();
 use Mojolicious::Plugin::Ident ();
 use Devel::StackTrace ();
