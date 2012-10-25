@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.23      2012-10-25 16:25:30 America/New_York
   - rm Data::Downloader on cygwin
   - fixup AnyEvent::Open3::Simple
 
