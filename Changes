@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.22      2012-10-25 16:18:36 America/New_York
+  - don't install modules under Cygwin and MSWin32 that I know don't work there.
   - added Devel::StackTrace
   - added Clustericious::Client
   - added Clustericious::Config
