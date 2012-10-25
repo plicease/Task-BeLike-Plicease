@@ -15,6 +15,10 @@ use v5.10;
 
 Modules that I like to have installed when I am doing my Perl thing.
 
+Some modules are not installed on MSWin32 or cygwin if they are known
+not to work on those platforms.  See the Makefile.PL that comes with
+this distribution for details.
+
 =over 4
 
 =item *
@@ -252,11 +256,7 @@ use Clustericious::Config ();
 use Clustericious::Log ();
 use Rose::Planter ();
 use String::Template ();
-
-# TODO: Clustericious
-# TODO: Data::Downloader
-# TODO: AnyEvent::Open3::Simple doesn't work under windows
-# TODO: Test::Strict doesn't install on cygwin
+use autodie ();
 
 1;
 

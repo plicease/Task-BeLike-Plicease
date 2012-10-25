@@ -10,7 +10,13 @@ my @lines = <$fh>;
 chomp @lines;
 close $fh;
 
-my @modules = sort map { my $x = "$_"; $x =~ /^use\s+(.*) \(\);\s*$/; $1 } grep /^use\s+.* \(\);\s*$/, @lines;
+my @modules = map { my $x = "$_"; $x =~ /^use\s+(.*) \(\);\s*$/; $1 } grep /^use\s+.* \(\);\s*$/, @lines;
+push @modules, 
+  'Clustericious',
+  'Data::Downloader',
+  'AnyEvent::Open3::Simple',
+  'Test::Strict';
+@modules = sort @modules;
 
 open $fh, '>', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
 
