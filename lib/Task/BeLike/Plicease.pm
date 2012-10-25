@@ -5,7 +5,6 @@ use warnings;
 use v5.10;
 
 # ABSTRACT: Modules Plicease Uses.
-
 # VERSION
 
 =head1 SYNOPSIS
@@ -247,6 +246,17 @@ use Module::Which ();
 use AnyEvent::Open3::Simple ();
 use Lingua::Alphabet::Phonetic::LAPD ();
 use Mojolicious::Plugin::Ident ();
+use Devel::StackTrace ();
+use Clustericious::Client ();
+use Clustericious::Config ();
+use Clustericious::Log ();
+use Rose::Planter ();
+use String::Template ();
+
+# TODO: Clustericious
+# TODO: Data::Downloader
+# TODO: AnyEvent::Open3::Simple doesn't work under windows
+# TODO: Test::Strict doesn't install on cygwin
 
 1;
 

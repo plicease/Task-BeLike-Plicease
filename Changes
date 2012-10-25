@@ -1,6 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Devel::StackTrace
+  - added Clustericious::Client
+  - added Clustericious::Config
+  - added Clustericious::Log
+  - added Rose::Planter
+  - added String::Template
 
 0.21      2012-10-24 13:41:44 America/New_York
   - added AnyEvent::Open3::Simple
