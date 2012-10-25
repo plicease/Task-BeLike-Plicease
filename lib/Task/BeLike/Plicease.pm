@@ -281,7 +281,6 @@ use Test::Pod::Coverage ();
 use Test::Pod::Spelling::CommonMistakes ();
 use Test::File ();
 use Test::Dir ();
-use Test::Strict ();
 use Module::Which ();
 use Lingua::Alphabet::Phonetic::LAPD ();
 use Mojolicious::Plugin::Ident ();
