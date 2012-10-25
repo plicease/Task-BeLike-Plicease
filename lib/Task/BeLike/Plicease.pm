@@ -211,10 +211,6 @@ Test::Strict
 
 =item *
 
-Test::Strict
-
-=item *
-
 URI
 
 =item *
