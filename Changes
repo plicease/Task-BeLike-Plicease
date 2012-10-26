@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.26      2012-10-26 15:37:36 EST5EDT
   - added App::RegexFileUtils
   - added Shell::Config::Generate
   - added Shell::Guess
