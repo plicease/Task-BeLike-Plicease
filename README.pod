@@ -54,7 +54,15 @@ Clustericious::Log
 
 =item *
 
+DBD::PgPP
+
+=item *
+
 DBD::SQLite
+
+=item *
+
+DBD::mysqlPP
 
 =item *
 
@@ -151,6 +159,10 @@ String::Template
 =item *
 
 Template
+
+=item *
+
+Test::Differences
 
 =item *
 

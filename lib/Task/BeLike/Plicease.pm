@@ -163,6 +163,10 @@ Template
 
 =item *
 
+Test::Differences
+
+=item *
+
 Test::Dir
 
 =item *
@@ -296,6 +300,7 @@ use String::Template ();
 use autodie ();
 use DBD::PgPP ();
 use DBD::mysqlPP ();
+use Test::Differences ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database

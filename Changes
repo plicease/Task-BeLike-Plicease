@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Test::Differences
 
 0.25      2012-10-25 16:50:59 America/New_York
   - rm Rose::Planter because of dep on DBD::Pg
