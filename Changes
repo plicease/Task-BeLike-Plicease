@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added App::RegexFileUtils
+  - added Shell::Config::Generate
+  - added Shell::Guess
+  - added WebService::TwitterBootstrap::Download::Custom
   - added Test::Differences
   - added DBD::PgPP
   - added DBD::mysqlPP

@@ -35,6 +35,10 @@ App::Ack
 
 =item *
 
+App::RegexFileUtils
+
+=item *
+
 App::cpanminus
 
 =item *
@@ -155,6 +159,14 @@ Rose::DB::Object
 
 =item *
 
+Shell::Config::Generate
+
+=item *
+
+Shell::Guess
+
+=item *
+
 String::Template
 
 =item *
@@ -224,6 +236,10 @@ URI
 =item *
 
 URI::Encode
+
+=item *
+
+WebService::TwitterBootstrap::Download::Custom
 
 =item *
 
@@ -301,6 +317,10 @@ use autodie ();
 use DBD::PgPP ();
 use DBD::mysqlPP ();
 use Test::Differences ();
+use App::RegexFileUtils ();
+use Shell::Config::Generate ();
+use Shell::Guess ();
+use WebService::TwitterBootstrap::Download::Custom ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database

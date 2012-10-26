@@ -34,6 +34,10 @@ App::Ack
 
 =item *
 
+App::RegexFileUtils
+
+=item *
+
 App::cpanminus
 
 =item *
@@ -154,6 +158,14 @@ Rose::DB::Object
 
 =item *
 
+Shell::Config::Generate
+
+=item *
+
+Shell::Guess
+
+=item *
+
 String::Template
 
 =item *
@@ -223,6 +235,10 @@ URI
 =item *
 
 URI::Encode
+
+=item *
+
+WebService::TwitterBootstrap::Download::Custom
 
 =item *
 
