@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added XML::Rabbit
+  - added Role::Tiny
+  - added Scalar::Does
 
 0.26      2012-10-26 15:37:36 EST5EDT
   - added App::RegexFileUtils

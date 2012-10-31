@@ -151,11 +151,19 @@ Pod::POM::Web
 
 =item *
 
+Role::Tiny
+
+=item *
+
 Rose::DB
 
 =item *
 
 Rose::DB::Object
+
+=item *
+
+Scalar::Does
 
 =item *
 
@@ -243,6 +251,10 @@ WebService::TwitterBootstrap::Download::Custom
 
 =item *
 
+XML::Rabbit
+
+=item *
+
 XML::Simple
 
 =item *
@@ -321,6 +333,11 @@ use App::RegexFileUtils ();
 use Shell::Config::Generate ();
 use Shell::Guess ();
 use WebService::TwitterBootstrap::Download::Custom ();
+use Role::Tiny ();
+use Scalar::Does ();
+
+# http://www.modernperlbooks.com/mt/2012/10/i-stopped-parsing-xml-thanks-to-xmlrabbit.html
+use XML::Rabbit ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database

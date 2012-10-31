@@ -150,11 +150,19 @@ Pod::POM::Web
 
 =item *
 
+Role::Tiny
+
+=item *
+
 Rose::DB
 
 =item *
 
 Rose::DB::Object
+
+=item *
+
+Scalar::Does
 
 =item *
 
@@ -239,6 +247,10 @@ URI::Encode
 =item *
 
 WebService::TwitterBootstrap::Download::Custom
+
+=item *
+
+XML::Rabbit
 
 =item *
 
