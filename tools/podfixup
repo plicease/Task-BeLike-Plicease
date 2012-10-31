@@ -16,7 +16,7 @@ push @modules,
   'Data::Downloader',
   'AnyEvent::Open3::Simple',
   'Test::Strict';
-@modules = sort @modules;
+@modules = sort { lc $a cmp lc $b } @modules;
 
 open $fh, '>', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
 

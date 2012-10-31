@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - sort modules in doco case insensitive
   - added XML::Rabbit
   - added Role::Tiny
   - added Scalar::Does

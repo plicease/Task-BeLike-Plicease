@@ -35,11 +35,15 @@ App::Ack
 
 =item *
 
+App::cpanminus
+
+=item *
+
 App::RegexFileUtils
 
 =item *
 
-App::cpanminus
+autodie
 
 =item *
 
@@ -59,6 +63,14 @@ Clustericious::Log
 
 =item *
 
+Data::Downloader
+
+=item *
+
+DBD::mysqlPP
+
+=item *
+
 DBD::PgPP
 
 =item *
@@ -67,15 +79,7 @@ DBD::SQLite
 
 =item *
 
-DBD::mysqlPP
-
-=item *
-
 DBI
-
-=item *
-
-Data::Downloader
 
 =item *
 
@@ -268,10 +272,6 @@ YAML
 =item *
 
 YAML::XS
-
-=item *
-
-autodie
 
 =back
 
