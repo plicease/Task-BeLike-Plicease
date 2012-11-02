@@ -102,6 +102,10 @@ File::chdir
 
 =item *
 
+File::IgnoreReadonly
+
+=item *
+
 File::Touch
 
 =item *

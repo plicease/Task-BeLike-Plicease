@@ -103,6 +103,10 @@ File::chdir
 
 =item *
 
+File::IgnoreReadonly
+
+=item *
+
 File::Touch
 
 =item *
@@ -353,6 +357,7 @@ use Authen::Simple ();
 
 # http://www.modernperlbooks.com/mt/2012/10/i-stopped-parsing-xml-thanks-to-xmlrabbit.html
 use XML::Rabbit ();
+use File::IgnoreReadonly ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database

@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added File::IgnoreReadonly
   - added Authen::Simple
   - added Crypt::PasswdMD5
   - added use File::Touch
