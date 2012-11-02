@@ -42,6 +42,10 @@ App::RegexFileUtils
 
 =item *
 
+Authen::Simple
+
+=item *
+
 autodie
 
 =item *
@@ -59,6 +63,10 @@ Clustericious::Config
 =item *
 
 Clustericious::Log
+
+=item *
+
+Crypt::PasswdMD5
 
 =item *
 
@@ -91,6 +99,10 @@ Digest::MD5
 =item *
 
 File::chdir
+
+=item *
+
+File::Touch
 
 =item *
 

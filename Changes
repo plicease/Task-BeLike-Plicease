@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Authen::Simple
+  - added Crypt::PasswdMD5
+  - added use File::Touch
 
 0.27      2012-11-02 13:59:14 America/New_York
   - sort modules in doco case insensitive

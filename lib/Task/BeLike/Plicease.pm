@@ -43,6 +43,10 @@ App::RegexFileUtils
 
 =item *
 
+Authen::Simple
+
+=item *
+
 autodie
 
 =item *
@@ -60,6 +64,10 @@ Clustericious::Config
 =item *
 
 Clustericious::Log
+
+=item *
+
+Crypt::PasswdMD5
 
 =item *
 
@@ -92,6 +100,10 @@ Digest::MD5
 =item *
 
 File::chdir
+
+=item *
+
+File::Touch
 
 =item *
 
@@ -335,6 +347,9 @@ use Shell::Guess ();
 use WebService::TwitterBootstrap::Download::Custom ();
 use Role::Tiny ();
 use Scalar::Does ();
+use Crypt::PasswdMD5 ();
+use File::Touch ();
+use Authen::Simple ();
 
 # http://www.modernperlbooks.com/mt/2012/10/i-stopped-parsing-xml-thanks-to-xmlrabbit.html
 use XML::Rabbit ();
