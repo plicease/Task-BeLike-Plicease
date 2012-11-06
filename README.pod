@@ -110,6 +110,10 @@ Log::Log4perl
 
 =item *
 
+Module::CoreList
+
+=item *
+
 Module::Which
 
 =item *
@@ -147,6 +151,10 @@ Perl::Critic
 =item *
 
 Pod::POM::Web
+
+=item *
+
+Pod::Perldoc
 
 =item *
 

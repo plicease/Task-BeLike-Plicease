@@ -111,6 +111,10 @@ Log::Log4perl
 
 =item *
 
+Module::CoreList
+
+=item *
+
 Module::Which
 
 =item *
@@ -148,6 +152,10 @@ Perl::Critic
 =item *
 
 Pod::POM::Web
+
+=item *
+
+Pod::Perldoc
 
 =item *
 
@@ -335,6 +343,10 @@ use Shell::Guess ();
 use WebService::TwitterBootstrap::Download::Custom ();
 use Role::Tiny ();
 use Scalar::Does ();
+
+# core, but in separate rpms for Fedora
+use Pod::Perldoc ();
+use Module::CoreList ();
 
 # http://www.modernperlbooks.com/mt/2012/10/i-stopped-parsing-xml-thanks-to-xmlrabbit.html
 use XML::Rabbit ();

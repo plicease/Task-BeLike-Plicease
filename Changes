@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Module::CoreList
+  - added Pod::Perldoc
   - added XML::Rabbit
   - added Role::Tiny
   - added Scalar::Does
