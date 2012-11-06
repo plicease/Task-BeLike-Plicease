@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.27      2012-11-06 10:39:49 EST5EDT
   - added Module::CoreList
   - added Pod::Perldoc
   - added XML::Rabbit
