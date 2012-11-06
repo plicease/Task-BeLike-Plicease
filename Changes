@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.28      2012-11-06 10:43:47 EST5EDT
   - added Module::CoreList
   - added Pod::Perldoc
   - added File::IgnoreReadonly
