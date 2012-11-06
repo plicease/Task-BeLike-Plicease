@@ -35,11 +35,19 @@ App::Ack
 
 =item *
 
+App::cpanminus
+
+=item *
+
 App::RegexFileUtils
 
 =item *
 
-App::cpanminus
+Authen::Simple
+
+=item *
+
+autodie
 
 =item *
 
@@ -59,6 +67,18 @@ Clustericious::Log
 
 =item *
 
+Crypt::PasswdMD5
+
+=item *
+
+Data::Downloader
+
+=item *
+
+DBD::mysqlPP
+
+=item *
+
 DBD::PgPP
 
 =item *
@@ -67,15 +87,7 @@ DBD::SQLite
 
 =item *
 
-DBD::mysqlPP
-
-=item *
-
 DBI
-
-=item *
-
-Data::Downloader
 
 =item *
 
@@ -88,6 +100,14 @@ Digest::MD5
 =item *
 
 File::chdir
+
+=item *
+
+File::IgnoreReadonly
+
+=item *
+
+File::Touch
 
 =item *
 
@@ -151,11 +171,11 @@ Perl::Critic
 
 =item *
 
-Pod::POM::Web
+Pod::Perldoc
 
 =item *
 
-Pod::Perldoc
+Pod::POM::Web
 
 =item *
 
@@ -277,10 +297,6 @@ YAML
 
 YAML::XS
 
-=item *
-
-autodie
-
 =back
 
 =cut
@@ -343,6 +359,9 @@ use Shell::Guess ();
 use WebService::TwitterBootstrap::Download::Custom ();
 use Role::Tiny ();
 use Scalar::Does ();
+use Crypt::PasswdMD5 ();
+use File::Touch ();
+use Authen::Simple ();
 
 # core, but in separate rpms for Fedora
 use Pod::Perldoc ();
@@ -350,6 +369,7 @@ use Module::CoreList ();
 
 # http://www.modernperlbooks.com/mt/2012/10/i-stopped-parsing-xml-thanks-to-xmlrabbit.html
 use XML::Rabbit ();
+use File::IgnoreReadonly ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database

@@ -34,11 +34,19 @@ App::Ack
 
 =item *
 
+App::cpanminus
+
+=item *
+
 App::RegexFileUtils
 
 =item *
 
-App::cpanminus
+Authen::Simple
+
+=item *
+
+autodie
 
 =item *
 
@@ -58,6 +66,18 @@ Clustericious::Log
 
 =item *
 
+Crypt::PasswdMD5
+
+=item *
+
+Data::Downloader
+
+=item *
+
+DBD::mysqlPP
+
+=item *
+
 DBD::PgPP
 
 =item *
@@ -66,15 +86,7 @@ DBD::SQLite
 
 =item *
 
-DBD::mysqlPP
-
-=item *
-
 DBI
-
-=item *
-
-Data::Downloader
 
 =item *
 
@@ -87,6 +99,14 @@ Digest::MD5
 =item *
 
 File::chdir
+
+=item *
+
+File::IgnoreReadonly
+
+=item *
+
+File::Touch
 
 =item *
 
@@ -150,11 +170,11 @@ Perl::Critic
 
 =item *
 
-Pod::POM::Web
+Pod::Perldoc
 
 =item *
 
-Pod::Perldoc
+Pod::POM::Web
 
 =item *
 
@@ -275,10 +295,6 @@ YAML
 =item *
 
 YAML::XS
-
-=item *
-
-autodie
 
 =back
 
