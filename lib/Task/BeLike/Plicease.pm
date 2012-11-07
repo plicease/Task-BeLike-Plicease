@@ -147,6 +147,10 @@ Mojolicious::Plugin::Ident
 
 =item *
 
+Mojolicious::Plugin::RenderFile
+
+=item *
+
 Mojolicious::Plugin::SslAuth
 
 =item *
@@ -362,6 +366,7 @@ use Scalar::Does ();
 use Crypt::PasswdMD5 ();
 use File::Touch ();
 use Authen::Simple ();
+use Mojolicious::Plugin::RenderFile ();
 
 # core, but in separate rpms for Fedora
 use Pod::Perldoc ();
