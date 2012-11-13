@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - added Mojolicious::Plugin::RenderFile
+  - added Mojo::JSON::Any
 
 0.28      2012-11-06 10:43:47 EST5EDT
   - added Module::CoreList

@@ -139,6 +139,10 @@ Module::Which
 
 =item *
 
+Mojo::JSON::Any
+
+=item *
+
 Mojolicious
 
 =item *
@@ -367,6 +371,7 @@ use Crypt::PasswdMD5 ();
 use File::Touch ();
 use Authen::Simple ();
 use Mojolicious::Plugin::RenderFile ();
+use Mojo::JSON::Any ();
 
 # core, but in separate rpms for Fedora
 use Pod::Perldoc ();
