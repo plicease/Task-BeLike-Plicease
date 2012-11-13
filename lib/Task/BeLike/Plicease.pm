@@ -203,6 +203,14 @@ Scalar::Does
 
 =item *
 
+Sereal::Decoder
+
+=item *
+
+Sereal::Encoder
+
+=item *
+
 Shell::Config::Generate
 
 =item *
@@ -380,6 +388,9 @@ use Module::CoreList ();
 # http://www.modernperlbooks.com/mt/2012/10/i-stopped-parsing-xml-thanks-to-xmlrabbit.html
 use XML::Rabbit ();
 use File::IgnoreReadonly ();
+# http://blog.booking.com/sereal-a-binary-data-serialization-format.html
+use Sereal::Encoder ();
+use Sereal::Decoder ();
 
 # TODO: Rose::Planter
 # and   Module::Build::Database
