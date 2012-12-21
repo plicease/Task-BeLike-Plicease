@@ -282,11 +282,19 @@ Test::Strict
 
 =item *
 
+TinyMake
+
+=item *
+
 URI
 
 =item *
 
 URI::Encode
+
+=item *
+
+Validate::Tiny
 
 =item *
 

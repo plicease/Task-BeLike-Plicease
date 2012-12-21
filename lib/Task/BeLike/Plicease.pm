@@ -283,11 +283,19 @@ Test::Strict
 
 =item *
 
+TinyMake
+
+=item *
+
 URI
 
 =item *
 
 URI::Encode
+
+=item *
+
+Validate::Tiny
 
 =item *
 
@@ -395,6 +403,10 @@ use Sereal::Decoder ();
 # TODO: Rose::Planter
 # and   Module::Build::Database
 # would be nice but depend on DBD::Pg
+
+# look at these later:
+use TinyMake ();
+use Validate::Tiny ();
 
 1;
 

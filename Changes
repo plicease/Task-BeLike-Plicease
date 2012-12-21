@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added TinyMake
+  - added Validate::Tiny
   - added Mojolicious::Plugin::RenderFile
   - added Mojo::JSON::Any
   - added Sereal::Encoder
