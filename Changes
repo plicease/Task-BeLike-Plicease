@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Template::Tiny
+  - added Try::Tiny
+  - added HTTP::Tiny
   - added TinyMake
   - added Validate::Tiny
   - added Mojolicious::Plugin::RenderFile

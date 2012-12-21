@@ -110,6 +110,10 @@ File::Touch
 
 =item *
 
+HTTP::Tiny
+
+=item *
+
 IPC::Run
 
 =item *
@@ -226,6 +230,10 @@ Template
 
 =item *
 
+Template::Tiny
+
+=item *
+
 Test::Differences
 
 =item *
@@ -283,6 +291,10 @@ Test::Strict
 =item *
 
 TinyMake
+
+=item *
+
+Try::Tiny
 
 =item *
 

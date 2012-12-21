@@ -111,6 +111,10 @@ File::Touch
 
 =item *
 
+HTTP::Tiny
+
+=item *
+
 IPC::Run
 
 =item *
@@ -227,6 +231,10 @@ Template
 
 =item *
 
+Template::Tiny
+
+=item *
+
 Test::Differences
 
 =item *
@@ -284,6 +292,10 @@ Test::Strict
 =item *
 
 TinyMake
+
+=item *
+
+Try::Tiny
 
 =item *
 
@@ -388,6 +400,9 @@ use File::Touch ();
 use Authen::Simple ();
 use Mojolicious::Plugin::RenderFile ();
 use Mojo::JSON::Any ();
+use HTTP::Tiny ();
+use Try::Tiny ();
+use Template::Tiny ();
 
 # core, but in separate rpms for Fedora
 use Pod::Perldoc ();
