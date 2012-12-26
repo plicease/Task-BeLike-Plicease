@@ -8,25 +8,21 @@ version 0.29
 
 =head1 SYNOPSIS
 
- cpan Task::BeLike::Plicease
+ cpanm Task::BeLike::Plicease
 
 =head1 DESCRIPTION
 
 Modules that I like to have installed when I am doing my Perl thing.
 
 Some modules are not installed on MSWin32 or cygwin if they are known
-not to work on those platforms.  See the Makefile.PL that comes with
-this distribution for details.
+not to work on those platforms.  See the Makefile.PL or dist.ini that
+comes with this distribution for details.
 
 =over 4
 
 =item *
 
 AnyEvent
-
-=item *
-
-AnyEvent::Open3::Simple
 
 =item *
 
@@ -50,10 +46,6 @@ autodie
 
 =item *
 
-Clustericious
-
-=item *
-
 Clustericious::Client
 
 =item *
@@ -67,10 +59,6 @@ Clustericious::Log
 =item *
 
 Crypt::PasswdMD5
-
-=item *
-
-Data::Downloader
 
 =item *
 
@@ -210,10 +198,6 @@ Sereal::Decoder
 
 =item *
 
-Sereal::Encoder
-
-=item *
-
 Shell::Config::Generate
 
 =item *
@@ -242,15 +226,7 @@ Test::Dir
 
 =item *
 
-Test::Dir
-
-=item *
-
 Test::EOL
-
-=item *
-
-Test::File
 
 =item *
 
@@ -283,10 +259,6 @@ Test::Pod::Spelling::CommonMistakes
 =item *
 
 Test::Spelling
-
-=item *
-
-Test::Strict
 
 =item *
 

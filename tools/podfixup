@@ -4,20 +4,15 @@ use strict;
 use warnings;
 use v5.10;
 use File::Spec;
+use Config::INI::Reader;
 
 open my $fh, '<', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
 my @lines = <$fh>;
 chomp @lines;
 close $fh;
 
-my @modules = map { my $x = "$_"; $x =~ /^use\s+(.*) \(\);\s*$/; $1 } grep /^use\s+.* \(\);\s*$/, @lines;
-push @modules, 
-  'Clustericious',
-  'Data::Downloader',
-  'AnyEvent::Open3::Simple',
-  'Test::Strict',
-  'Sereal::Encoder';
-@modules = sort { lc $a cmp lc $b } @modules;
+my $config = Config::INI::Reader->read_file('dist.ini');
+my @modules = sort{ lc $a cmp lc $b } keys %{ $config->{Prereqs} };
 
 open $fh, '>', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
 
@@ -52,3 +47,9 @@ while(defined $lines[0])
 }
 
 close $fh;
+
+# TODO write out a test that does a require_ok on each module
+# making sure not to require_ok for the modules where the 
+# platform doesn't include it.
+
+exit 0;
