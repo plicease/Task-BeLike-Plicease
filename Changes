@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.28      2012-12-26 11:41:59 America/New_York
   - added Template::Tiny
   - added Try::Tiny
   - added HTTP::Tiny
