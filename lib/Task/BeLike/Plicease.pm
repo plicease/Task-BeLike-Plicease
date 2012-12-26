@@ -25,6 +25,10 @@ AnyEvent
 
 =item *
 
+AnyEvent::Open3::Simple
+
+=item *
+
 App::Ack
 
 =item *
@@ -45,6 +49,10 @@ autodie
 
 =item *
 
+Clustericious
+
+=item *
+
 Clustericious::Client
 
 =item *
@@ -58,6 +66,10 @@ Clustericious::Log
 =item *
 
 Crypt::PasswdMD5
+
+=item *
+
+Data::Downloader
 
 =item *
 
@@ -197,6 +209,10 @@ Sereal::Decoder
 
 =item *
 
+Sereal::Encoder
+
+=item *
+
 Shell::Config::Generate
 
 =item *
@@ -258,6 +274,10 @@ Test::Pod::Spelling::CommonMistakes
 =item *
 
 Test::Spelling
+
+=item *
+
+Test::Strict
 
 =item *
 

@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - test all requird modules
+  - fix bug where MSWin32 and cygwin not required modules were being excluded
 
 0.30      2012-12-26 14:23:04 America/New_York
   - migration to requirements specified in dist.ini instead of Plicease.pm
