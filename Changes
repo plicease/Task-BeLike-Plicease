@@ -8,7 +8,7 @@ Revision history for {{$dist->name}}
   - added Validate::Tiny
   - added Mojolicious::Plugin::RenderFile
   - added Mojo::JSON::Any
-  - added Sereal::Encoder
+  - added Sereal::Encoder (except for $^O eq 'MSWin32')
   - added Sereal::Decoder
 
 0.28      2012-11-06 10:43:47 EST5EDT

@@ -412,7 +412,7 @@ use Module::CoreList ();
 use XML::Rabbit ();
 use File::IgnoreReadonly ();
 # http://blog.booking.com/sereal-a-binary-data-serialization-format.html
-use Sereal::Encoder ();
+#use Sereal::Encoder ();
 use Sereal::Decoder ();
 
 # TODO: Rose::Planter

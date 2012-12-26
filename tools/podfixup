@@ -15,7 +15,8 @@ push @modules,
   'Clustericious',
   'Data::Downloader',
   'AnyEvent::Open3::Simple',
-  'Test::Strict';
+  'Test::Strict',
+  'Sereal::Encoder';
 @modules = sort { lc $a cmp lc $b } @modules;
 
 open $fh, '>', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));

@@ -21,7 +21,7 @@ my ##{
 if($^O eq 'MSWin32')
 {
   delete $WriteMakefileArgs{PREREQ_PM}->{$_}
-    for (qw( Clustericious Data::Downloader AnyEvent::Open3::Simple ));
+    for (qw( Clustericious Data::Downloader AnyEvent::Open3::Simple Sereal::Encoder ));
 }
 
 elsif($^O eq 'cygwin')
