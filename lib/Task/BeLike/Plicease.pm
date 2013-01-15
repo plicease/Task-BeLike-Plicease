@@ -25,6 +25,10 @@ AnyEvent
 
 =item *
 
+AnyEvent::Ident
+
+=item *
+
 AnyEvent::Open3::Simple
 
 =item *
