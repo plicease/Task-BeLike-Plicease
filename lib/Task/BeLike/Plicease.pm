@@ -153,6 +153,10 @@ Mojolicious
 
 =item *
 
+Mojolicious::Plugin::Gravatar
+
+=item *
+
 Mojolicious::Plugin::Ident
 
 =item *

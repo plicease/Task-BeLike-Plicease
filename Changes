@@ -1,8 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Mojolicious::Plugin::Gravatar
 
 0.32      2013-01-15 16:11:32 America/New_York
+  - added AnyEvent::Ident
 
 0.31      2012-12-26 14:57:57 America/New_York
   - test all requird modules

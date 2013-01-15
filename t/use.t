@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 78;
+use Test::More tests => 79;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Ident';
@@ -45,6 +45,7 @@ require_ok 'Module::CoreList';
 require_ok 'Module::Which';
 require_ok 'Mojo::JSON::Any';
 require_ok 'Mojolicious';
+require_ok 'Mojolicious::Plugin::Gravatar';
 require_ok 'Mojolicious::Plugin::Ident';
 require_ok 'Mojolicious::Plugin::RenderFile';
 require_ok 'Mojolicious::Plugin::SslAuth';
