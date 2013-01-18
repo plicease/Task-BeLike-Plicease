@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 79;
+use Test::More tests => 80;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Ident';
@@ -40,6 +40,7 @@ require_ok 'IPC::Run';
 require_ok 'JSON';
 require_ok 'JSON::XS';
 require_ok 'Lingua::Alphabet::Phonetic::LAPD';
+require_ok 'local::lib';
 require_ok 'Log::Log4perl';
 require_ok 'Module::CoreList';
 require_ok 'Module::Which';

@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added local::lib
   - added Mojolicious::Plugin::Gravatar
 
 0.32      2013-01-15 16:11:32 America/New_York

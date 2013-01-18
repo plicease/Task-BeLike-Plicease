@@ -133,6 +133,10 @@ Lingua::Alphabet::Phonetic::LAPD
 
 =item *
 
+local::lib
+
+=item *
+
 Log::Log4perl
 
 =item *
