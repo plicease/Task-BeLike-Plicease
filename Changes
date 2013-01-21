@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added HTML::Barcode::QRCode
 
 0.34      2013-01-18 18:24:49 America/New_York
   - rm Mojolicious::Plugin::Gravatar

@@ -113,6 +113,10 @@ File::Touch
 
 =item *
 
+HTML::Barcode::QRCode
+
+=item *
+
 HTTP::Tiny
 
 =item *

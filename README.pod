@@ -1,3 +1,5 @@
+=pod
+
 =head1 NAME
 
 Task::BeLike::Plicease - Modules Plicease Uses.
@@ -111,6 +113,10 @@ File::IgnoreReadonly
 =item *
 
 File::Touch
+
+=item *
+
+HTML::Barcode::QRCode
 
 =item *
 
