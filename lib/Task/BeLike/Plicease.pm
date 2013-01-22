@@ -25,6 +25,10 @@ AnyEvent
 
 =item *
 
+AnyEvent::Finger
+
+=item *
+
 AnyEvent::Ident
 
 =item *

@@ -1,8 +1,9 @@
 use strict;
 use warnings;
-use Test::More tests => 80;
+use Test::More tests => 81;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
+require_ok 'AnyEvent::Finger';
 require_ok 'AnyEvent::Ident';
 SKIP: {
 skip 'MSWin32 not supported for AnyEvent::Open3::Simple', 1 if $^O eq 'MSWin32';
