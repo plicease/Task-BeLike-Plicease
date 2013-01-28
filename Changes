@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.35      2013-01-27 21:04:21 America/New_York
   - added File::Listing
   - added File::Listing::Ftpcopy
   - added AnyEvent::Finger
