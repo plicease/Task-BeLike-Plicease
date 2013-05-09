@@ -3,6 +3,7 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - added PlugAuth::Client::Tiny
   - added PlugAuth::Lite
+  - added Authen::Simple::PlugAuth
 
 0.35      2013-01-27 21:04:21 America/New_York
   - added File::Listing
