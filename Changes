@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Yars
   - added PlugAuth::Client::Tiny
   - added PlugAuth::Lite
   - added Authen::Simple::PlugAuth
