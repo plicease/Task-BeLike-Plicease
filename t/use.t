@@ -15,10 +15,7 @@ require_ok 'App::RegexFileUtils';
 require_ok 'Authen::Simple';
 require_ok 'Authen::Simple::PlugAuth';
 require_ok 'autodie';
-SKIP: {
-skip 'MSWin32 not supported for Clustericious', 1 if $^O eq 'MSWin32';
 require_ok 'Clustericious';
-}
 require_ok 'Clustericious::Client';
 require_ok 'Clustericious::Config';
 require_ok 'Clustericious::Log';
@@ -58,25 +55,13 @@ require_ok 'Moose';
 require_ok 'Net::DNS';
 require_ok 'Number::Bytes::Human';
 require_ok 'Perl::Critic';
-SKIP: {
-skip 'MSWin32 not supported for PlugAuth', 1 if $^O eq 'MSWin32';
 require_ok 'PlugAuth';
-}
 require_ok 'PlugAuth::Client';
 require_ok 'PlugAuth::Client::Tiny';
 require_ok 'PlugAuth::Lite';
-SKIP: {
-skip 'MSWin32 not supported for PlugAuth::Plugin::Audit', 1 if $^O eq 'MSWin32';
 require_ok 'PlugAuth::Plugin::Audit';
-}
-SKIP: {
-skip 'MSWin32 not supported for PlugAuth::Plugin::DBIAuth', 1 if $^O eq 'MSWin32';
 require_ok 'PlugAuth::Plugin::DBIAuth';
-}
-SKIP: {
-skip 'MSWin32 not supported for PlugAuth::Plugin::LDAP', 1 if $^O eq 'MSWin32';
 require_ok 'PlugAuth::Plugin::LDAP';
-}
 require_ok 'Pod::Perldoc';
 require_ok 'Pod::POM::Web';
 require_ok 'Role::Tiny';
