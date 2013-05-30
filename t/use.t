@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 88;
+use Test::More tests => 87;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -39,7 +39,6 @@ require_ok 'File::IgnoreReadonly';
 require_ok 'File::Listing';
 require_ok 'File::Listing::Ftpcopy';
 require_ok 'File::Touch';
-require_ok 'HTML::Barcode::QRCode';
 require_ok 'HTTP::Tiny';
 require_ok 'IPC::Run';
 require_ok 'JSON';
