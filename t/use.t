@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 92;
+use Test::More tests => 93;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -61,6 +61,7 @@ require_ok 'PlugAuth::Client::Tiny';
 require_ok 'PlugAuth::Lite';
 require_ok 'PlugAuth::Plugin::Audit';
 require_ok 'PlugAuth::Plugin::DBIAuth';
+require_ok 'PlugAuth::Plugin::Finger';
 require_ok 'PlugAuth::Plugin::LDAP';
 require_ok 'Pod::Perldoc';
 require_ok 'Pod::POM::Web';
