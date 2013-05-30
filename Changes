@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.36      2013-05-30 14:22:04 America/New_York
   - added Yars
   - added PlugAuth::Client::Tiny
   - added PlugAuth::Lite
