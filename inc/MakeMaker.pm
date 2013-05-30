@@ -17,7 +17,7 @@ sub setup_installer
   if($content =~ s{\t}{ }gm)
   {
     $makefile->content($content);
-    $self->zilla->log("Modified Makefile.PL with extra checks");
+    $self->zilla->log("Modified Makefile.PL remove tabs");
   }
   else
   {
