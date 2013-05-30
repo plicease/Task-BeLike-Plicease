@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 87;
+use Test::More tests => 92;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -58,8 +58,25 @@ require_ok 'Moose';
 require_ok 'Net::DNS';
 require_ok 'Number::Bytes::Human';
 require_ok 'Perl::Critic';
+SKIP: {
+skip 'MSWin32 not supported for PlugAuth', 1 if $^O eq 'MSWin32';
+require_ok 'PlugAuth';
+}
+require_ok 'PlugAuth::Client';
 require_ok 'PlugAuth::Client::Tiny';
 require_ok 'PlugAuth::Lite';
+SKIP: {
+skip 'MSWin32 not supported for PlugAuth::Plugin::Audit', 1 if $^O eq 'MSWin32';
+require_ok 'PlugAuth::Plugin::Audit';
+}
+SKIP: {
+skip 'MSWin32 not supported for PlugAuth::Plugin::DBIAuth', 1 if $^O eq 'MSWin32';
+require_ok 'PlugAuth::Plugin::DBIAuth';
+}
+SKIP: {
+skip 'MSWin32 not supported for PlugAuth::Plugin::LDAP', 1 if $^O eq 'MSWin32';
+require_ok 'PlugAuth::Plugin::LDAP';
+}
 require_ok 'Pod::Perldoc';
 require_ok 'Pod::POM::Web';
 require_ok 'Role::Tiny';
@@ -104,6 +121,7 @@ require_ok 'YAML';
 require_ok 'YAML::XS';
 SKIP: {
 skip 'MSWin32 not supported for Yars', 1 if $^O eq 'MSWin32';
+skip 'cygwin not supported for Yars', 1 if $^O eq 'cygwin';
 require_ok 'Yars';
 }
 require_ok 'Yars::Client';

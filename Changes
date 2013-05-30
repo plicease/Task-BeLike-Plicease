@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - rm HTML::Barcode::QRCode
+  - added PlugAuth and family
 
 0.36      2013-05-30 14:22:04 America/New_York
   - added Yars

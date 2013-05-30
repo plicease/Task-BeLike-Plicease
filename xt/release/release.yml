@@ -13,6 +13,7 @@ pod_spelling_system:
     - autodie
     - ini
     - TinyMake
+    - PlugAuth
 
 pod_coverage:
   # format is "Class#method" or "Class", regex allowed

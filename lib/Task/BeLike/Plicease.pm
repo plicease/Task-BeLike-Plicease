@@ -205,11 +205,31 @@ Perl::Critic
 
 =item *
 
+PlugAuth
+
+=item *
+
+PlugAuth::Client
+
+=item *
+
 PlugAuth::Client::Tiny
 
 =item *
 
 PlugAuth::Lite
+
+=item *
+
+PlugAuth::Plugin::Audit
+
+=item *
+
+PlugAuth::Plugin::DBIAuth
+
+=item *
+
+PlugAuth::Plugin::LDAP
 
 =item *
 
