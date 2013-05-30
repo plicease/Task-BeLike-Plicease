@@ -232,6 +232,10 @@ PlugAuth::Plugin::DBIAuth
 
 =item *
 
+PlugAuth::Plugin::Finger
+
+=item *
+
 PlugAuth::Plugin::LDAP
 
 =item *
