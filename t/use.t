@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 83;
+use Test::More tests => 88;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -13,6 +13,7 @@ require_ok 'App::Ack';
 require_ok 'App::cpanminus';
 require_ok 'App::RegexFileUtils';
 require_ok 'Authen::Simple';
+require_ok 'Authen::Simple::PlugAuth';
 require_ok 'autodie';
 SKIP: {
 skip 'MSWin32 not supported for Clustericious', 1 if $^O eq 'MSWin32';
@@ -58,6 +59,8 @@ require_ok 'Moose';
 require_ok 'Net::DNS';
 require_ok 'Number::Bytes::Human';
 require_ok 'Perl::Critic';
+require_ok 'PlugAuth::Client::Tiny';
+require_ok 'PlugAuth::Lite';
 require_ok 'Pod::Perldoc';
 require_ok 'Pod::POM::Web';
 require_ok 'Role::Tiny';
@@ -100,4 +103,9 @@ require_ok 'XML::Simple';
 require_ok 'XML::Writer';
 require_ok 'YAML';
 require_ok 'YAML::XS';
+SKIP: {
+skip 'MSWin32 not supported for Yars', 1 if $^O eq 'MSWin32';
+require_ok 'Yars';
+}
+require_ok 'Yars::Client';
 done_testing;

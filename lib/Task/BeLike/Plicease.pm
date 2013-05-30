@@ -53,6 +53,10 @@ Authen::Simple
 
 =item *
 
+Authen::Simple::PlugAuth
+
+=item *
+
 autodie
 
 =item *
@@ -205,6 +209,14 @@ Perl::Critic
 
 =item *
 
+PlugAuth::Client::Tiny
+
+=item *
+
+PlugAuth::Lite
+
+=item *
+
 Pod::Perldoc
 
 =item *
@@ -346,6 +358,14 @@ YAML
 =item *
 
 YAML::XS
+
+=item *
+
+Yars
+
+=item *
+
+Yars::Client
 
 =back
 
