@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - automatically upload to dist.wdlabs.com after release
 
 0.38      2013-05-30 17:37:18 America/New_York
   - install Clustericious + PlugAuth on MSWin32 (now that it is supported)

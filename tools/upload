@@ -1,0 +1,16 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use autodie qw( :system );
+use v5.10;
+
+my $ver = shift;
+my @cmd = ('scp', "Task-BeLike-Plicease-$ver.tar.gz", 'ollisg@matrix.wdlabs.com:/home/ollisg/web/sites/dist');
+say "% @cmd";
+
+eval { system @cmd };
+if(my $error = $@)
+{
+  say "ERROR! $error";
+}
