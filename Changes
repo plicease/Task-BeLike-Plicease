@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.41      2013-06-07 14:49:22 EST5EDT
+  - use [Author::Plicease::UploadToMatrix] instead of [Run::AfterRelease]
+
 0.40      2013-06-07 14:28:12 EST5EDT
   - use perl in path for upload
 
