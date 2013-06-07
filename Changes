@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - use perl in path for upload
 
 0.39      2013-06-07 14:26:04 EST5EDT
   - automatically upload to dist.wdlabs.com after release
