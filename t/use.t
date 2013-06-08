@@ -1,6 +1,6 @@
 use strict;
 use warnings;
-use Test::More tests => 93;
+use Test::More tests => 94;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -99,6 +99,7 @@ require_ok 'Try::Tiny';
 require_ok 'URI';
 require_ok 'URI::Encode';
 require_ok 'Validate::Tiny';
+require_ok 'WebService::LiveJournal';
 require_ok 'WebService::TwitterBootstrap::Download::Custom';
 require_ok 'XML::Rabbit';
 require_ok 'XML::Simple';

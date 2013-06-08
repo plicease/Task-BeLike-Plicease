@@ -357,6 +357,10 @@ Validate::Tiny
 
 =item *
 
+WebService::LiveJournal
+
+=item *
+
 WebService::TwitterBootstrap::Download::Custom
 
 =item *
