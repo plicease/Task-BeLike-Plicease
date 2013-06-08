@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add WebService::LiveJournal
 
 0.41      2013-06-07 14:49:22 EST5EDT
   - use [Author::Plicease::UploadToMatrix] instead of [Run::AfterRelease]
