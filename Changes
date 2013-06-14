@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated Plicease dists to latest
 
 0.42      2013-06-08 09:26:21 America/New_York
   - add WebService::LiveJournal
