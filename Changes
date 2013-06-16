@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated WebService::LiveJournal to latest
 
 0.44      2013-06-14 16:12:31 EST5EDT
   - updated Clustericious to latest
