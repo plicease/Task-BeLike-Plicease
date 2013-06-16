@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.45      2013-06-16 12:58:21 America/New_York
   - updated WebService::LiveJournal to latest
 
 0.44      2013-06-14 16:12:31 EST5EDT
