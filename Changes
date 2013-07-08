@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Bumped plicease owned modules up to latest versions
   - Yars and Test::Strict are now installable on Cygwin
   - updated WebService::LiveJournal to latest
 

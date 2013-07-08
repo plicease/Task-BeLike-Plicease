@@ -157,6 +157,10 @@ Log::Log4perl
 
 =item *
 
+Log::Log4perl::Appender::TAP
+
+=item *
+
 Module::CoreList
 
 =item *
@@ -286,6 +290,10 @@ Template
 =item *
 
 Template::Tiny
+
+=item *
+
+Test::Clustericious::Cluster
 
 =item *
 
