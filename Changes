@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - new version of Yars 0.85
 
 0.46      2013-07-08 09:02:46 America/New_York
   - Bumped plicease owned modules up to latest versions
