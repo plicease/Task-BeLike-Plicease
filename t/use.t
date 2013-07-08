@@ -90,10 +90,7 @@ require_ok 'Test::Pod';
 require_ok 'Test::Pod::Coverage';
 require_ok 'Test::Pod::Spelling::CommonMistakes';
 require_ok 'Test::Spelling';
-SKIP: {
-skip 'cygwin not supported for Test::Strict', 1 if $^O eq 'cygwin';
 require_ok 'Test::Strict';
-}
 require_ok 'TinyMake';
 require_ok 'Try::Tiny';
 require_ok 'URI';
@@ -108,7 +105,6 @@ require_ok 'YAML';
 require_ok 'YAML::XS';
 SKIP: {
 skip 'MSWin32 not supported for Yars', 1 if $^O eq 'MSWin32';
-skip 'cygwin not supported for Yars', 1 if $^O eq 'cygwin';
 require_ok 'Yars';
 }
 require_ok 'Yars::Client';
