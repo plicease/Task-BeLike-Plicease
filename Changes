@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.46      2013-07-08 09:02:46 America/New_York
   - Bumped plicease owned modules up to latest versions
   - Yars and Test::Strict are now installable on Cygwin
   - updated WebService::LiveJournal to latest
