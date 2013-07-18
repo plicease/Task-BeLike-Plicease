@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.47      2013-07-18 11:32:06 America/New_York
   - update to latest versions of my distros
 
 0.46      2013-07-08 09:02:46 America/New_York
