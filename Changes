@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.50      2013-07-22 06:32:26 America/New_York
+  - bump version of Test::Clustericious::Cluster
+
 0.49      2013-07-22 05:08:41 America/New_York
   - update to latest versions of my distros
 
