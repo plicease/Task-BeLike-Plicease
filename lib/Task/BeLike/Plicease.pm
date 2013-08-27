@@ -65,6 +65,10 @@ Clustericious
 
 =item *
 
+Clustericious::Admin
+
+=item *
+
 Clustericious::Client
 
 =item *
@@ -78,10 +82,6 @@ Clustericious::Log
 =item *
 
 Crypt::PasswdMD5
-
-=item *
-
-Data::Downloader
 
 =item *
 

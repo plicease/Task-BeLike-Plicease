@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - latest version of my modules
+  - remove Data::Downloader
 
 0.50      2013-07-22 06:32:26 America/New_York
   - bump version of Test::Clustericious::Cluster

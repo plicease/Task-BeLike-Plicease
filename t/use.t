@@ -16,15 +16,11 @@ require_ok 'Authen::Simple';
 require_ok 'Authen::Simple::PlugAuth';
 require_ok 'autodie';
 require_ok 'Clustericious';
+require_ok 'Clustericious::Admin';
 require_ok 'Clustericious::Client';
 require_ok 'Clustericious::Config';
 require_ok 'Clustericious::Log';
 require_ok 'Crypt::PasswdMD5';
-SKIP: {
-skip 'MSWin32 not supported for Data::Downloader', 1 if $^O eq 'MSWin32';
-skip 'cygwin not supported for Data::Downloader', 1 if $^O eq 'cygwin';
-require_ok 'Data::Downloader';
-}
 require_ok 'DBD::mysqlPP';
 require_ok 'DBD::PgPP';
 require_ok 'DBD::SQLite';
