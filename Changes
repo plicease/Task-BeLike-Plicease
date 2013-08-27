@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.51      2013-08-27 12:27:49 -0400
   - latest version of my modules
   - remove Data::Downloader
 
