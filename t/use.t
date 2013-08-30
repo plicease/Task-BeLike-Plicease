@@ -5,10 +5,7 @@ use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
 require_ok 'AnyEvent::Ident';
-SKIP: {
-skip 'MSWin32 not supported for AnyEvent::Open3::Simple', 1 if $^O eq 'MSWin32';
 require_ok 'AnyEvent::Open3::Simple';
-}
 require_ok 'App::Ack';
 require_ok 'App::cpanminus';
 require_ok 'App::RegexFileUtils';
