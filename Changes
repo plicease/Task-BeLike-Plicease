@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.53      2013-09-01 07:46:12 -0400
   - update Clustericious* modules to latest
 
 0.52      2013-08-29 22:01:28 -0400
