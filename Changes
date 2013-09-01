@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - update Clustericious* modules to latest
 
 0.52      2013-08-29 22:01:28 -0400
   - AnyEvent::Open3::Simple now works on MSWin32
