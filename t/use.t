@@ -1,5 +1,6 @@
 use strict;
 use warnings;
+use EV;
 use Test::More tests => 96;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
