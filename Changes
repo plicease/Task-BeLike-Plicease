@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.55      2013-09-03 17:42:58 -0400
   - update latest version of AnyEvent::Open3::Simple
 
 0.54      2013-09-02 16:14:42 -0400
