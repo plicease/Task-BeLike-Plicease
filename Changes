@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - update to latest version of Test::Clustericious::Cluster
 
 0.55      2013-09-03 17:42:58 -0400
   - update latest version of AnyEvent::Open3::Simple
