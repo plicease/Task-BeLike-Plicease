@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.56      2013-09-03 18:15:28 -0400
   - update to latest version of Test::Clustericious::Cluster
 
 0.55      2013-09-03 17:42:58 -0400
