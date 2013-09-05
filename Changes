@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - new version of Log::Log4perl::Appender::TAP
+  - add URI::ws
+  - add AnyEvent::WebSocket::Client
 
 0.56      2013-09-03 18:15:28 -0400
   - update to latest version of Test::Clustericious::Cluster

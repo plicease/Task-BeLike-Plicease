@@ -37,6 +37,10 @@ AnyEvent::Open3::Simple
 
 =item *
 
+AnyEvent::WebSocket::Client
+
+=item *
+
 App::Ack
 
 =item *
@@ -358,6 +362,10 @@ URI
 =item *
 
 URI::Encode
+
+=item *
+
+URI::ws
 
 =item *
 
