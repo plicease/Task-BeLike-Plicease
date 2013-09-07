@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - new version of AnyEvent::WebSocket::Client (0.06)
 
 0.57      2013-09-05 16:06:09 -0400
   - new version of Log::Log4perl::Appender::TAP
