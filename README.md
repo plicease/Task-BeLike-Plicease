@@ -37,6 +37,7 @@ comes with this distribution for details.
 - DBI
 - Devel::StackTrace
 - Digest::MD5
+- EV
 - File::chdir
 - File::IgnoreReadonly
 - File::Listing

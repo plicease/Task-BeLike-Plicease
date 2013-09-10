@@ -1,7 +1,7 @@
 use strict;
 use warnings;
-use EV;
-use Test::More tests => 98;
+BEGIN { eval q{ use EV; } }
+use Test::More tests => 99;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -26,6 +26,7 @@ require_ok 'DBD::SQLite';
 require_ok 'DBI';
 require_ok 'Devel::StackTrace';
 require_ok 'Digest::MD5';
+require_ok 'EV';
 require_ok 'File::chdir';
 require_ok 'File::IgnoreReadonly';
 require_ok 'File::Listing';

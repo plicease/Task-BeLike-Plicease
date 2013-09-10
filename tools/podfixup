@@ -60,7 +60,7 @@ my $count = scalar(@modules) + 1;
 open $fh, '>', File::Spec->catfile( qw( t use.t ));
 say $fh "use strict;";
 say $fh "use warnings;";
-say $fh "use EV;";
+say $fh "BEGIN { eval q{ use EV; } }";
 say $fh "use Test::More tests => $count;";
 say $fh "use_ok 'Task::BeLike::Plicease';";
 foreach my $mod (@modules) {
