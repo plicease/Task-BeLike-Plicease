@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - new version of AnyEvent::Open3::Simple (0.72)
   - make EV a runtime prereq (was a testing one)
   - new version of AnyEvent::WebSocket::Client (0.06)
 
