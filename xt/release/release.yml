@@ -15,6 +15,7 @@ pod_spelling_system:
     - TinyMake
     - PlugAuth
     - URI
+    - EV
 
 pod_coverage:
   # format is "Class#method" or "Class", regex allowed
