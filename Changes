@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Sereal::Encoder now seems to build on MSWin32
 
 0.58      2013-09-10 07:16:45 -0400
   - new version of AnyEvent::Open3::Simple (0.72)

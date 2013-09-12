@@ -67,10 +67,7 @@ require_ok 'Rose::DB';
 require_ok 'Rose::DB::Object';
 require_ok 'Scalar::Does';
 require_ok 'Sereal::Decoder';
-SKIP: {
-skip 'MSWin32 not supported for Sereal::Encoder', 1 if $^O eq 'MSWin32';
 require_ok 'Sereal::Encoder';
-}
 require_ok 'Shell::Config::Generate';
 require_ok 'Shell::Guess';
 require_ok 'String::Template';
