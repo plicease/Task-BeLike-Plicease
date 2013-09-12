@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.59      2013-09-12 14:05:59 -0400
   - Sereal::Encoder now seems to build on MSWin32
 
 0.58      2013-09-10 07:16:45 -0400
