@@ -353,6 +353,10 @@ Test::Strict
 
 =item *
 
+Text::Tabs
+
+=item *
+
 TinyMake
 
 =item *

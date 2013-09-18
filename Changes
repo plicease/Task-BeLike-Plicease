@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated to latest versions of my distros
+  - added Text::Tabs
 
 0.59      2013-09-12 14:05:59 -0400
   - Sereal::Encoder now seems to build on MSWin32

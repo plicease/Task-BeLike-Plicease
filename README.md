@@ -97,6 +97,7 @@ comes with this distribution for details.
 - Test::Pod::Spelling::CommonMistakes
 - Test::Spelling
 - Test::Strict
+- Text::Tabs
 - TinyMake
 - Try::Tiny
 - URI

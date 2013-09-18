@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 99;
+use Test::More tests => 100;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -86,6 +86,7 @@ require_ok 'Test::Pod::Coverage';
 require_ok 'Test::Pod::Spelling::CommonMistakes';
 require_ok 'Test::Spelling';
 require_ok 'Test::Strict';
+require_ok 'Text::Tabs';
 require_ok 'TinyMake';
 require_ok 'Try::Tiny';
 require_ok 'URI';
