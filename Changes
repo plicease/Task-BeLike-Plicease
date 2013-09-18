@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.60      2013-09-18 15:48:43 -0400
   - updated to latest versions of my distros
   - added Text::Tabs
 
