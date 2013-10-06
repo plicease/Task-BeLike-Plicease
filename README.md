@@ -68,6 +68,7 @@ comes with this distribution for details.
 - PlugAuth::Client::Tiny
 - PlugAuth::Lite
 - PlugAuth::Plugin::Audit
+- PlugAuth::Plugin::AuthenSimple
 - PlugAuth::Plugin::DBIAuth
 - PlugAuth::Plugin::Finger
 - PlugAuth::Plugin::LDAP

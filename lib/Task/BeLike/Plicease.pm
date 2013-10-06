@@ -237,6 +237,10 @@ PlugAuth::Plugin::Audit
 
 =item *
 
+PlugAuth::Plugin::AuthenSimple
+
+=item *
+
 PlugAuth::Plugin::DBIAuth
 
 =item *

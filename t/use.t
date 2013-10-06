@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 100;
+use Test::More tests => 101;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -57,6 +57,7 @@ require_ok 'PlugAuth::Client';
 require_ok 'PlugAuth::Client::Tiny';
 require_ok 'PlugAuth::Lite';
 require_ok 'PlugAuth::Plugin::Audit';
+require_ok 'PlugAuth::Plugin::AuthenSimple';
 require_ok 'PlugAuth::Plugin::DBIAuth';
 require_ok 'PlugAuth::Plugin::Finger';
 require_ok 'PlugAuth::Plugin::LDAP';
