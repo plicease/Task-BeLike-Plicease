@@ -29,6 +29,10 @@ AnyEvent::Finger
 
 =item *
 
+AnyEvent::Git::Wrapper
+
+=item *
+
 AnyEvent::Ident
 
 =item *
@@ -398,6 +402,10 @@ WebService::LiveJournal
 =item *
 
 WebService::TwitterBootstrap::Download::Custom
+
+=item *
+
+WWW::Bugzilla::BugTree
 
 =item *
 

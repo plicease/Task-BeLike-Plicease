@@ -16,6 +16,7 @@ comes with this distribution for details.
 
 - AnyEvent
 - AnyEvent::Finger
+- AnyEvent::Git::Wrapper
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
@@ -109,6 +110,7 @@ comes with this distribution for details.
 - Validate::Tiny
 - WebService::LiveJournal
 - WebService::TwitterBootstrap::Download::Custom
+- WWW::Bugzilla::BugTree
 - XML::Rabbit
 - XML::Simple
 - XML::Writer

@@ -1,10 +1,11 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 103;
+use Test::More tests => 105;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
+require_ok 'AnyEvent::Git::Wrapper';
 require_ok 'AnyEvent::Ident';
 require_ok 'AnyEvent::Open3::Simple';
 require_ok 'AnyEvent::WebSocket::Client';
@@ -98,6 +99,7 @@ require_ok 'URI::ws';
 require_ok 'Validate::Tiny';
 require_ok 'WebService::LiveJournal';
 require_ok 'WebService::TwitterBootstrap::Download::Custom';
+require_ok 'WWW::Bugzilla::BugTree';
 require_ok 'XML::Rabbit';
 require_ok 'XML::Simple';
 require_ok 'XML::Writer';

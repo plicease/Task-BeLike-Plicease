@@ -1,5 +1,6 @@
 AnyEvent
 AnyEvent::Finger
+AnyEvent::Git::Wrapper
 AnyEvent::Ident
 AnyEvent::Open3::Simple
 AnyEvent::WebSocket::Client
@@ -90,6 +91,7 @@ URI
 URI::Encode
 URI::ws
 Validate::Tiny
+WWW::Bugzilla::BugTree
 WebService::LiveJournal
 WebService::TwitterBootstrap::Download::Custom
 XML::Rabbit
