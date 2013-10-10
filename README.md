@@ -20,8 +20,10 @@ comes with this distribution for details.
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
 - App::Ack
+- App::cpangitify
 - App::cpanminus
 - App::RegexFileUtils
+- App::which\_package
 - Authen::Simple
 - Authen::Simple::PlugAuth
 - autodie

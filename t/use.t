@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 101;
+use Test::More tests => 103;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'AnyEvent';
 require_ok 'AnyEvent::Finger';
@@ -9,8 +9,10 @@ require_ok 'AnyEvent::Ident';
 require_ok 'AnyEvent::Open3::Simple';
 require_ok 'AnyEvent::WebSocket::Client';
 require_ok 'App::Ack';
+require_ok 'App::cpangitify';
 require_ok 'App::cpanminus';
 require_ok 'App::RegexFileUtils';
+require_ok 'App::which_package';
 require_ok 'Authen::Simple';
 require_ok 'Authen::Simple::PlugAuth';
 require_ok 'autodie';

@@ -45,11 +45,19 @@ App::Ack
 
 =item *
 
+App::cpangitify
+
+=item *
+
 App::cpanminus
 
 =item *
 
 App::RegexFileUtils
+
+=item *
+
+App::which_package
 
 =item *
 
