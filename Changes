@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - rm Tiny::Make
+  - update versions to latest
 
 0.63      2013-10-10 16:47:45 -0400
   - new modules added
