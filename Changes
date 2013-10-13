@@ -1,10 +1,13 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm Tiny::Make
 
 0.63      2013-10-10 16:47:45 -0400
+  - new modules added
 
 0.62      2013-10-10 13:49:46 -0400
+  - new modules added
 
 0.61      2013-10-06 11:28:43 -0400
   - updated to latest versions of my distros
