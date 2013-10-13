@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.64      2013-10-13 05:17:56 -0400
   - rm Tiny::Make
   - update versions to latest
 
