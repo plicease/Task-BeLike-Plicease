@@ -373,10 +373,6 @@ Text::Tabs
 
 =item *
 
-TinyMake
-
-=item *
-
 Try::Tiny
 
 =item *

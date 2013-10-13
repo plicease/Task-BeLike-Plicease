@@ -85,7 +85,6 @@ Test::Pod::Spelling::CommonMistakes
 Test::Spelling
 Test::Strict
 Text::Tabs
-TinyMake
 Try::Tiny
 URI
 URI::Encode
