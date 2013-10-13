@@ -29,6 +29,10 @@ AnyEvent::Finger
 
 =item *
 
+AnyEvent::Git::Wrapper
+
+=item *
+
 AnyEvent::Ident
 
 =item *
@@ -45,11 +49,19 @@ App::Ack
 
 =item *
 
+App::cpangitify
+
+=item *
+
 App::cpanminus
 
 =item *
 
 App::RegexFileUtils
+
+=item *
+
+App::which_package
 
 =item *
 
@@ -390,6 +402,10 @@ WebService::LiveJournal
 =item *
 
 WebService::TwitterBootstrap::Download::Custom
+
+=item *
+
+WWW::Bugzilla::BugTree
 
 =item *
 

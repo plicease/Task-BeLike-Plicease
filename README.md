@@ -16,12 +16,15 @@ comes with this distribution for details.
 
 - AnyEvent
 - AnyEvent::Finger
+- AnyEvent::Git::Wrapper
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
 - App::Ack
+- App::cpangitify
 - App::cpanminus
 - App::RegexFileUtils
+- App::which\_package
 - Authen::Simple
 - Authen::Simple::PlugAuth
 - autodie
@@ -107,6 +110,7 @@ comes with this distribution for details.
 - Validate::Tiny
 - WebService::LiveJournal
 - WebService::TwitterBootstrap::Download::Custom
+- WWW::Bugzilla::BugTree
 - XML::Rabbit
 - XML::Simple
 - XML::Writer
