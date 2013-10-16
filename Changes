@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.65      2013-10-16 14:31:12 -0400
   - new versions of my modules
 
 0.64      2013-10-13 05:17:56 -0400
