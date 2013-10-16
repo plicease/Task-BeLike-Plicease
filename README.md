@@ -102,7 +102,6 @@ comes with this distribution for details.
 - Test::Spelling
 - Test::Strict
 - Text::Tabs
-- TinyMake
 - Try::Tiny
 - URI
 - URI::Encode

@@ -3,6 +3,16 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - new versions of my modules
 
+0.64      2013-10-13 05:17:56 -0400
+  - rm Tiny::Make
+  - update versions to latest
+
+0.63      2013-10-10 16:47:45 -0400
+  - new modules added
+
+0.62      2013-10-10 13:49:46 -0400
+  - new modules added
+
 0.61      2013-10-06 11:28:43 -0400
   - updated to latest versions of my distros
 
