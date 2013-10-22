@@ -45,6 +45,10 @@ AnyEvent::WebSocket::Client
 
 =item *
 
+AnyEvent::WebSocket::Server
+
+=item *
+
 App::Ack
 
 =item *

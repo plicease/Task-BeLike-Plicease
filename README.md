@@ -20,6 +20,7 @@ comes with this distribution for details.
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
+- AnyEvent::WebSocket::Server
 - App::Ack
 - App::cpangitify
 - App::cpanminus
