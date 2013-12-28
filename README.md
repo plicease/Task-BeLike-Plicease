@@ -14,6 +14,9 @@ Some modules are not installed on MSWin32 or cygwin if they are known
 not to work on those platforms.  See the Makefile.PL or dist.ini that
 comes with this distribution for details.
 
+- Alien::bz2
+- Alien::Libarchive
+- Alien::MSYS
 - AnyEvent
 - AnyEvent::Finger
 - AnyEvent::Git::Wrapper
@@ -26,6 +29,7 @@ comes with this distribution for details.
 - App::cpanminus
 - App::RegexFileUtils
 - App::which\_package
+- Archive::Ar::Libarchive
 - Authen::Simple
 - Authen::Simple::PlugAuth
 - autodie
@@ -41,6 +45,17 @@ comes with this distribution for details.
 - DBI
 - Devel::StackTrace
 - Digest::MD5
+- Dist::Zilla::MintingProfile::Clustericious
+- Dist::Zilla::Plugin::CSS::Compressor
+- Dist::Zilla::Plugin::InsertExample
+- Dist::Zilla::Plugin::JavaScript::Minifier
+- Dist::Zilla::Plugin::jQuery
+- Dist::Zilla::Plugin::MathInt64
+- Dist::Zilla::Plugin::Template::Tiny
+- Dist::Zilla::Plugin::TextTabs
+- Dist::Zilla::Plugin::TwitterBootstrap
+- Dist::Zilla::PluginBundle::ACPS
+- Dist::Zilla::PluginBundle::Author::Plicease
 - EV
 - File::chdir
 - File::IgnoreReadonly
@@ -89,6 +104,7 @@ comes with this distribution for details.
 - String::Template
 - Template
 - Template::Tiny
+- Test::CChecker
 - Test::Clustericious::Cluster
 - Test::Differences
 - Test::Dir

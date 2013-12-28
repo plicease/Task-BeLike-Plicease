@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - update my modules to latest
+  - include Dist::Zilla plugins
 
 0.67      2013-11-05 12:48:22 -0500
   - update my modules to latest

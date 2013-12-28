@@ -21,6 +21,18 @@ comes with this distribution for details.
 
 =item *
 
+Alien::bz2
+
+=item *
+
+Alien::Libarchive
+
+=item *
+
+Alien::MSYS
+
+=item *
+
 AnyEvent
 
 =item *
@@ -66,6 +78,10 @@ App::RegexFileUtils
 =item *
 
 App::which_package
+
+=item *
+
+Archive::Ar::Libarchive
 
 =item *
 
@@ -126,6 +142,50 @@ Devel::StackTrace
 =item *
 
 Digest::MD5
+
+=item *
+
+Dist::Zilla::MintingProfile::Clustericious
+
+=item *
+
+Dist::Zilla::Plugin::CSS::Compressor
+
+=item *
+
+Dist::Zilla::Plugin::InsertExample
+
+=item *
+
+Dist::Zilla::Plugin::JavaScript::Minifier
+
+=item *
+
+Dist::Zilla::Plugin::jQuery
+
+=item *
+
+Dist::Zilla::Plugin::MathInt64
+
+=item *
+
+Dist::Zilla::Plugin::Template::Tiny
+
+=item *
+
+Dist::Zilla::Plugin::TextTabs
+
+=item *
+
+Dist::Zilla::Plugin::TwitterBootstrap
+
+=item *
+
+Dist::Zilla::PluginBundle::ACPS
+
+=item *
+
+Dist::Zilla::PluginBundle::Author::Plicease
 
 =item *
 
@@ -318,6 +378,10 @@ Template
 =item *
 
 Template::Tiny
+
+=item *
+
+Test::CChecker
 
 =item *
 

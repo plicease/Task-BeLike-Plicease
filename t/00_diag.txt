@@ -1,3 +1,6 @@
+Alien::Libarchive
+Alien::MSYS
+Alien::bz2
 AnyEvent
 AnyEvent::Finger
 AnyEvent::Git::Wrapper
@@ -10,6 +13,7 @@ App::RegexFileUtils
 App::cpangitify
 App::cpanminus
 App::which_package
+Archive::Ar::Libarchive
 Authen::Simple
 Authen::Simple::PlugAuth
 Clustericious
@@ -24,6 +28,17 @@ DBD::mysqlPP
 DBI
 Devel::StackTrace
 Digest::MD5
+Dist::Zilla::MintingProfile::Clustericious
+Dist::Zilla::Plugin::CSS::Compressor
+Dist::Zilla::Plugin::InsertExample
+Dist::Zilla::Plugin::JavaScript::Minifier
+Dist::Zilla::Plugin::MathInt64
+Dist::Zilla::Plugin::Template::Tiny
+Dist::Zilla::Plugin::TextTabs
+Dist::Zilla::Plugin::TwitterBootstrap
+Dist::Zilla::Plugin::jQuery
+Dist::Zilla::PluginBundle::ACPS
+Dist::Zilla::PluginBundle::Author::Plicease
 EV
 ExtUtils::MakeMaker
 File::IgnoreReadonly
@@ -72,6 +87,7 @@ Shell::Guess
 String::Template
 Template
 Template::Tiny
+Test::CChecker
 Test::Clustericious::Cluster
 Test::Differences
 Test::Dir
