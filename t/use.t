@@ -14,7 +14,10 @@ require_ok 'AnyEvent::Open3::Simple';
 require_ok 'AnyEvent::WebSocket::Client';
 require_ok 'AnyEvent::WebSocket::Server';
 require_ok 'App::Ack';
+SKIP: {
+skip 'MSWin32 not supported for App::cpangitify', 1 if $^O eq 'MSWin32';
 require_ok 'App::cpangitify';
+}
 require_ok 'App::cpanminus';
 require_ok 'App::RegexFileUtils';
 require_ok 'App::which_package';
@@ -115,7 +118,10 @@ require_ok 'URI::ws';
 require_ok 'Validate::Tiny';
 require_ok 'WebService::LiveJournal';
 require_ok 'WebService::TwitterBootstrap::Download::Custom';
+SKIP: {
+skip 'MSWin32 not supported for WWW::Bugzilla::BugTree', 1 if $^O eq 'MSWin32';
 require_ok 'WWW::Bugzilla::BugTree';
+}
 require_ok 'XML::Rabbit';
 require_ok 'XML::Simple';
 require_ok 'XML::Writer';

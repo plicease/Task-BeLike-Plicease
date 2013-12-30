@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm App::cpangitify on MSWin32 only
+  - rm WWW::Bugzilla::BugTree on MSWin32 only
 
 0.68      2013-12-28 08:35:40 -0500
   - update my modules to latest
