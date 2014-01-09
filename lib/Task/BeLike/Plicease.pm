@@ -265,10 +265,6 @@ Mojolicious::Plugin::Ident
 
 =item *
 
-Mojolicious::Plugin::RenderFile
-
-=item *
-
 Mojolicious::Plugin::SslAuth
 
 =item *

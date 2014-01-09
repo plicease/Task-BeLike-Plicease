@@ -75,7 +75,6 @@ comes with this distribution for details.
 - Mojo::JSON::Any
 - Mojolicious
 - Mojolicious::Plugin::Ident
-- Mojolicious::Plugin::RenderFile
 - Mojolicious::Plugin::SslAuth
 - Mojolicious::Plugin::TtRenderer
 - Moose

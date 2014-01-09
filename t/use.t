@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 121;
+use Test::More tests => 120;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'Alien::bz2';
 require_ok 'Alien::Libarchive';
@@ -67,7 +67,6 @@ require_ok 'Module::Which';
 require_ok 'Mojo::JSON::Any';
 require_ok 'Mojolicious';
 require_ok 'Mojolicious::Plugin::Ident';
-require_ok 'Mojolicious::Plugin::RenderFile';
 require_ok 'Mojolicious::Plugin::SslAuth';
 require_ok 'Mojolicious::Plugin::TtRenderer';
 require_ok 'Moose';
