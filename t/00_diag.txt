@@ -8,7 +8,6 @@ AnyEvent::Ident
 AnyEvent::Open3::Simple
 AnyEvent::WebSocket::Client
 AnyEvent::WebSocket::Server
-App::Ack
 App::RegexFileUtils
 App::cpangitify
 App::cpanminus

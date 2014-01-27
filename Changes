@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm App::Ack
 
 0.70      2014-01-09 14:02:48 -0500
   - rm Mojolicious::Plugin::RenderFile

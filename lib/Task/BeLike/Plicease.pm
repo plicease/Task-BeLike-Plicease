@@ -61,10 +61,6 @@ AnyEvent::WebSocket::Server
 
 =item *
 
-App::Ack
-
-=item *
-
 App::cpangitify
 
 =item *
