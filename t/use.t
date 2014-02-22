@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 119;
+use Test::More tests => 118;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'Alien::bz2';
 require_ok 'Alien::Libarchive';
@@ -12,7 +12,6 @@ require_ok 'AnyEvent::Git::Wrapper';
 require_ok 'AnyEvent::Ident';
 require_ok 'AnyEvent::Open3::Simple';
 require_ok 'AnyEvent::WebSocket::Client';
-require_ok 'AnyEvent::WebSocket::Server';
 SKIP: {
 skip 'MSWin32 not supported for App::cpangitify', 1 if $^O eq 'MSWin32';
 require_ok 'App::cpangitify';

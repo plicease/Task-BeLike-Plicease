@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm AnyEvent::WebSocket::Server
 
 0.71      2014-01-26 21:00:31 -0500
   - rm App::Ack

@@ -57,10 +57,6 @@ AnyEvent::WebSocket::Client
 
 =item *
 
-AnyEvent::WebSocket::Server
-
-=item *
-
 App::cpangitify
 
 =item *
