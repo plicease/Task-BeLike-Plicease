@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.72      2014-02-22 06:34:05 -0500
   - rm AnyEvent::WebSocket::Server
 
 0.71      2014-01-26 21:00:31 -0500
