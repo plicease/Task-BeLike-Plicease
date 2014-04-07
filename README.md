@@ -29,6 +29,9 @@ comes with this distribution for details.
 - App::RegexFileUtils
 - App::which\_package
 - Archive::Ar::Libarchive
+- Archive::Libarchive::Any
+- Archive::Libarchive::FFI
+- Archive::Libarchive::XS
 - Authen::Simple
 - Authen::Simple::PlugAuth
 - autodie
@@ -56,6 +59,7 @@ comes with this distribution for details.
 - Dist::Zilla::PluginBundle::ACPS
 - Dist::Zilla::PluginBundle::Author::Plicease
 - EV
+- FFI::Util
 - File::chdir
 - File::IgnoreReadonly
 - File::Listing
@@ -80,6 +84,7 @@ comes with this distribution for details.
 - Net::DNS
 - Number::Bytes::Human
 - Perl::Critic
+- PkgConfig
 - PlugAuth
 - PlugAuth::Client
 - PlugAuth::Client::Tiny

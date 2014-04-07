@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 119;
+use Test::More tests => 124;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'Alien::bz2';
 require_ok 'Alien::Libarchive';
@@ -21,6 +21,9 @@ require_ok 'App::cpanminus';
 require_ok 'App::RegexFileUtils';
 require_ok 'App::which_package';
 require_ok 'Archive::Ar::Libarchive';
+require_ok 'Archive::Libarchive::Any';
+require_ok 'Archive::Libarchive::FFI';
+require_ok 'Archive::Libarchive::XS';
 require_ok 'Authen::Simple';
 require_ok 'Authen::Simple::PlugAuth';
 require_ok 'autodie';
@@ -48,6 +51,7 @@ require_ok 'Dist::Zilla::Plugin::TwitterBootstrap';
 require_ok 'Dist::Zilla::PluginBundle::ACPS';
 require_ok 'Dist::Zilla::PluginBundle::Author::Plicease';
 require_ok 'EV';
+require_ok 'FFI::Util';
 require_ok 'File::chdir';
 require_ok 'File::IgnoreReadonly';
 require_ok 'File::Listing';
@@ -72,6 +76,7 @@ require_ok 'Moose';
 require_ok 'Net::DNS';
 require_ok 'Number::Bytes::Human';
 require_ok 'Perl::Critic';
+require_ok 'PkgConfig';
 require_ok 'PlugAuth';
 require_ok 'PlugAuth::Client';
 require_ok 'PlugAuth::Client::Tiny';
@@ -125,9 +130,6 @@ require_ok 'XML::Simple';
 require_ok 'XML::Writer';
 require_ok 'YAML';
 require_ok 'YAML::XS';
-SKIP: {
-skip 'MSWin32 not supported for Yars', 1 if $^O eq 'MSWin32';
 require_ok 'Yars';
-}
 require_ok 'Yars::Client';
 done_testing;

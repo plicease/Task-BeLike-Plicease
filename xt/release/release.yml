@@ -16,6 +16,7 @@ pod_spelling_system:
     - PlugAuth
     - URI
     - EV
+    - PkgConfig
 
 pod_coverage:
   # format is "Class#method" or "Class", regex allowed

@@ -81,6 +81,18 @@ Archive::Ar::Libarchive
 
 =item *
 
+Archive::Libarchive::Any
+
+=item *
+
+Archive::Libarchive::FFI
+
+=item *
+
+Archive::Libarchive::XS
+
+=item *
+
 Authen::Simple
 
 =item *
@@ -189,6 +201,10 @@ EV
 
 =item *
 
+FFI::Util
+
+=item *
+
 File::chdir
 
 =item *
@@ -282,6 +298,10 @@ Number::Bytes::Human
 =item *
 
 Perl::Critic
+
+=item *
+
+PkgConfig
 
 =item *
 

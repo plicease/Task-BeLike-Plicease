@@ -13,6 +13,9 @@ App::cpangitify
 App::cpanminus
 App::which_package
 Archive::Ar::Libarchive
+Archive::Libarchive::Any
+Archive::Libarchive::FFI
+Archive::Libarchive::XS
 Authen::Simple
 Authen::Simple::PlugAuth
 Clustericious
@@ -40,6 +43,7 @@ Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
 EV
 ExtUtils::MakeMaker
+FFI::Util
 File::IgnoreReadonly
 File::Listing
 File::Listing::Ftpcopy
@@ -63,6 +67,7 @@ Moose
 Net::DNS
 Number::Bytes::Human
 Perl::Critic
+PkgConfig
 PlugAuth
 PlugAuth::Client
 PlugAuth::Client::Tiny
