@@ -2,6 +2,11 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+0.73      2014-04-07 13:25:05 -0400
+  - Yars is now required (and supported) on MSWin32
+  - update my dists to latest
+  - add some of my dists that weren't there yet (e.g. Archive::Libarchive::*)
+
 0.72      2014-02-22 06:34:05 -0500
   - rm AnyEvent::WebSocket::Server
 
