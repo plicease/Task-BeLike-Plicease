@@ -7,7 +7,6 @@ AnyEvent::Git::Wrapper
 AnyEvent::Ident
 AnyEvent::Open3::Simple
 AnyEvent::WebSocket::Client
-AnyEvent::WebSocket::Server
 App::RegexFileUtils
 App::cpangitify
 App::cpanminus
