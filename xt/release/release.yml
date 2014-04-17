@@ -5,16 +5,12 @@ pod_spelling_system:
   stopwords:
     - AnyEvent
     - Clustericious
-    - DBI
-    - JSON
     - MSWin
-    - YAML
     - Yars
     - autodie
     - ini
     - TinyMake
     - PlugAuth
-    - URI
     - EV
     - PkgConfig
 
