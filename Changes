@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.75      2014-05-15 11:53:20 -0400
   - don't install Archive::Libarchive::FFI on MSWin32
   - added Win32::Shortcut::Readlink
   - update my dists to latest
