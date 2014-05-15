@@ -477,6 +477,10 @@ WebService::TwitterBootstrap::Download::Custom
 
 =item *
 
+Win32::Shortcut::Readlink
+
+=item *
+
 WWW::Bugzilla::BugTree
 
 =item *

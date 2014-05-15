@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - don't install Archive::Libarchive::FFI on MSWin32
+  - added Win32::Shortcut::Readlink
+  - update my dists to latest
 
 0.74      2014-04-17 07:53:18 -0400
   - update my dists to latest

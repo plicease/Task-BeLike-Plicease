@@ -112,6 +112,7 @@ Validate::Tiny
 WWW::Bugzilla::BugTree
 WebService::LiveJournal
 WebService::TwitterBootstrap::Download::Custom
+Win32::Shortcut::Readlink
 XML::Rabbit
 XML::Simple
 XML::Writer

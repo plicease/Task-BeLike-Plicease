@@ -1,7 +1,7 @@
 use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
-use Test::More tests => 123;
+use Test::More tests => 124;
 use_ok 'Task::BeLike::Plicease';
 require_ok 'Alien::bz2';
 require_ok 'Alien::Libarchive';
@@ -123,6 +123,7 @@ require_ok 'URI::ws';
 require_ok 'Validate::Tiny';
 require_ok 'WebService::LiveJournal';
 require_ok 'WebService::TwitterBootstrap::Download::Custom';
+require_ok 'Win32::Shortcut::Readlink';
 SKIP: {
 skip 'MSWin32 not supported for WWW::Bugzilla::BugTree', 1 if $^O eq 'MSWin32';
 require_ok 'WWW::Bugzilla::BugTree';

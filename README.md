@@ -128,6 +128,7 @@ comes with this distribution for details.
 - Validate::Tiny
 - WebService::LiveJournal
 - WebService::TwitterBootstrap::Download::Custom
+- Win32::Shortcut::Readlink
 - WWW::Bugzilla::BugTree
 - XML::Rabbit
 - XML::Simple
