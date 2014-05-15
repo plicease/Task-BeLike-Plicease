@@ -12,7 +12,7 @@ sub new
   {
     $args{requires}->{'Alien::Libarchive::MSWin32'} = 0.04;
     $args{requires}->{'Alien::o2dll'}               = 0.02;
-    foreach my $mod (qw( App::cpangitify WWW::Bugzilla::BugTree ))
+    foreach my $mod (qw( App::cpangitify WWW::Bugzilla::BugTree Archive::Libarchive::FFI ))
     {
       delete $args{requires}->{$mod};
     }
