@@ -46,34 +46,4 @@ while(defined $lines[0])
 
 close $fh;
 
-my %except;
-while(my($section, $modules) = each %$config)
-{
-  next unless $section =~ /^Author::Plicease::OSPrereqsNot\s*\/\s*(.*?)\s*$/;
-  my $os = $1;
-  push @{ $except{$_} }, $os for keys %$modules;
-}
-
-my $count = scalar(@modules) + 1;
-open $fh, '>', File::Spec->catfile( qw( t use.t ));
-say $fh "use strict;";
-say $fh "use warnings;";
-say $fh "BEGIN { eval q{ use EV; } }";
-say $fh "use Test::More tests => $count;";
-say $fh "use_ok 'Task::BeLike::Plicease';";
-foreach my $mod (@modules) {
-  if(defined $except{$mod})
-  {
-    say $fh "SKIP: {";
-    say $fh "skip '$_ not supported for $mod', 1 if \$^O eq '$_';" for @{ $except{$mod} };
-  }
-  say $fh "require_ok '$mod';";
-  if(defined $except{$mod})
-  {
-    say $fh "}";
-  }
-}
-say $fh "done_testing;";
-close $fh;
-
 exit 0;

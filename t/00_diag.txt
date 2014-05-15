@@ -41,7 +41,6 @@ Dist::Zilla::Plugin::jQuery
 Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
 EV
-ExtUtils::MakeMaker
 FFI::Util
 File::IgnoreReadonly
 File::Listing
@@ -55,6 +54,7 @@ JSON::XS
 Lingua::Alphabet::Phonetic::LAPD
 Log::Log4perl
 Log::Log4perl::Appender::TAP
+Module::Build
 Module::CoreList
 Module::Which
 Mojo::JSON::Any
