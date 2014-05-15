@@ -21,7 +21,10 @@ require_ok 'App::RegexFileUtils';
 require_ok 'App::which_package';
 require_ok 'Archive::Ar::Libarchive';
 require_ok 'Archive::Libarchive::Any';
+SKIP: {
+skip 'MSWin32 not supported for Archive::Libarchive::FFI', 1 if $^O eq 'MSWin32';
 require_ok 'Archive::Libarchive::FFI';
+}
 require_ok 'Archive::Libarchive::XS';
 require_ok 'Authen::Simple';
 require_ok 'Authen::Simple::PlugAuth';
