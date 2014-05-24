@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.76      2014-05-24 08:26:25 -0400
   - migrate to Module::Build
   - update my dists to latest
 
