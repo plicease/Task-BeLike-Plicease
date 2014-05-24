@@ -16,7 +16,10 @@ comes with this distribution for details.
 
 - Alien::bz2
 - Alien::Libarchive
+- Alien::Libarchive::MSWin32
 - Alien::MSYS
+- Alien::o2dll
+- Alien::Packages::Cygwin
 - AnyEvent
 - AnyEvent::Finger
 - AnyEvent::Git::Wrapper

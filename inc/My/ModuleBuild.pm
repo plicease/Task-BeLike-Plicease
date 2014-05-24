@@ -7,21 +7,24 @@ use base qw( Module::Build );
 sub new
 {
   my($class, %args) = @_;
-  
+
   if($^O eq 'MSWin32')
   {
-    $args{requires}->{'Alien::Libarchive::MSWin32'} = 0.04;
-    $args{requires}->{'Alien::o2dll'}               = 0.02;
     foreach my $mod (qw( App::cpangitify WWW::Bugzilla::BugTree Archive::Libarchive::FFI ))
     {
       delete $args{requires}->{$mod};
     }
   }
-  
-  if($^O eq 'cygwin')
+  else
   {
-    $args{requires}->{'Alien::Packages::Cygwin'} = 0.02;
-    $args{requires}->{'Alien::o2dll'}            = 0.02;
+    delete $args{requires}->{'Alien::Libarchive::MSWin32'};
+    delete $args{requires}->{'Alien::o2dll'};
+  }
+  
+  unless($^O eq 'cygwin')
+  {
+    delete $args{requires}->{'Alien::Packages::Cygwin'};
+    delete $args{requires}->{'Alien::o2dll'};
   }
 
   open my $fh, '>', 'testlist.txt';

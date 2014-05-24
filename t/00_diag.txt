@@ -1,6 +1,9 @@
 Alien::Libarchive
+Alien::Libarchive::MSWin32
 Alien::MSYS
+Alien::Packages::Cygwin
 Alien::bz2
+Alien::o2dll
 AnyEvent
 AnyEvent::Finger
 AnyEvent::Git::Wrapper

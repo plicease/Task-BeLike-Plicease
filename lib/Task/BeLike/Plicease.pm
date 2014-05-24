@@ -29,7 +29,19 @@ Alien::Libarchive
 
 =item *
 
+Alien::Libarchive::MSWin32
+
+=item *
+
 Alien::MSYS
+
+=item *
+
+Alien::o2dll
+
+=item *
+
+Alien::Packages::Cygwin
 
 =item *
 
