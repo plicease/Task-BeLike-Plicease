@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  . update my dists to latest
 
 0.77      2014-05-27 07:59:36 -0400
   - add Dist::Zilla::Plugin::Meta::Dynamic::Config
