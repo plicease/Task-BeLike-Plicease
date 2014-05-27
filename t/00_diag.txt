@@ -37,6 +37,8 @@ Dist::Zilla::Plugin::CSS::Compressor
 Dist::Zilla::Plugin::InsertExample
 Dist::Zilla::Plugin::JavaScript::Minifier
 Dist::Zilla::Plugin::MathInt64
+Dist::Zilla::Plugin::Meta::Dynamic::Config
+Dist::Zilla::Plugin::PPPort
 Dist::Zilla::Plugin::Template::Tiny
 Dist::Zilla::Plugin::TextTabs
 Dist::Zilla::Plugin::TwitterBootstrap
@@ -65,6 +67,7 @@ Mojolicious
 Mojolicious::Plugin::Ident
 Mojolicious::Plugin::SslAuth
 Mojolicious::Plugin::TtRenderer
+Monkey::Patch
 Moose
 Net::DNS
 Number::Bytes::Human
@@ -79,6 +82,7 @@ PlugAuth::Plugin::AuthenSimple
 PlugAuth::Plugin::DBIAuth
 PlugAuth::Plugin::Finger
 PlugAuth::Plugin::LDAP
+Pod::Abstract
 Pod::POM::Web
 Pod::Perldoc
 Role::Tiny
@@ -93,6 +97,7 @@ String::Template
 Template
 Template::Tiny
 Test::CChecker
+Test::CPAN::Changes
 Test::Clustericious::Cluster
 Test::Differences
 Test::Dir
@@ -106,6 +111,7 @@ Test::Pod::Coverage
 Test::Pod::Spelling::CommonMistakes
 Test::Spelling
 Test::Strict
+Test::Vars
 Text::Tabs
 Try::Tiny
 URI

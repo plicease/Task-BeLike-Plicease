@@ -55,6 +55,8 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::JavaScript::Minifier
 - Dist::Zilla::Plugin::jQuery
 - Dist::Zilla::Plugin::MathInt64
+- Dist::Zilla::Plugin::Meta::Dynamic::Config
+- Dist::Zilla::Plugin::PPPort
 - Dist::Zilla::Plugin::Template::Tiny
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::Plugin::TwitterBootstrap
@@ -82,6 +84,7 @@ comes with this distribution for details.
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::SslAuth
 - Mojolicious::Plugin::TtRenderer
+- Monkey::Patch
 - Moose
 - Net::DNS
 - Number::Bytes::Human
@@ -96,6 +99,7 @@ comes with this distribution for details.
 - PlugAuth::Plugin::DBIAuth
 - PlugAuth::Plugin::Finger
 - PlugAuth::Plugin::LDAP
+- Pod::Abstract
 - Pod::Perldoc
 - Pod::POM::Web
 - Role::Tiny
@@ -111,6 +115,7 @@ comes with this distribution for details.
 - Template::Tiny
 - Test::CChecker
 - Test::Clustericious::Cluster
+- Test::CPAN::Changes
 - Test::Differences
 - Test::Dir
 - Test::EOL
@@ -123,6 +128,7 @@ comes with this distribution for details.
 - Test::Pod::Spelling::CommonMistakes
 - Test::Spelling
 - Test::Strict
+- Test::Vars
 - Text::Tabs
 - Try::Tiny
 - URI

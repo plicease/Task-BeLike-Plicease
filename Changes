@@ -1,6 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add Dist::Zilla::Plugin::Meta::Dynamic::Config
+  - add Dist::ZIlla::Plugin::PPPort
+  - add Monkey::Patch
+  - add Pod::Abstract
+  - add Test::CPAN::Changes
+  - add Test::Vars
 
 0.76      2014-05-24 08:26:25 -0400
   - migrate to Module::Build

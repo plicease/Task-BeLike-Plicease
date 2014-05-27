@@ -185,6 +185,14 @@ Dist::Zilla::Plugin::MathInt64
 
 =item *
 
+Dist::Zilla::Plugin::Meta::Dynamic::Config
+
+=item *
+
+Dist::Zilla::Plugin::PPPort
+
+=item *
+
 Dist::Zilla::Plugin::Template::Tiny
 
 =item *
@@ -293,6 +301,10 @@ Mojolicious::Plugin::TtRenderer
 
 =item *
 
+Monkey::Patch
+
+=item *
+
 Moose
 
 =item *
@@ -346,6 +358,10 @@ PlugAuth::Plugin::Finger
 =item *
 
 PlugAuth::Plugin::LDAP
+
+=item *
+
+Pod::Abstract
 
 =item *
 
@@ -409,6 +425,10 @@ Test::Clustericious::Cluster
 
 =item *
 
+Test::CPAN::Changes
+
+=item *
+
 Test::Differences
 
 =item *
@@ -454,6 +474,10 @@ Test::Spelling
 =item *
 
 Test::Strict
+
+=item *
+
+Test::Vars
 
 =item *
 
