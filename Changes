@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.78      2014-05-29 07:48:22 -0400
   - update my dists to latest
   - added App::spaceless
 
