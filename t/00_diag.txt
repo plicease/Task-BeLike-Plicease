@@ -13,6 +13,7 @@ AnyEvent::WebSocket::Client
 App::RegexFileUtils
 App::cpangitify
 App::cpanminus
+App::spaceless
 App::which_package
 Archive::Ar::Libarchive
 Archive::Libarchive::Any

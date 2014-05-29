@@ -29,6 +29,7 @@ comes with this distribution for details.
 - App::cpangitify
 - App::cpanminus
 - App::RegexFileUtils
+- App::spaceless
 - App::which\_package
 - Archive::Ar::Libarchive
 - Archive::Libarchive::Any

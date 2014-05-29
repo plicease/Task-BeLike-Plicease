@@ -81,6 +81,10 @@ App::RegexFileUtils
 
 =item *
 
+App::spaceless
+
+=item *
+
 App::which_package
 
 =item *
