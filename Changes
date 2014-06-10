@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.81      2014-06-10 16:30:09 -0400
   - updated Archive::Ar::Libarchive to latest
     missed it in last release
 
