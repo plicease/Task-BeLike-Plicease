@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.80      2014-06-10 16:28:22 -0400
   - update my dists to latest
   - rm Alien::Libarchive::MSWin32
   - add Alien::Libarchive::Installer
