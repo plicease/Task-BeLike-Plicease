@@ -29,7 +29,7 @@ Alien::Libarchive
 
 =item *
 
-Alien::Libarchive::MSWin32
+Alien::Libarchive::Installer
 
 =item *
 

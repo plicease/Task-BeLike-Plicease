@@ -1,5 +1,5 @@
 Alien::Libarchive
-Alien::Libarchive::MSWin32
+Alien::Libarchive::Installer
 Alien::MSYS
 Alien::Packages::Cygwin
 Alien::bz2

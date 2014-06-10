@@ -16,7 +16,7 @@ comes with this distribution for details.
 
 - Alien::bz2
 - Alien::Libarchive
-- Alien::Libarchive::MSWin32
+- Alien::Libarchive::Installer
 - Alien::MSYS
 - Alien::o2dll
 - Alien::Packages::Cygwin
