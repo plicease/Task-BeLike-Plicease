@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated Archive::Ar::Libarchive to latest
+    missed it in last release
 
 0.80      2014-06-10 16:28:22 -0400
   - update my dists to latest
