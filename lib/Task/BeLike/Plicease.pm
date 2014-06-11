@@ -25,6 +25,10 @@ Alien::bz2
 
 =item *
 
+Alien::bz2::Installer
+
+=item *
+
 Alien::Libarchive
 
 =item *

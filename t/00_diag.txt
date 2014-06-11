@@ -3,6 +3,7 @@ Alien::Libarchive::Installer
 Alien::MSYS
 Alien::Packages::Cygwin
 Alien::bz2
+Alien::bz2::Installer
 Alien::o2dll
 AnyEvent
 AnyEvent::Finger

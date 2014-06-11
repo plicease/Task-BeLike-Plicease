@@ -15,6 +15,7 @@ not to work on those platforms.  See the Makefile.PL or dist.ini that
 comes with this distribution for details.
 
 - Alien::bz2
+- Alien::bz2::Installer
 - Alien::Libarchive
 - Alien::Libarchive::Installer
 - Alien::MSYS
