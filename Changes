@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.83      2014-06-11 08:33:59 -0400
   - add Alien::bz2::Installer
   - update my dists to latest
 
