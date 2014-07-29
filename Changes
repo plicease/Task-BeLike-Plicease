@@ -4,6 +4,15 @@ Revision history for {{$dist->name}}
   - rm Dist::Zilla::Plugin::TwitterBootstrap
   - rm WebService::TwitterBootstrap::Download::Custom
 
+0.86      2014-06-19 16:13:32 -0400
+  - update my dists to latest
+
+0.85      2014-06-13 10:15:04 -0400
+  - update my dists to latest
+
+0.84      2014-06-11 15:41:44 -0400
+  - update my dists to latest
+
 0.83      2014-06-11 08:33:59 -0400
   - add Alien::bz2::Installer
   - update my dists to latest
