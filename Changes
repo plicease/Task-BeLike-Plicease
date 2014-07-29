@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm Dist::Zilla::Plugin::TwitterBootstrap
+  - rm WebService::TwitterBootstrap::Download::Custom
 
 0.83      2014-06-11 08:33:59 -0400
   - add Alien::bz2::Installer

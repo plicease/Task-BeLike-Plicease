@@ -209,10 +209,6 @@ Dist::Zilla::Plugin::TextTabs
 
 =item *
 
-Dist::Zilla::Plugin::TwitterBootstrap
-
-=item *
-
 Dist::Zilla::PluginBundle::ACPS
 
 =item *
@@ -514,10 +510,6 @@ Validate::Tiny
 =item *
 
 WebService::LiveJournal
-
-=item *
-
-WebService::TwitterBootstrap::Download::Custom
 
 =item *
 
