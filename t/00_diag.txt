@@ -44,7 +44,6 @@ Dist::Zilla::Plugin::Meta::Dynamic::Config
 Dist::Zilla::Plugin::PPPort
 Dist::Zilla::Plugin::Template::Tiny
 Dist::Zilla::Plugin::TextTabs
-Dist::Zilla::Plugin::TwitterBootstrap
 Dist::Zilla::Plugin::jQuery
 Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
@@ -123,7 +122,6 @@ URI::ws
 Validate::Tiny
 WWW::Bugzilla::BugTree
 WebService::LiveJournal
-WebService::TwitterBootstrap::Download::Custom
 Win32::Shortcut::Readlink
 XML::Rabbit
 XML::Simple

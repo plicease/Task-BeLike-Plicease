@@ -62,7 +62,6 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::PPPort
 - Dist::Zilla::Plugin::Template::Tiny
 - Dist::Zilla::Plugin::TextTabs
-- Dist::Zilla::Plugin::TwitterBootstrap
 - Dist::Zilla::PluginBundle::ACPS
 - Dist::Zilla::PluginBundle::Author::Plicease
 - EV
@@ -139,7 +138,6 @@ comes with this distribution for details.
 - URI::ws
 - Validate::Tiny
 - WebService::LiveJournal
-- WebService::TwitterBootstrap::Download::Custom
 - Win32::Shortcut::Readlink
 - WWW::Bugzilla::BugTree
 - XML::Rabbit

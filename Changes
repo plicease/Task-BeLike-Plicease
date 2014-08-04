@@ -4,6 +4,10 @@ Revision history for {{$dist->name}}
   - add AnyEvent::FTP
   - update my dists to latest
 
+0.87      2014-07-29 05:55:47 -0400
+  - rm Dist::Zilla::Plugin::TwitterBootstrap
+  - rm WebService::TwitterBootstrap::Download::Custom
+
 0.86      2014-06-19 16:13:32 -0400
   - update my dists to latest
 
