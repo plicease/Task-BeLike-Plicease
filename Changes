@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add AnyEvent::FTP
+  - update my dists to latest
 
 0.86      2014-06-19 16:13:32 -0400
   - update my dists to latest

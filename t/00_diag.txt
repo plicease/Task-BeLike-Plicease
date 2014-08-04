@@ -6,6 +6,7 @@ Alien::bz2
 Alien::bz2::Installer
 Alien::o2dll
 AnyEvent
+AnyEvent::FTP
 AnyEvent::Finger
 AnyEvent::Git::Wrapper
 AnyEvent::Ident

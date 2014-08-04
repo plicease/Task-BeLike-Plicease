@@ -57,6 +57,10 @@ AnyEvent::Finger
 
 =item *
 
+AnyEvent::FTP
+
+=item *
+
 AnyEvent::Git::Wrapper
 
 =item *

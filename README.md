@@ -23,6 +23,7 @@ comes with this distribution for details.
 - Alien::Packages::Cygwin
 - AnyEvent
 - AnyEvent::Finger
+- AnyEvent::FTP
 - AnyEvent::Git::Wrapper
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
