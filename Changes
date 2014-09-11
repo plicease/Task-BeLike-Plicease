@@ -1,8 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Acme::Alien::DontPanic
+  - added Acme::Ford::Prefect
 
 0.94      2014-09-11 13:42:50 -0400
+  - added Alien::Base
 
 0.93      2014-09-09 16:36:02 -0400
   - update my dists to latest

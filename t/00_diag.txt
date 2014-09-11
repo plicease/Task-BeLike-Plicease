@@ -1,3 +1,5 @@
+Acme::Alien::DontPanic
+Acme::Ford::Prefect
 Alien::Base
 Alien::Libarchive
 Alien::Libarchive::Installer

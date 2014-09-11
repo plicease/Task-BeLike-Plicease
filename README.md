@@ -14,6 +14,8 @@ Some modules are not installed on MSWin32 or cygwin if they are known
 not to work on those platforms.  See the Makefile.PL or dist.ini that
 comes with this distribution for details.
 
+- Acme::Alien::DontPanic
+- Acme::Ford::Prefect
 - Alien::Base
 - Alien::bz2
 - Alien::bz2::Installer

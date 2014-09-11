@@ -21,6 +21,14 @@ comes with this distribution for details.
 
 =item *
 
+Acme::Alien::DontPanic
+
+=item *
+
+Acme::Ford::Prefect
+
+=item *
+
 Alien::Base
 
 =item *
