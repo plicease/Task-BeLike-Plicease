@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.97      2014-09-11 15:16:03 -0400
   - fixed versions for Acme::Ford::Prefect::FFI and Acme::Ford::Prefect
 
 0.96      2014-09-11 15:11:16 -0400
