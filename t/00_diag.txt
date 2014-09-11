@@ -104,6 +104,7 @@ Shell::Guess
 String::Template
 Template
 Template::Tiny
+Term::EditLine2
 Test::CChecker
 Test::CPAN::Changes
 Test::Clustericious::Cluster

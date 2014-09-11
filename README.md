@@ -121,6 +121,7 @@ comes with this distribution for details.
 - String::Template
 - Template
 - Template::Tiny
+- Term::EditLine2
 - Test::CChecker
 - Test::Clustericious::Cluster
 - Test::CPAN::Changes

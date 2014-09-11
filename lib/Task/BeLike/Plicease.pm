@@ -449,6 +449,10 @@ Template::Tiny
 
 =item *
 
+Term::EditLine2
+
+=item *
+
 Test::CChecker
 
 =item *
