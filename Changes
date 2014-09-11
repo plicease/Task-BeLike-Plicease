@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - fixed versions for Acme::Ford::Prefect::FFI and Acme::Ford::Prefect
 
 0.96      2014-09-11 15:11:16 -0400
   - added Acme::Ford::Prefect::FFI
