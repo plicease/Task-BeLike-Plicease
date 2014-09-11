@@ -16,9 +16,12 @@ comes with this distribution for details.
 
 - Acme::Alien::DontPanic
 - Acme::Ford::Prefect
+- Acme::Ford::Prefect::FFI
 - Alien::Base
 - Alien::bz2
 - Alien::bz2::Installer
+- Alien::Editline
+- Alien::FFI
 - Alien::Libarchive
 - Alien::Libarchive::Installer
 - Alien::MSYS

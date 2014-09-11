@@ -1,6 +1,9 @@
 Acme::Alien::DontPanic
 Acme::Ford::Prefect
+Acme::Ford::Prefect::FFI
 Alien::Base
+Alien::Editline
+Alien::FFI
 Alien::Libarchive
 Alien::Libarchive::Installer
 Alien::MSYS

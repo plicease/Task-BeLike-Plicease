@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Acme::Ford::Prefect::FFI
+  - added Alien::FFI
+  - added Alien::Editline
 
 0.95      2014-09-11 14:09:33 -0400
   - added Acme::Alien::DontPanic

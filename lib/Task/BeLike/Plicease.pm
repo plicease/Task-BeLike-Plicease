@@ -29,6 +29,10 @@ Acme::Ford::Prefect
 
 =item *
 
+Acme::Ford::Prefect::FFI
+
+=item *
+
 Alien::Base
 
 =item *
@@ -38,6 +42,14 @@ Alien::bz2
 =item *
 
 Alien::bz2::Installer
+
+=item *
+
+Alien::Editline
+
+=item *
+
+Alien::FFI
 
 =item *
 
