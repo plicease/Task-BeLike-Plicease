@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add Photography::EV (Perl 5.20 or better only)
+  - updated my dists to latest
 
 0.98      2014-09-11 17:12:58 -0400
   - updated my dists to latest

@@ -97,6 +97,7 @@ comes with this distribution for details.
 - Net::DNS
 - Number::Bytes::Human
 - Perl::Critic
+- Photography::EV
 - PkgConfig
 - PlugAuth
 - PlugAuth::Client

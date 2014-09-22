@@ -80,6 +80,7 @@ Moose
 Net::DNS
 Number::Bytes::Human
 Perl::Critic
+Photography::EV
 PkgConfig
 PlugAuth
 PlugAuth::Client

@@ -27,6 +27,11 @@ sub new
     delete $args{requires}->{'Alien::o2dll'};
   }
 
+  unless($] >= 5.020000)
+  {
+    delete $args{requires}->{'Photography::EV'};
+  }
+
   open my $fh, '>', 'testlist.txt';
   print $fh "$_\n" for grep !/^perl$/, sort keys %{ $args{requires} };
   close $fh;

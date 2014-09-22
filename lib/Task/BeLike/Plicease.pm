@@ -353,6 +353,10 @@ Perl::Critic
 
 =item *
 
+Photography::EV
+
+=item *
+
 PkgConfig
 
 =item *
