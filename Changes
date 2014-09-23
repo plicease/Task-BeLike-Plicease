@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm Mojolicious::Plugin::SslAuth
 
 0.99      2014-09-22 15:58:17 -0400
   - add Photography::EV (Perl 5.20 or better only)
