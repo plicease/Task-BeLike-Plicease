@@ -22,9 +22,11 @@ comes with this distribution for details.
 - Alien::bz2::Installer
 - Alien::Editline
 - Alien::FFI
+- Alien::gmake
 - Alien::Libarchive
 - Alien::Libarchive::Installer
 - Alien::MSYS
+- Alien::nasm
 - Alien::o2dll
 - Alien::Packages::Cygwin
 - AnyEvent

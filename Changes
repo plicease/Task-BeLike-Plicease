@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add Alien::nasm
+  - add Alien::gmake
 
 1.00      2014-09-23 15:48:44 -0400
   - rm Mojolicious::Plugin::SslAuth

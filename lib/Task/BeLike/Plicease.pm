@@ -53,6 +53,10 @@ Alien::FFI
 
 =item *
 
+Alien::gmake
+
+=item *
+
 Alien::Libarchive
 
 =item *
@@ -62,6 +66,10 @@ Alien::Libarchive::Installer
 =item *
 
 Alien::MSYS
+
+=item *
+
+Alien::nasm
 
 =item *
 
