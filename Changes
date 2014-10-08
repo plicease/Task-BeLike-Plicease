@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.06      2014-10-08 14:48:47 -0400
   - added Alien::LibYAML
   - update my dists to latest  
 
