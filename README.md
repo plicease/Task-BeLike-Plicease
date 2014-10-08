@@ -25,6 +25,7 @@ comes with this distribution for details.
 - Alien::gmake
 - Alien::Libarchive
 - Alien::Libarchive::Installer
+- Alien::LibYAML
 - Alien::MSYS
 - Alien::nasm
 - Alien::o2dll

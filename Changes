@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added Alien::LibYAML
+  - update my dists to latest  
 
 1.05      2014-10-08 12:19:05 -0400
   - fix typo

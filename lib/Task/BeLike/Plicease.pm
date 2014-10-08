@@ -65,6 +65,10 @@ Alien::Libarchive::Installer
 
 =item *
 
+Alien::LibYAML
+
+=item *
+
 Alien::MSYS
 
 =item *
