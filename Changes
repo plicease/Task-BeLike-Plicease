@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+1.05      2014-10-08 12:19:05 -0400
+  - fix typo
+
 1.04      2014-10-08 12:16:07 -0400
   - exclude Test::Vars on MSWin32
   - exclude WebService::LibeJournal on MSWin32
