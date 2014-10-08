@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - exclude Test::Vars on MSWin32
+  - exclude WebService::LibeJournal on MSWin32
 
 1.03      2014-10-08 09:04:13 -0400
   - update my dists to latest
