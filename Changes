@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add App::cpangitify back to MSWin32
+    where it works again
 
 1.09      2014-10-10 07:45:56 -0400
   - add Alien::patch

@@ -10,7 +10,14 @@ sub new
 
   if($^O eq 'MSWin32')
   {
-    foreach my $mod (qw( App::cpangitify WWW::Bugzilla::BugTree Archive::Libarchive::FFI Test::Vars WebService::LiveJournal ))
+    my @skip = qw(
+      WWW::Bugzilla::BugTree
+      Archive::Libarchive::FFI
+      Test::Vars
+      WebService::LiveJournal
+    );
+      
+    foreach my $mod (@skip)
     {
       delete $args{requires}->{$mod};
     }
