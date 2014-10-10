@@ -30,6 +30,7 @@ comes with this distribution for details.
 - Alien::nasm
 - Alien::o2dll
 - Alien::Packages::Cygwin
+- Alien::patch
 - AnyEvent
 - AnyEvent::Finger
 - AnyEvent::FTP

@@ -85,6 +85,10 @@ Alien::Packages::Cygwin
 
 =item *
 
+Alien::patch
+
+=item *
+
 AnyEvent
 
 =item *
