@@ -3,6 +3,8 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - add App::cpangitify back to MSWin32
     where it works again
+  - remove EditLine stuff that doesn't work on MSWin32 yet
+  - update my dists to latest
 
 1.09      2014-10-10 07:45:56 -0400
   - add Alien::patch

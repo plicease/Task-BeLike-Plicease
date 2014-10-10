@@ -8,39 +8,40 @@ sub new
 {
   my($class, %args) = @_;
 
+  my @skip;
+
   if($^O eq 'MSWin32')
   {
-    my @skip = qw(
+    push @skip, qw(
       WWW::Bugzilla::BugTree
       Archive::Libarchive::FFI
       Test::Vars
       WebService::LiveJournal
+      Term::EditLine2
+      Alien::Editline
     );
-      
-    foreach my $mod (@skip)
-    {
-      delete $args{requires}->{$mod};
-    }
   }
   else
   {
-    delete $args{requires}->{'Alien::Libarchive::MSWin32'};
+    push @skip, 'Alien::Libarchive::MSWin32';
   }
   
   unless($^O eq 'cygwin')
   {
-    delete $args{requires}->{'Alien::Packages::Cygwin'};
+    push @skip, 'Alien::Packages::Cygwin';
   }
 
   unless($^O eq 'MSWin32' || $^O eq 'cygwin')
   {
-    delete $args{requires}->{'Alien::o2dll'};
+    push @skip, 'Alien::o2dll';
   }
 
   unless($] >= 5.020000)
   {
-    delete $args{requires}->{'Photography::EV'};
+    push @skip, 'Photography::EV';
   }
+  
+  delete $args{requires}->{$_} for @skip;
 
   open my $fh, '>', 'testlist.txt';
   print $fh "$_\n" for grep !/^perl$/, sort keys %{ $args{requires} };
