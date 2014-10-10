@@ -25,12 +25,15 @@ sub new
   else
   {
     delete $args{requires}->{'Alien::Libarchive::MSWin32'};
-    delete $args{requires}->{'Alien::o2dll'};
   }
   
   unless($^O eq 'cygwin')
   {
     delete $args{requires}->{'Alien::Packages::Cygwin'};
+  }
+
+  unless($^O eq 'MSWin32' || $^O eq 'cygwin')
+  {
     delete $args{requires}->{'Alien::o2dll'};
   }
 
