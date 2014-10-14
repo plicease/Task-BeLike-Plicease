@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - update my dists to latest
 
 1.11      2014-10-13 07:29:44 -0400
   - update my dists to latest
