@@ -265,6 +265,10 @@ EV
 
 =item *
 
+FFI::CheckLib
+
+=item *
+
 FFI::Util
 
 =item *

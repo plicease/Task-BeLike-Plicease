@@ -58,6 +58,7 @@ Dist::Zilla::Plugin::jQuery
 Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
 EV
+FFI::CheckLib
 FFI::Util
 File::IgnoreReadonly
 File::Listing
