@@ -59,6 +59,7 @@ Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
 EV
 FFI::CheckLib
+FFI::TinyCC
 FFI::Util
 File::IgnoreReadonly
 File::Listing

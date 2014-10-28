@@ -76,6 +76,7 @@ comes with this distribution for details.
 - Dist::Zilla::PluginBundle::Author::Plicease
 - EV
 - FFI::CheckLib
+- FFI::TinyCC
 - FFI::Util
 - File::chdir
 - File::IgnoreReadonly
