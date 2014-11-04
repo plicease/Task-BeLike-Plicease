@@ -285,6 +285,10 @@ File::IgnoreReadonly
 
 =item *
 
+File::LibMagic::FFI
+
+=item *
+
 File::Listing
 
 =item *

@@ -62,6 +62,7 @@ FFI::CheckLib
 FFI::TinyCC
 FFI::Util
 File::IgnoreReadonly
+File::LibMagic::FFI
 File::Listing
 File::Listing::Ftpcopy
 File::Touch

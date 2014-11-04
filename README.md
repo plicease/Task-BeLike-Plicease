@@ -80,6 +80,7 @@ comes with this distribution for details.
 - FFI::Util
 - File::chdir
 - File::IgnoreReadonly
+- File::LibMagic::FFI
 - File::Listing
 - File::Listing::Ftpcopy
 - File::Touch
