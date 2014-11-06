@@ -36,6 +36,16 @@ sub new
     push @skip, 'Alien::o2dll';
   }
 
+  if($^O eq 'darwin')
+  {
+    push @skip, qw(
+      WWW::Bugzilla::BugTree
+      Archive::Ar::Libarchive
+      Alien::Libarchive
+      Archive::Libarchive::XS
+    );
+  }
+
   unless($] >= 5.020000)
   {
     push @skip, 'Photography::EV';
