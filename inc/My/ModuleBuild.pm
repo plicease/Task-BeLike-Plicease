@@ -40,9 +40,6 @@ sub new
   {
     push @skip, qw(
       WWW::Bugzilla::BugTree
-      Archive::Ar::Libarchive
-      Alien::Libarchive
-      Archive::Libarchive::XS
     );
   }
 

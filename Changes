@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - remove some skips for OS X
 
 1.23      2014-11-05 22:59:53 -0500
   - update my dists to latest  
