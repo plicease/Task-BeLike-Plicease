@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.24      2014-11-06 06:19:37 -0500
   - remove some skips for OS X
 
 1.23      2014-11-05 22:59:53 -0500
