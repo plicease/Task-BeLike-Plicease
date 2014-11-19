@@ -9,9 +9,11 @@ Alien::Libarchive
 Alien::Libarchive::Installer
 Alien::MSYS
 Alien::Packages::Cygwin
+Alien::bison
 Alien::bz2
 Alien::bz2::Installer
 Alien::gmake
+Alien::m4
 Alien::nasm
 Alien::o2dll
 Alien::patch

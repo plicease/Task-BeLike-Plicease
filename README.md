@@ -18,6 +18,7 @@ comes with this distribution for details.
 - Acme::Ford::Prefect
 - Acme::Ford::Prefect::FFI
 - Alien::Base
+- Alien::bison
 - Alien::bz2
 - Alien::bz2::Installer
 - Alien::Editline
@@ -26,6 +27,7 @@ comes with this distribution for details.
 - Alien::Libarchive
 - Alien::Libarchive::Installer
 - Alien::LibYAML
+- Alien::m4
 - Alien::MSYS
 - Alien::nasm
 - Alien::o2dll

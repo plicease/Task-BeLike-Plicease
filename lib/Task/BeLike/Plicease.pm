@@ -37,6 +37,10 @@ Alien::Base
 
 =item *
 
+Alien::bison
+
+=item *
+
 Alien::bz2
 
 =item *
@@ -66,6 +70,10 @@ Alien::Libarchive::Installer
 =item *
 
 Alien::LibYAML
+
+=item *
+
+Alien::m4
 
 =item *
 
