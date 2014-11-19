@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.26      2014-11-19 15:23:37 -0500
   - add Alien::bison
   - add Alien::m4
   - update my dists to latest  
