@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - remove merged dists: PlugAuth::Client and PlugAuth::Plugin::Admin
 
 1.26      2014-11-19 15:23:37 -0500
   - add Alien::bison

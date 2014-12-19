@@ -91,10 +91,8 @@ Perl::Critic
 Photography::EV
 PkgConfig
 PlugAuth
-PlugAuth::Client
 PlugAuth::Client::Tiny
 PlugAuth::Lite
-PlugAuth::Plugin::Audit
 PlugAuth::Plugin::AuthenSimple
 PlugAuth::Plugin::DBIAuth
 PlugAuth::Plugin::Finger

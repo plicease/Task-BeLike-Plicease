@@ -397,19 +397,11 @@ PlugAuth
 
 =item *
 
-PlugAuth::Client
-
-=item *
-
 PlugAuth::Client::Tiny
 
 =item *
 
 PlugAuth::Lite
-
-=item *
-
-PlugAuth::Plugin::Audit
 
 =item *
 
