@@ -160,7 +160,6 @@ comes with this distribution for details.
 - YAML
 - YAML::XS
 - Yars
-- Yars::Client
 
 # AUTHOR
 

@@ -603,10 +603,6 @@ YAML::XS
 
 Yars
 
-=item *
-
-Yars::Client
-
 =back
 
 =cut

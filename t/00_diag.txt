@@ -143,6 +143,5 @@ XML::Writer
 YAML
 YAML::XS
 Yars
-Yars::Client
 autodie
 local::lib
