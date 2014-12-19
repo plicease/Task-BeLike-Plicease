@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.27      2014-12-19 12:12:03 -0500
   - remove merged dist PlugAuth::Client
   - remove merged dist PlugAuth::Plugin::Admin
   - remove merged dist Yars::Client
