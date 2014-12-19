@@ -401,10 +401,6 @@ PlugAuth::Client::Tiny
 
 =item *
 
-PlugAuth::Lite
-
-=item *
-
 PlugAuth::Plugin::AuthenSimple
 
 =item *

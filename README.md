@@ -109,7 +109,6 @@ comes with this distribution for details.
 - PkgConfig
 - PlugAuth
 - PlugAuth::Client::Tiny
-- PlugAuth::Lite
 - PlugAuth::Plugin::AuthenSimple
 - PlugAuth::Plugin::DBIAuth
 - PlugAuth::Plugin::Finger
