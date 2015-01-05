@@ -54,9 +54,6 @@ comes with this distribution for details.
 - autodie
 - Clustericious
 - Clustericious::Admin
-- Clustericious::Client
-- Clustericious::Config
-- Clustericious::Log
 - Crypt::PasswdMD5
 - DBD::mysqlPP
 - DBD::PgPP

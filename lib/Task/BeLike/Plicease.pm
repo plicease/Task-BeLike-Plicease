@@ -181,18 +181,6 @@ Clustericious::Admin
 
 =item *
 
-Clustericious::Client
-
-=item *
-
-Clustericious::Config
-
-=item *
-
-Clustericious::Log
-
-=item *
-
 Crypt::PasswdMD5
 
 =item *

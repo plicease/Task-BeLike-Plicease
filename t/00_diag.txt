@@ -37,9 +37,6 @@ Authen::Simple
 Authen::Simple::PlugAuth
 Clustericious
 Clustericious::Admin
-Clustericious::Client
-Clustericious::Config
-Clustericious::Log
 Crypt::PasswdMD5
 DBD::PgPP
 DBD::SQLite
