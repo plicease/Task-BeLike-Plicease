@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.30      2015-01-05 10:54:31 -0500
   - remove merged dist Clustericious::Client
   - remove merged dist Clustericious::Log
   - remove merged dist Clustericious::Config
