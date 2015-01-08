@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - update my dists to latest
 
 1.30      2015-01-05 10:54:31 -0500
   - remove merged dist Clustericious::Client
