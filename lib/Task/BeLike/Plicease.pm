@@ -265,6 +265,10 @@ FFI::CheckLib
 
 =item *
 
+FFI::Platypus
+
+=item *
+
 FFI::TinyCC
 
 =item *

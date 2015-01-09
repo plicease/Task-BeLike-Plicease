@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated my dists to latest
+  - add FFI::Platypus
+    not on CPAN yet, but I have a good feeling about it
 
 1.31      2015-01-08 04:00:42 -0500
   - update my dists to latest
