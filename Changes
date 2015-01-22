@@ -1,8 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added UUID::FFI
+  - updated my dists to latest
 
 1.33      2015-01-21 23:31:42 -0500
+  - add Win32::Getppid  
+  - updated my dists to latest
 
 1.32      2015-01-09 16:53:40 -0500
   - updated my dists to latest

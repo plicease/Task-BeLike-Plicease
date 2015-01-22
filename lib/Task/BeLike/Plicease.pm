@@ -553,6 +553,10 @@ URI::ws
 
 =item *
 
+UUID::FFI
+
+=item *
+
 Validate::Tiny
 
 =item *

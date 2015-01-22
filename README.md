@@ -147,6 +147,7 @@ comes with this distribution for details.
 - URI
 - URI::Encode
 - URI::ws
+- UUID::FFI
 - Validate::Tiny
 - WebService::LiveJournal
 - Win32::Getppid

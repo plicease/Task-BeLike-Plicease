@@ -130,6 +130,7 @@ Try::Tiny
 URI
 URI::Encode
 URI::ws
+UUID::FFI
 Validate::Tiny
 WWW::Bugzilla::BugTree
 WebService::LiveJournal
