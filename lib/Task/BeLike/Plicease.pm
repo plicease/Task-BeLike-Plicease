@@ -561,6 +561,10 @@ WebService::LiveJournal
 
 =item *
 
+Win32::Getppid
+
+=item *
+
 Win32::Shortcut::Readlink
 
 =item *

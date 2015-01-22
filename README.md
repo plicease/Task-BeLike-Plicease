@@ -149,6 +149,7 @@ comes with this distribution for details.
 - URI::ws
 - Validate::Tiny
 - WebService::LiveJournal
+- Win32::Getppid
 - Win32::Shortcut::Readlink
 - WWW::Bugzilla::BugTree
 - XML::Rabbit

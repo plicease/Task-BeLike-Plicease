@@ -133,6 +133,7 @@ URI::ws
 Validate::Tiny
 WWW::Bugzilla::BugTree
 WebService::LiveJournal
+Win32::Getppid
 Win32::Shortcut::Readlink
 XML::Rabbit
 XML::Simple
