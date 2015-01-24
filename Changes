@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - added FFI::Platypus::Type::StringArray
+  - updated my dists to latest  
 
 1.34      2015-01-22 10:52:37 -0500
   - added UUID::FFI

@@ -76,6 +76,7 @@ comes with this distribution for details.
 - EV
 - FFI::CheckLib
 - FFI::Platypus
+- FFI::Platypus::Type::StringArray
 - FFI::TinyCC
 - FFI::Util
 - File::chdir

@@ -269,6 +269,10 @@ FFI::Platypus
 
 =item *
 
+FFI::Platypus::Type::StringArray
+
+=item *
+
 FFI::TinyCC
 
 =item *

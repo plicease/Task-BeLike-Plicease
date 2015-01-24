@@ -59,6 +59,7 @@ Dist::Zilla::PluginBundle::Author::Plicease
 EV
 FFI::CheckLib
 FFI::Platypus
+FFI::Platypus::Type::StringArray
 FFI::TinyCC
 FFI::Util
 File::IgnoreReadonly
