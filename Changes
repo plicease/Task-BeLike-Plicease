@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated my dists to latest  
 
 1.35      2015-01-23 19:00:25 -0500
   - added FFI::Platypus::Type::StringArray
