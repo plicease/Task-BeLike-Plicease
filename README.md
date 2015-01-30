@@ -76,6 +76,8 @@ comes with this distribution for details.
 - EV
 - FFI::CheckLib
 - FFI::Platypus
+- FFI::Platypus::Lang::CPP
+- FFI::Platypus::Lang::Rust
 - FFI::Platypus::Type::StringArray
 - FFI::TinyCC
 - FFI::Util

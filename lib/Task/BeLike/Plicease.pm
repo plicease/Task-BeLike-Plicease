@@ -269,6 +269,14 @@ FFI::Platypus
 
 =item *
 
+FFI::Platypus::Lang::CPP
+
+=item *
+
+FFI::Platypus::Lang::Rust
+
+=item *
+
 FFI::Platypus::Type::StringArray
 
 =item *
