@@ -2,14 +2,22 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+1.38      2015-02-02 05:05:16 -0500
+  - added FFI::ExtractSymbols
+  - added FFI::Platypus::Lang::CPP::Demangle::XS
+  - updated my dists to latest  
+
 1.37      2015-01-30 15:47:23 -0500
+  - added FFI::Platypus::Lang::Rust
+  - added FFI::Platypus::Lang::CPP
+  - updated my dists to latest  
 
 1.36      2015-01-28 17:15:35 -0500
-  - updated my dists to latest  
+  - updated my dists to latest
 
 1.35      2015-01-23 19:00:25 -0500
   - added FFI::Platypus::Type::StringArray
-  - updated my dists to latest  
+  - updated my dists to latest
 
 1.34      2015-01-22 10:52:37 -0500
   - added UUID::FFI
