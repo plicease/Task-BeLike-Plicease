@@ -265,11 +265,19 @@ FFI::CheckLib
 
 =item *
 
+FFI::ExtractSymbols
+
+=item *
+
 FFI::Platypus
 
 =item *
 
 FFI::Platypus::Lang::CPP
+
+=item *
+
+FFI::Platypus::Lang::CPP::Demangle::XS
 
 =item *
 

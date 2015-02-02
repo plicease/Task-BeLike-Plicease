@@ -75,8 +75,10 @@ comes with this distribution for details.
 - Dist::Zilla::PluginBundle::Author::Plicease
 - EV
 - FFI::CheckLib
+- FFI::ExtractSymbols
 - FFI::Platypus
 - FFI::Platypus::Lang::CPP
+- FFI::Platypus::Lang::CPP::Demangle::XS
 - FFI::Platypus::Lang::Rust
 - FFI::Platypus::Type::StringArray
 - FFI::TinyCC
