@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.40      2015-02-03 12:05:05 -0500
   - added FFI::Platypus::Lang::Pascal
   - updated my dists to latest  
   
