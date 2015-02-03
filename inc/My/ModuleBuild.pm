@@ -25,21 +25,31 @@ sub new
   {
     push @skip, 'Alien::Libarchive::MSWin32';
   }
-  
-  unless($^O eq 'cygwin')
+
+  if($^O eq 'cygwin')
   {
     push @skip, qw(
-      Alien::Packages::Cygwin
       FFI::TinyCC
     );
   }
+  else  
+  {
+    push @skip, qw(
+      Alien::Packages::Cygwin
+    );
+  }
 
-  unless($^O eq 'MSWin32' || $^O eq 'cygwin')
+  if($^O =~ /^(MSWin32|cygwin)$/)
+  {
+    push @skip, qw(
+      Alien::Editline
+      Term::EditLine2
+    );
+  }
+  else
   {
     push @skip, qw(
       Alien::o2dll
-      Alien::Editline
-      Term::EditLine2
     );
   }
 
@@ -49,8 +59,12 @@ sub new
       WWW::Bugzilla::BugTree
     );
   }
-  
-  unless($^O eq 'linux')
+
+  if($^O eq 'linux')
+  {
+    # nothing special
+  }
+  else
   {
     push @skip, qw( UUID::FFI );
   }
