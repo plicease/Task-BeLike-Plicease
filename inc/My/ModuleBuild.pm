@@ -28,12 +28,19 @@ sub new
   
   unless($^O eq 'cygwin')
   {
-    push @skip, 'Alien::Packages::Cygwin';
+    push @skip, qw(
+      Alien::Packages::Cygwin
+      FFI::TinyCC
+    );
   }
 
   unless($^O eq 'MSWin32' || $^O eq 'cygwin')
   {
-    push @skip, 'Alien::o2dll';
+    push @skip, qw(
+      Alien::o2dll
+      Alien::Editline
+      Term::EditLine2
+    );
   }
 
   if($^O eq 'darwin')
@@ -41,6 +48,11 @@ sub new
     push @skip, qw(
       WWW::Bugzilla::BugTree
     );
+  }
+  
+  unless($^O eq 'linux')
+  {
+    push @skip, qw( UUID::FFI );
   }
 
   unless($] >= 5.020000)

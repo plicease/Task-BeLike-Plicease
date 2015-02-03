@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - UUID::FFI on linux only
+  - Alien::Editline and Term::EditLine2 are not installed on windows
+  - FFI::TinyCC not installed on cygwin
 
 1.40      2015-02-03 12:05:05 -0500
   - added FFI::Platypus::Lang::Pascal
