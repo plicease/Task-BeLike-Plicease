@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.42      2015-02-03 16:15:13 -0500
   - fix logic from last revision
   - updated my dists to latest  
 
