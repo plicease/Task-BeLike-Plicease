@@ -601,10 +601,6 @@ WWW::Bugzilla::BugTree
 
 =item *
 
-XML::Rabbit
-
-=item *
-
 XML::Simple
 
 =item *

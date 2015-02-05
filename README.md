@@ -159,7 +159,6 @@ comes with this distribution for details.
 - Win32::Getppid
 - Win32::Shortcut::Readlink
 - WWW::Bugzilla::BugTree
-- XML::Rabbit
 - XML::Simple
 - XML::Writer
 - YAML
