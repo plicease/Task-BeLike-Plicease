@@ -1,10 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated my dists to latest
 
 1.42      2015-02-03 16:15:13 -0500
   - fix logic from last revision
-  - updated my dists to latest  
+  - updated my dists to latest
 
 1.41      2015-02-03 16:06:01 -0500
   - UUID::FFI on linux only
@@ -13,7 +14,7 @@ Revision history for {{$dist->name}}
 
 1.40      2015-02-03 12:05:05 -0500
   - added FFI::Platypus::Lang::Pascal
-  - updated my dists to latest  
+  - updated my dists to latest
   
 1.39      2015-02-02 05:08:44 -0500
   - fix version for FFI::ExtractSymbols
@@ -21,12 +22,12 @@ Revision history for {{$dist->name}}
 1.38      2015-02-02 05:05:16 -0500
   - added FFI::ExtractSymbols
   - added FFI::Platypus::Lang::CPP::Demangle::XS
-  - updated my dists to latest  
+  - updated my dists to latest
 
 1.37      2015-01-30 15:47:23 -0500
   - added FFI::Platypus::Lang::Rust
   - added FFI::Platypus::Lang::CPP
-  - updated my dists to latest  
+  - updated my dists to latest
 
 1.36      2015-01-28 17:15:35 -0500
   - updated my dists to latest
