@@ -281,6 +281,10 @@ FFI::Platypus::Lang::CPP::Demangle::XS
 
 =item *
 
+FFI::Platypus::Lang::Fortran
+
+=item *
+
 FFI::Platypus::Lang::Pascal
 
 =item *

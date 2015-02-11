@@ -79,6 +79,7 @@ comes with this distribution for details.
 - FFI::Platypus
 - FFI::Platypus::Lang::CPP
 - FFI::Platypus::Lang::CPP::Demangle::XS
+- FFI::Platypus::Lang::Fortran
 - FFI::Platypus::Lang::Pascal
 - FFI::Platypus::Lang::Rust
 - FFI::Platypus::Type::StringArray
