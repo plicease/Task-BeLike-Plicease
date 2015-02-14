@@ -101,7 +101,6 @@ comes with this distribution for details.
 - Log::Log4perl::Appender::TAP
 - Module::CoreList
 - Module::Which
-- Mojo::JSON::Any
 - Mojolicious
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer

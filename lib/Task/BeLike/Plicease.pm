@@ -369,10 +369,6 @@ Module::Which
 
 =item *
 
-Mojo::JSON::Any
-
-=item *
-
 Mojolicious
 
 =item *

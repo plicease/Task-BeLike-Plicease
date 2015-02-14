@@ -84,7 +84,6 @@ Log::Log4perl::Appender::TAP
 Module::Build
 Module::CoreList
 Module::Which
-Mojo::JSON::Any
 Mojolicious
 Mojolicious::Plugin::Ident
 Mojolicious::Plugin::TtRenderer
