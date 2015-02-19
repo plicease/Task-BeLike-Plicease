@@ -97,10 +97,6 @@ Alien::patch
 
 =item *
 
-AnyEvent
-
-=item *
-
 AnyEvent::Finger
 
 =item *
@@ -161,10 +157,6 @@ Archive::Libarchive::XS
 
 =item *
 
-Authen::Simple
-
-=item *
-
 Authen::Simple::PlugAuth
 
 =item *
@@ -181,10 +173,6 @@ Clustericious::Admin
 
 =item *
 
-Crypt::PasswdMD5
-
-=item *
-
 DBD::mysqlPP
 
 =item *
@@ -194,10 +182,6 @@ DBD::PgPP
 =item *
 
 DBD::SQLite
-
-=item *
-
-DBI
 
 =item *
 
@@ -305,10 +289,6 @@ FFI::Util
 
 =item *
 
-File::chdir
-
-=item *
-
 File::IgnoreReadonly
 
 =item *
@@ -326,14 +306,6 @@ File::Listing::Ftpcopy
 =item *
 
 File::Touch
-
-=item *
-
-HTTP::Tiny
-
-=item *
-
-IPC::Run
 
 =item *
 
@@ -390,14 +362,6 @@ Moose
 =item *
 
 Net::DNS
-
-=item *
-
-Number::Bytes::Human
-
-=item *
-
-Perl::Critic
 
 =item *
 

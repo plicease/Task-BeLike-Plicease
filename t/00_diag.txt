@@ -17,7 +17,6 @@ Alien::m4
 Alien::nasm
 Alien::o2dll
 Alien::patch
-AnyEvent
 AnyEvent::FTP
 AnyEvent::Finger
 AnyEvent::Git::Wrapper
@@ -33,15 +32,12 @@ Archive::Ar::Libarchive
 Archive::Libarchive::Any
 Archive::Libarchive::FFI
 Archive::Libarchive::XS
-Authen::Simple
 Authen::Simple::PlugAuth
 Clustericious
 Clustericious::Admin
-Crypt::PasswdMD5
 DBD::PgPP
 DBD::SQLite
 DBD::mysqlPP
-DBI
 Devel::StackTrace
 Digest::MD5
 Dist::Zilla::MintingProfile::Clustericious
@@ -73,9 +69,6 @@ File::LibMagic::FFI
 File::Listing
 File::Listing::Ftpcopy
 File::Touch
-File::chdir
-HTTP::Tiny
-IPC::Run
 JSON
 JSON::XS
 Lingua::Alphabet::Phonetic::LAPD
@@ -90,8 +83,6 @@ Mojolicious::Plugin::TtRenderer
 Monkey::Patch
 Moose
 Net::DNS
-Number::Bytes::Human
-Perl::Critic
 Photography::EV
 PkgConfig
 PlugAuth
