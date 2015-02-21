@@ -517,10 +517,6 @@ Test::Strict
 
 =item *
 
-Test::Vars
-
-=item *
-
 Text::Tabs
 
 =item *

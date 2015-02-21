@@ -138,7 +138,6 @@ comes with this distribution for details.
 - Test::Pod::Spelling::CommonMistakes
 - Test::Spelling
 - Test::Strict
-- Test::Vars
 - Text::Tabs
 - Try::Tiny
 - URI

@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - rm Test::Vars
 
 1.48      2015-02-19 07:59:25 -0500
   - updated my dists to latest
