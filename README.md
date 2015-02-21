@@ -146,6 +146,7 @@ comes with this distribution for details.
 - UUID::FFI
 - Validate::Tiny
 - WebService::LiveJournal
+- Win32::ErrorMode
 - Win32::Getppid
 - Win32::Shortcut::Readlink
 - WWW::Bugzilla::BugTree

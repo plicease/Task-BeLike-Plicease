@@ -130,6 +130,7 @@ UUID::FFI
 Validate::Tiny
 WWW::Bugzilla::BugTree
 WebService::LiveJournal
+Win32::ErrorMode
 Win32::Getppid
 Win32::Shortcut::Readlink
 XML::Simple

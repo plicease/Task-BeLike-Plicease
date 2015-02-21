@@ -549,6 +549,10 @@ WebService::LiveJournal
 
 =item *
 
+Win32::ErrorMode
+
+=item *
+
 Win32::Getppid
 
 =item *
