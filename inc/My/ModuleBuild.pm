@@ -2,6 +2,7 @@ package My::ModuleBuild;
 
 use strict;
 use warnings;
+use Config;
 use base qw( Module::Build );
 
 sub new
@@ -19,6 +20,7 @@ sub new
       WebService::LiveJournal
       Term::EditLine2
       Alien::Editline
+      FFI
     );
   }
   else
@@ -28,15 +30,12 @@ sub new
 
   if($^O eq 'cygwin')
   {
-    push @skip, qw(
-      FFI::TinyCC
-    );
+    push @skip, 'FFI::TinyCC';
+    push @skip, 'FFI' if $Config{ptrsize} == 8;
   }
   else  
   {
-    push @skip, qw(
-      Alien::Packages::Cygwin
-    );
+    push @skip, 'Alien::Packages::Cygwin';
   }
 
   if($^O =~ /^(MSWin32|cygwin)$/)
@@ -58,6 +57,7 @@ sub new
   {
     push @skip, qw(
       WWW::Bugzilla::BugTree
+      FFI
     );
   }
 

@@ -53,6 +53,7 @@ Dist::Zilla::Plugin::jQuery
 Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
 EV
+FFI
 FFI::CheckLib
 FFI::ExtractSymbols
 FFI::Platypus

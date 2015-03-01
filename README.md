@@ -70,6 +70,7 @@ comes with this distribution for details.
 - Dist::Zilla::PluginBundle::ACPS
 - Dist::Zilla::PluginBundle::Author::Plicease
 - EV
+- FFI
 - FFI::CheckLib
 - FFI::ExtractSymbols
 - FFI::Platypus

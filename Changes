@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added FFI (on some platforms)
 
 1.50      2015-02-22 15:33:04 -0500
   - updated my dists to latest
