@@ -12,6 +12,7 @@ Alien::Packages::Cygwin
 Alien::bison
 Alien::bz2
 Alien::bz2::Installer
+Alien::flex
 Alien::gmake
 Alien::m4
 Alien::nasm

@@ -23,6 +23,7 @@ comes with this distribution for details.
 - Alien::bz2::Installer
 - Alien::Editline
 - Alien::FFI
+- Alien::flex
 - Alien::gmake
 - Alien::Libarchive
 - Alien::Libarchive::Installer

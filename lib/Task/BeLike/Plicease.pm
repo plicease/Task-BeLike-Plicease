@@ -57,6 +57,10 @@ Alien::FFI
 
 =item *
 
+Alien::flex
+
+=item *
+
 Alien::gmake
 
 =item *

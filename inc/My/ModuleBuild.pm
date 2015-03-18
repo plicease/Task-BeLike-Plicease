@@ -21,6 +21,7 @@ sub new
       Term::EditLine2
       Alien::Editline
       FFI
+      Alien::flex
     );
   }
   else
