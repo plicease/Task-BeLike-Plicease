@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.52      2015-03-18 19:03:15 -0400
   - Added Alien::flex
   - Updated my dists to latest
   - Switch Term::EditLine2 to Term::EditLine
