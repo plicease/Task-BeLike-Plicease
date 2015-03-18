@@ -461,7 +461,7 @@ Template::Tiny
 
 =item *
 
-Term::EditLine2
+Term::EditLine
 
 =item *
 

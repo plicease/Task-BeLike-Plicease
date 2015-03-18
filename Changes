@@ -3,6 +3,8 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - Added Alien::flex
   - Updated my dists to latest
+  - Switch Term::EditLine2 to Term::EditLine
+    (the former was deprecated when I took over the latter)
 
 1.51      2015-03-01 17:20:30 -0500
   - Updated my dists to latest
