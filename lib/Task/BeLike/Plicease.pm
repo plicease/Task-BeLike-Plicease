@@ -569,6 +569,10 @@ Win32::Shortcut::Readlink
 
 =item *
 
+Win32API::ProcessStatus
+
+=item *
+
 WWW::Bugzilla::BugTree
 
 =item *

@@ -135,6 +135,7 @@ WebService::LiveJournal
 Win32::ErrorMode
 Win32::Getppid
 Win32::Shortcut::Readlink
+Win32API::ProcessStatus
 XML::Simple
 XML::Writer
 YAML

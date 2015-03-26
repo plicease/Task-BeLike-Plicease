@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Win32API::ProcessStatus
 
 1.52      2015-03-18 19:03:15 -0400
   - Added Alien::flex

@@ -151,6 +151,7 @@ comes with this distribution for details.
 - Win32::ErrorMode
 - Win32::Getppid
 - Win32::Shortcut::Readlink
+- Win32API::ProcessStatus
 - WWW::Bugzilla::BugTree
 - XML::Simple
 - XML::Writer

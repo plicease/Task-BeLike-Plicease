@@ -51,6 +51,7 @@ sub new
     push @skip, qw(
       Alien::o2dll
       Win32::ErrorMode
+      Win32API::ProcessStatus
     );
   }
 
