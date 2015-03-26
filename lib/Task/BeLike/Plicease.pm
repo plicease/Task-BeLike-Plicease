@@ -317,6 +317,10 @@ File::Touch
 
 =item *
 
+File::Which
+
+=item *
+
 JSON
 
 =item *

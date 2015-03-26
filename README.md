@@ -88,6 +88,7 @@ comes with this distribution for details.
 - File::Listing
 - File::Listing::Ftpcopy
 - File::Touch
+- File::Which
 - JSON
 - JSON::XS
 - Lingua::Alphabet::Phonetic::LAPD
