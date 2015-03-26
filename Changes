@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
   - Added Win32API::ProcessStatus
   - Added File::Which
 
