@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added App::pwhich
+  - Added Win32::Process::Info
 
 1.53      2015-03-26 08:06:34 -0400
   - Updated my dists to latest

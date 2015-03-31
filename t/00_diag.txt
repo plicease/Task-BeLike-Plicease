@@ -27,6 +27,7 @@ AnyEvent::WebSocket::Client
 App::RegexFileUtils
 App::cpangitify
 App::cpanminus
+App::pwhich
 App::spaceless
 App::which_package
 Archive::Ar::Libarchive
@@ -135,6 +136,7 @@ WWW::Bugzilla::BugTree
 WebService::LiveJournal
 Win32::ErrorMode
 Win32::Getppid
+Win32::Process::Info
 Win32::Shortcut::Readlink
 Win32API::ProcessStatus
 XML::Simple

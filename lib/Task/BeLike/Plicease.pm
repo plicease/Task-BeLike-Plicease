@@ -133,6 +133,10 @@ App::cpanminus
 
 =item *
 
+App::pwhich
+
+=item *
+
 App::RegexFileUtils
 
 =item *
@@ -566,6 +570,10 @@ Win32::ErrorMode
 =item *
 
 Win32::Getppid
+
+=item *
+
+Win32::Process::Info
 
 =item *
 

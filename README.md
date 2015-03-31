@@ -42,6 +42,7 @@ comes with this distribution for details.
 - AnyEvent::WebSocket::Client
 - App::cpangitify
 - App::cpanminus
+- App::pwhich
 - App::RegexFileUtils
 - App::spaceless
 - App::which\_package
@@ -151,6 +152,7 @@ comes with this distribution for details.
 - WebService::LiveJournal
 - Win32::ErrorMode
 - Win32::Getppid
+- Win32::Process::Info
 - Win32::Shortcut::Readlink
 - Win32API::ProcessStatus
 - WWW::Bugzilla::BugTree
