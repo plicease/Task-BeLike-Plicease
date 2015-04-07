@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+1.55      2015-04-06 22:08:02 -0400
+  - Updated my dists to latest
+
 1.54      2015-03-31 07:38:16 -0400
   - Updated my dists to latest
   - Added App::pwhich
