@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+1.57      2015-04-23 11:29:51 -0400
+  - Updated my dists to latest
+
 1.56      2015-04-15 08:54:36 -0400
   - Updated my dists to latest
 
