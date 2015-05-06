@@ -1,6 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added App::palien
+  - Added Dist::Zilla::Plugin::OurPkgVersion
+  - Added Dist::Zilla::Plugin::Test::Version
+  - Added Test::Script
+  - Added Test::Version
 
 1.57      2015-04-23 11:29:51 -0400
   - Updated my dists to latest

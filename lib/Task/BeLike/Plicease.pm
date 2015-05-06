@@ -133,6 +133,10 @@ App::cpanminus
 
 =item *
 
+App::palien
+
+=item *
+
 App::pwhich
 
 =item *
@@ -229,11 +233,19 @@ Dist::Zilla::Plugin::Meta::Dynamic::Config
 
 =item *
 
+Dist::Zilla::Plugin::OurPkgVersion
+
+=item *
+
 Dist::Zilla::Plugin::PPPort
 
 =item *
 
 Dist::Zilla::Plugin::Template::Tiny
+
+=item *
+
+Dist::Zilla::Plugin::Test::Version
 
 =item *
 
@@ -525,11 +537,19 @@ Test::Pod::Spelling::CommonMistakes
 
 =item *
 
+Test::Script
+
+=item *
+
 Test::Spelling
 
 =item *
 
 Test::Strict
+
+=item *
+
+Test::Version
 
 =item *
 

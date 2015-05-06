@@ -42,6 +42,7 @@ comes with this distribution for details.
 - AnyEvent::WebSocket::Client
 - App::cpangitify
 - App::cpanminus
+- App::palien
 - App::pwhich
 - App::RegexFileUtils
 - App::spaceless
@@ -66,8 +67,10 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::jQuery
 - Dist::Zilla::Plugin::MathInt64
 - Dist::Zilla::Plugin::Meta::Dynamic::Config
+- Dist::Zilla::Plugin::OurPkgVersion
 - Dist::Zilla::Plugin::PPPort
 - Dist::Zilla::Plugin::Template::Tiny
+- Dist::Zilla::Plugin::Test::Version
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::PluginBundle::ACPS
 - Dist::Zilla::PluginBundle::Author::Plicease
@@ -140,8 +143,10 @@ comes with this distribution for details.
 - Test::Pod
 - Test::Pod::Coverage
 - Test::Pod::Spelling::CommonMistakes
+- Test::Script
 - Test::Spelling
 - Test::Strict
+- Test::Version
 - Text::Tabs
 - Try::Tiny
 - URI
