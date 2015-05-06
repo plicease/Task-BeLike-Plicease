@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.58      2015-05-06 12:23:16 -0400
   - Updated my dists to latest
   - Added App::palien
   - Added Dist::Zilla::Plugin::OurPkgVersion
