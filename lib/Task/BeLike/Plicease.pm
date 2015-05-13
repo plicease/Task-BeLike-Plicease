@@ -545,10 +545,6 @@ Test::Spelling
 
 =item *
 
-Test::Strict
-
-=item *
-
 Test::Version
 
 =item *

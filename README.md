@@ -145,7 +145,6 @@ comes with this distribution for details.
 - Test::Pod::Spelling::CommonMistakes
 - Test::Script
 - Test::Spelling
-- Test::Strict
 - Test::Version
 - Text::Tabs
 - Try::Tiny
