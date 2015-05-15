@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+1.61      2015-05-15 08:44:56 -0400
+  - Updated my dists to latest
+
 1.60      2015-05-13 17:08:43 -0400
   - Remove Test::Strict
 
