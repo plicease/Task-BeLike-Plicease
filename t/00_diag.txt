@@ -43,7 +43,6 @@ DBD::SQLite
 DBD::mysqlPP
 Devel::StackTrace
 Digest::MD5
-Dist::Zilla::MintingProfile::Clustericious
 Dist::Zilla::Plugin::CSS::Compressor
 Dist::Zilla::Plugin::InsertExample
 Dist::Zilla::Plugin::JavaScript::Minifier

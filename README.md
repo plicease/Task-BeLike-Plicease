@@ -60,7 +60,6 @@ comes with this distribution for details.
 - DBD::SQLite
 - Devel::StackTrace
 - Digest::MD5
-- Dist::Zilla::MintingProfile::Clustericious
 - Dist::Zilla::Plugin::CSS::Compressor
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier

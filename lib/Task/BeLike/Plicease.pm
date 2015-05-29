@@ -205,10 +205,6 @@ Digest::MD5
 
 =item *
 
-Dist::Zilla::MintingProfile::Clustericious
-
-=item *
-
 Dist::Zilla::Plugin::CSS::Compressor
 
 =item *
