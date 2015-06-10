@@ -106,6 +106,7 @@ comes with this distribution for details.
 - Monkey::Patch
 - Moose
 - Net::DNS
+- Photography::DX
 - Photography::EV
 - PkgConfig
 - PlugAuth

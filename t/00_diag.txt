@@ -89,6 +89,7 @@ Mojolicious::Plugin::TtRenderer
 Monkey::Patch
 Moose
 Net::DNS
+Photography::DX
 Photography::EV
 PkgConfig
 PlugAuth

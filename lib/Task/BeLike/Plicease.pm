@@ -389,6 +389,10 @@ Net::DNS
 
 =item *
 
+Photography::DX
+
+=item *
+
 Photography::EV
 
 =item *

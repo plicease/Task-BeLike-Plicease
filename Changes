@@ -1,9 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Photography::DX
+  - Updated my dists to latest
 
 1.62      2015-05-29 13:19:56 -0400
-  - remove Dist::Zilla::MintingProfile::Clustericious
+  - Remove Dist::Zilla::MintingProfile::Clustericious
   - Updated my dists to latest
 
 1.61      2015-05-15 08:44:56 -0400
