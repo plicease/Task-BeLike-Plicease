@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.64      2015-06-10 16:26:54 -0600
   - Only install Phorography::DX on Perl 5.22
 
 1.63      2015-06-10 16:20:40 -0600
