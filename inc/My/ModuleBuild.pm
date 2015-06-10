@@ -76,6 +76,11 @@ sub new
   {
     push @skip, 'Photography::EV';
   }
+
+  unless($] >= 5.022000)
+  {
+    push @skip, 'Photography::DX';
+  }
   
   delete $args{requires}->{$_} for @skip;
 

@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Only install Phorography::DX on Perl 5.22
 
 1.63      2015-06-10 16:20:40 -0600
   - Added Photography::DX
