@@ -72,6 +72,53 @@ sub new
     push @skip, qw( UUID::FFI );
   }
 
+  unless($] >= 5.008009)
+  {
+    push @skip,
+      'Dist::Zilla::Plugin::jQuery', # due to Bread::Board
+      'FFI::TinyCC',            # in practice does not work on 5.8.8
+      'File::Listing::Ftpcopy', # in practice does not work on 5.8.8
+      'Sereal::Encoder',        # https://github.com/Sereal/Sereal/issues/95
+    ;
+  }
+
+  unless($] >= 5.010000)
+  {
+    push @skip,
+      'Archive::Libarchive::FFI',
+      'WebService::LiveJournal',
+    ;
+  }
+  
+  unless($] >= 5.010001)
+  {
+    push @skip,
+      'AnyEvent::FTP',
+      'App::cpangitify',
+      'App::spaceless',
+      'Clustericious',
+      'Clustericious::Admin',
+      'Dist::Zilla::PluginBundle::ACPS',
+      'Mojolicious',
+      'Mojolicious::Plugin::Ident',
+      'Mojolicious::Plugin::TtRenderer',
+      'PlugAuth',
+      'PlugAuth::Plugin::DBIAuth',
+      'PlugAuth::Plugin::LDAP',
+      'PlugAuth::Plugin::AuthenSimple',
+      'PlugAuth::Plugin::Finger',
+      'Test::Clustericious::Cluster',
+      'Yars',
+    ;
+  }
+
+  unless($] >= 5.014000)
+  {
+    push @skip,
+      'WWW::Bugzilla::BugTree',
+    ;
+  }
+
   unless($] >= 5.020000)
   {
     push @skip, 'Photography::EV';
