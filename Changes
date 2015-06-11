@@ -1,8 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
 
 1.65      2015-06-11 11:28:34 -0600
+  - Added some filters for older Perls, where some of the dists
+    are not supported
 
 1.64      2015-06-10 16:26:54 -0600
   - Only install Phorography::DX on Perl 5.22
