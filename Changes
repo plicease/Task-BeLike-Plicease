@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Remove Dist::Zilla::PluginBunlde::ACPS
+  - Added Alien::Libbz2
+  - Added Alien::hunspell
 
 1.66      2015-06-11 14:25:57 -0600
   - Updated my dists to latest

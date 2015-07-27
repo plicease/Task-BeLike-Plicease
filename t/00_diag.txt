@@ -4,9 +4,11 @@ Acme::Ford::Prefect::FFI
 Alien::Base
 Alien::Editline
 Alien::FFI
+Alien::Hunspell
 Alien::LibYAML
 Alien::Libarchive
 Alien::Libarchive::Installer
+Alien::Libbz2
 Alien::MSYS
 Alien::Packages::Cygwin
 Alien::bison
@@ -54,7 +56,6 @@ Dist::Zilla::Plugin::Template::Tiny
 Dist::Zilla::Plugin::Test::Version
 Dist::Zilla::Plugin::TextTabs
 Dist::Zilla::Plugin::jQuery
-Dist::Zilla::PluginBundle::ACPS
 Dist::Zilla::PluginBundle::Author::Plicease
 EV
 FFI

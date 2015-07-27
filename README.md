@@ -25,8 +25,10 @@ comes with this distribution for details.
 - Alien::FFI
 - Alien::flex
 - Alien::gmake
+- Alien::Hunspell
 - Alien::Libarchive
 - Alien::Libarchive::Installer
+- Alien::Libbz2
 - Alien::LibYAML
 - Alien::m4
 - Alien::MSYS
@@ -71,7 +73,6 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::Template::Tiny
 - Dist::Zilla::Plugin::Test::Version
 - Dist::Zilla::Plugin::TextTabs
-- Dist::Zilla::PluginBundle::ACPS
 - Dist::Zilla::PluginBundle::Author::Plicease
 - EV
 - FFI

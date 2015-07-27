@@ -65,11 +65,19 @@ Alien::gmake
 
 =item *
 
+Alien::Hunspell
+
+=item *
+
 Alien::Libarchive
 
 =item *
 
 Alien::Libarchive::Installer
+
+=item *
+
+Alien::Libbz2
 
 =item *
 
@@ -246,10 +254,6 @@ Dist::Zilla::Plugin::Test::Version
 =item *
 
 Dist::Zilla::Plugin::TextTabs
-
-=item *
-
-Dist::Zilla::PluginBundle::ACPS
 
 =item *
 
