@@ -49,6 +49,10 @@ Alien::bz2::Installer
 
 =item *
 
+Alien::CMake
+
+=item *
+
 Alien::Editline
 
 =item *

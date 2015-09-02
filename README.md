@@ -21,6 +21,7 @@ comes with this distribution for details.
 - Alien::bison
 - Alien::bz2
 - Alien::bz2::Installer
+- Alien::CMake
 - Alien::Editline
 - Alien::FFI
 - Alien::flex

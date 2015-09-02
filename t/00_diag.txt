@@ -2,6 +2,7 @@ Acme::Alien::DontPanic
 Acme::Ford::Prefect
 Acme::Ford::Prefect::FFI
 Alien::Base
+Alien::CMake
 Alien::Editline
 Alien::FFI
 Alien::Hunspell
