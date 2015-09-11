@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added Alien.pm
 
 1.68      2015-09-03 08:15:19 -0400
   - Updated my dists to latest

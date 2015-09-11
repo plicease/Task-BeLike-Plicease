@@ -17,6 +17,7 @@ comes with this distribution for details.
 - Acme::Alien::DontPanic
 - Acme::Ford::Prefect
 - Acme::Ford::Prefect::FFI
+- Alien
 - Alien::Base
 - Alien::bison
 - Alien::bz2

@@ -1,6 +1,7 @@
 Acme::Alien::DontPanic
 Acme::Ford::Prefect
 Acme::Ford::Prefect::FFI
+Alien
 Alien::Base
 Alien::CMake
 Alien::Editline
