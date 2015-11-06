@@ -114,6 +114,7 @@ comes with this distribution for details.
 - PkgConfig
 - PlugAuth
 - PlugAuth::Client::Tiny
+- PlugAuth::Client::Tiny::Apache2AuthenHandler
 - PlugAuth::Plugin::AuthenSimple
 - PlugAuth::Plugin::DBIAuth
 - PlugAuth::Plugin::Finger
@@ -168,6 +169,7 @@ comes with this distribution for details.
 - YAML
 - YAML::XS
 - Yars
+- Yars::Command::yars\_exercise
 
 # AUTHOR
 

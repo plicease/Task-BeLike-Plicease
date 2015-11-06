@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added PlugAuth::Client::Tiny::Apache2AuthenHandler
+  - Added Yars::Command::yars_exercise
+  - Updated my dists to latest
 
 1.71      2015-10-16 09:52:07 -0400
   - Updated my dists to latest

@@ -421,6 +421,10 @@ PlugAuth::Client::Tiny
 
 =item *
 
+PlugAuth::Client::Tiny::Apache2AuthenHandler
+
+=item *
+
 PlugAuth::Plugin::AuthenSimple
 
 =item *
@@ -634,6 +638,10 @@ YAML::XS
 =item *
 
 Yars
+
+=item *
+
+Yars::Command::yars_exercise
 
 =back
 
