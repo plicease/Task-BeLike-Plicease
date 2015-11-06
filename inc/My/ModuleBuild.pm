@@ -129,6 +129,12 @@ sub new
     push @skip, 'Photography::DX';
   }
   
+  if($] >= 5.022000)
+  {
+    # until mod_perl supports Perl 5.22
+    push @skip, 'PlugAuth::Client::Tiny::Apache2AuthenHandler';
+  }
+  
   delete $args{requires}->{$_} for @skip;
 
   open my $fh, '>', 'testlist.txt';
