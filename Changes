@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.73      2015-11-20 17:47:27 -0500
   - Remove Scalar::Does
   - Updated my dists to latest
 
