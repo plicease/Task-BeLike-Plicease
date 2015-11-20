@@ -115,6 +115,7 @@ comes with this distribution for details.
 - PlugAuth
 - PlugAuth::Client::Tiny
 - PlugAuth::Client::Tiny::Apache2AuthenHandler
+- PlugAuth::Client::Tiny::Apache2AuthzHandler
 - PlugAuth::Plugin::AuthenSimple
 - PlugAuth::Plugin::DBIAuth
 - PlugAuth::Plugin::Finger

@@ -145,6 +145,7 @@ sub new
   {
     # until mod_perl supports Perl 5.22
     push @skip, 'PlugAuth::Client::Tiny::Apache2AuthenHandler';
+    push @skip, 'PlugAuth::Client::Tiny::Apache2AuthzHandler';
   }
   
   delete $args{requires}->{$_} for @skip;

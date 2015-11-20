@@ -425,6 +425,10 @@ PlugAuth::Client::Tiny::Apache2AuthenHandler
 
 =item *
 
+PlugAuth::Client::Tiny::Apache2AuthzHandler
+
+=item *
+
 PlugAuth::Plugin::AuthenSimple
 
 =item *
