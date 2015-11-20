@@ -108,7 +108,6 @@ Pod::Perldoc
 Role::Tiny
 Rose::DB
 Rose::DB::Object
-Scalar::Does
 Sereal::Decoder
 Sereal::Encoder
 Shell::Config::Generate

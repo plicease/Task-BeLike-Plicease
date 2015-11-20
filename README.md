@@ -125,7 +125,6 @@ comes with this distribution for details.
 - Role::Tiny
 - Rose::DB
 - Rose::DB::Object
-- Scalar::Does
 - Sereal::Decoder
 - Sereal::Encoder
 - Shell::Config::Generate

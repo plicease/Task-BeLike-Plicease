@@ -465,10 +465,6 @@ Rose::DB::Object
 
 =item *
 
-Scalar::Does
-
-=item *
-
 Sereal::Decoder
 
 =item *
