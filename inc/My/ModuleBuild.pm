@@ -18,7 +18,7 @@ sub new
       Archive::Libarchive::FFI
       Test::Vars
       WebService::LiveJournal
-      Term::EditLine2
+      Term::EditLine
       Alien::Editline
       FFI
       Alien::flex
@@ -35,6 +35,7 @@ sub new
       
       Rose::DB
       Rose::DB::Object
+      Alien::Libbz2
     );
     
     # could probably fix the Alien::Hunspell error:
@@ -67,7 +68,7 @@ sub new
   {
     push @skip, qw(
       Alien::Editline
-      Term::EditLine2
+      Term::EditLine
     );
   }
   else
