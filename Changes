@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Exclusion for windows: Rose::DB, Rose::DB::Object
 
 1.74      2015-12-07 09:20:00 -0500
   - Add some MSWin32 exclusions

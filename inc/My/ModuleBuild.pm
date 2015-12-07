@@ -32,6 +32,9 @@ sub new
       Clustericious::Admin
       File::LibMagic::FFI
       Yars::Command::yars_exercise
+      
+      Rose::DB
+      Rose::DB::Object
     );
     
     # could probably fix the Alien::Hunspell error:
