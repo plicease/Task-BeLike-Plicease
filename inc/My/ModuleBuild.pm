@@ -23,6 +23,15 @@ sub new
       FFI
       Alien::flex
       Alien::Hunspell
+      
+      App::cpangitify
+      FFI::ExtractSymbols
+      FFI::Platypus::Lang::Fortran
+      FFI::Platypus::Lang::CPP
+      FFI::Platypus::Lang::Pascal
+      Clustericious::Admin
+      File::LibMagic::FFI
+      Yars::Command::yars_exercise
     );
     
     # could probably fix the Alien::Hunspell error:
