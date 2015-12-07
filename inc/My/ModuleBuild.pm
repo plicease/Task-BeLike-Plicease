@@ -154,9 +154,8 @@ sub new
     push @skip, 'Photography::DX';
   }
   
-  if($] >= 5.022000)
+  unless(eval q{ use  Apache2::Const (); 1 })
   {
-    # until mod_perl supports Perl 5.22
     push @skip, 'PlugAuth::Client::Tiny::Apache2AuthenHandler';
     push @skip, 'PlugAuth::Client::Tiny::Apache2AuthzHandler';
   }
