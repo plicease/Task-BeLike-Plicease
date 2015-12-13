@@ -136,6 +136,7 @@ $modules{$_} = $_ for qw(
   Test::Differences
   Test::Dir
   Test::EOL
+  Test::Exec
   Test::File
   Test::Fixme
   Test::Memory::Cycle

@@ -140,6 +140,7 @@ comes with this distribution for details.
 - Test::Differences
 - Test::Dir
 - Test::EOL
+- Test::Exec
 - Test::File
 - Test::Fixme
 - Test::Memory::Cycle

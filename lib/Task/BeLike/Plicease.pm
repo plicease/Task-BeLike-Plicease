@@ -525,6 +525,10 @@ Test::EOL
 
 =item *
 
+Test::Exec
+
+=item *
+
 Test::File
 
 =item *
