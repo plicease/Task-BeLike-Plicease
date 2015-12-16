@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Drop AnyEvent::WebSocket::Client on < 5.10
+  - Drop Validate::Tiny on < 5.10
+  - Drop Yars::Command::yars_exercise on < 5.10.1
 
 1.79      2015-12-13 05:14:44 -0500
   - Updated my dists to latest

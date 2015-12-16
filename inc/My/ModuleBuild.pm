@@ -112,6 +112,11 @@ sub new
     push @skip,
       'Archive::Libarchive::FFI',
       'WebService::LiveJournal',
+      # this one was working but then stopped
+      # at some point.
+      'AnyEvent::WebSocket::Client',
+      # Appears to use //
+      'Validate::Tiny',
     ;
   }
   
@@ -134,6 +139,7 @@ sub new
       'PlugAuth::Plugin::Finger',
       'Test::Clustericious::Cluster',
       'Yars',
+      'Yars::Command::yars_exercise',
     ;
   }
 
