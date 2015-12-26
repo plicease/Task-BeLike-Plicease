@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.80      2015-12-26 07:42:04 -0700
   - Added Test::Alien and Alien::libtool24
   - Updated my dists to latest
   - Drop AnyEvent::WebSocket::Client on < 5.10
