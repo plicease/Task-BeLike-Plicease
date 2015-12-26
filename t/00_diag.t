@@ -31,6 +31,7 @@ $modules{$_} = $_ for qw(
   Alien::bz2::Installer
   Alien::flex
   Alien::gmake
+  Alien::libtool24
   Alien::m4
   Alien::nasm
   Alien::o2dll
@@ -130,6 +131,7 @@ $modules{$_} = $_ for qw(
   Template
   Template::Tiny
   Term::EditLine
+  Test::Alien
   Test::CChecker
   Test::CPAN::Changes
   Test::Clustericious::Cluster

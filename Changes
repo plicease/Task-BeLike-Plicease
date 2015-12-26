@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Test::Alien and Alien::libtool24
+  - Updated my dists to latest
   - Drop AnyEvent::WebSocket::Client on < 5.10
   - Drop Validate::Tiny on < 5.10
   - Drop Yars::Command::yars_exercise on < 5.10.1

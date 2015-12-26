@@ -89,6 +89,10 @@ Alien::Libbz2
 
 =item *
 
+Alien::libtool24
+
+=item *
+
 Alien::LibYAML
 
 =item *
@@ -498,6 +502,10 @@ Template::Tiny
 =item *
 
 Term::EditLine
+
+=item *
+
+Test::Alien
 
 =item *
 

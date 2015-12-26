@@ -31,6 +31,7 @@ comes with this distribution for details.
 - Alien::Libarchive
 - Alien::Libarchive::Installer
 - Alien::Libbz2
+- Alien::libtool24
 - Alien::LibYAML
 - Alien::m4
 - Alien::MSYS
@@ -134,6 +135,7 @@ comes with this distribution for details.
 - Template
 - Template::Tiny
 - Term::EditLine
+- Test::Alien
 - Test::CChecker
 - Test::Clustericious::Cluster
 - Test::CPAN::Changes
