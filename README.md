@@ -60,6 +60,7 @@ comes with this distribution for details.
 - autodie
 - Clustericious
 - Clustericious::Admin
+- Cpanel::JSON::XS
 - DBD::mysqlPP
 - DBD::PgPP
 - DBD::SQLite
@@ -97,7 +98,6 @@ comes with this distribution for details.
 - File::Touch
 - File::Which
 - JSON
-- JSON::XS
 - Lingua::Alphabet::Phonetic::LAPD
 - local::lib
 - Log::Log4perl
@@ -153,6 +153,7 @@ comes with this distribution for details.
 - Test::Script
 - Test::Spelling
 - Test::Version
+- Text::Hunspell::FFI
 - Text::Tabs
 - Try::Tiny
 - URI

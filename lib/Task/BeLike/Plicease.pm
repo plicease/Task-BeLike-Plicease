@@ -205,6 +205,10 @@ Clustericious::Admin
 
 =item *
 
+Cpanel::JSON::XS
+
+=item *
+
 DBD::mysqlPP
 
 =item *
@@ -350,10 +354,6 @@ File::Which
 =item *
 
 JSON
-
-=item *
-
-JSON::XS
 
 =item *
 
@@ -574,6 +574,10 @@ Test::Spelling
 =item *
 
 Test::Version
+
+=item *
+
+Text::Hunspell::FFI
 
 =item *
 

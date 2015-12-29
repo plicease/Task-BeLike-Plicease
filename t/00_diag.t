@@ -56,6 +56,7 @@ $modules{$_} = $_ for qw(
   Authen::Simple::PlugAuth
   Clustericious
   Clustericious::Admin
+  Cpanel::JSON::XS
   DBD::PgPP
   DBD::SQLite
   DBD::mysqlPP
@@ -93,7 +94,6 @@ $modules{$_} = $_ for qw(
   File::Touch
   File::Which
   JSON
-  JSON::XS
   Lingua::Alphabet::Phonetic::LAPD
   Log::Log4perl
   Log::Log4perl::Appender::TAP
@@ -149,6 +149,7 @@ $modules{$_} = $_ for qw(
   Test::Script
   Test::Spelling
   Test::Version
+  Text::Hunspell::FFI
   Text::Tabs
   Try::Tiny
   URI

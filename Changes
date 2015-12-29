@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Text::Hunspell::FFI
+  - Updated my dists to latest
+  - Replace JSON::XS with Cpanel::JSON::XS
 
 1.80      2015-12-26 07:42:04 -0700
   - Added Test::Alien and Alien::libtool24
