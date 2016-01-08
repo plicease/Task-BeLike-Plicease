@@ -91,7 +91,6 @@ comes with this distribution for details.
 - FFI::Platypus::Type::StringArray
 - FFI::TinyCC
 - FFI::Util
-- File::IgnoreReadonly
 - File::LibMagic::FFI
 - File::Listing
 - File::Listing::Ftpcopy

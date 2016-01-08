@@ -87,7 +87,6 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Type::StringArray
   FFI::TinyCC
   FFI::Util
-  File::IgnoreReadonly
   File::LibMagic::FFI
   File::Listing
   File::Listing::Ftpcopy

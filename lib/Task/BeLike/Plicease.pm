@@ -329,10 +329,6 @@ FFI::Util
 
 =item *
 
-File::IgnoreReadonly
-
-=item *
-
 File::LibMagic::FFI
 
 =item *
