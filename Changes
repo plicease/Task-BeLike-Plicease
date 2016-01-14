@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.83      2016-01-14 14:11:58 -0500
   - Remove File::IgnoreReadonly
   - Add Test::Clustericious::Blocking
   - Updated my dists to latest
