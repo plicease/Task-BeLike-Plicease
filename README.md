@@ -136,6 +136,7 @@ comes with this distribution for details.
 - Term::EditLine
 - Test::Alien
 - Test::CChecker
+- Test::Clustericious::Blocking
 - Test::Clustericious::Cluster
 - Test::CPAN::Changes
 - Test::Differences

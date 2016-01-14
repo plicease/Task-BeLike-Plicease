@@ -36,6 +36,8 @@ sub new
       Rose::DB
       Rose::DB::Object
       Alien::Libbz2
+      
+      Test::Clustericious::Blocking
     );
     
     # could probably fix the Alien::Hunspell error:
@@ -140,6 +142,7 @@ sub new
       'Test::Clustericious::Cluster',
       'Yars',
       'Yars::Command::yars_exercise',
+      'Test::Clustericious::Blocking',
     ;
   }
 

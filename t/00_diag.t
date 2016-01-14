@@ -133,6 +133,7 @@ $modules{$_} = $_ for qw(
   Test::Alien
   Test::CChecker
   Test::CPAN::Changes
+  Test::Clustericious::Blocking
   Test::Clustericious::Cluster
   Test::Differences
   Test::Dir

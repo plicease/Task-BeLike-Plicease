@@ -509,6 +509,10 @@ Test::CChecker
 
 =item *
 
+Test::Clustericious::Blocking
+
+=item *
+
 Test::Clustericious::Cluster
 
 =item *
