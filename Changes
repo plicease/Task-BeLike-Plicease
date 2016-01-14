@@ -3,6 +3,7 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - Remove File::IgnoreReadonly
   - Add Test::Clustericious::Blocking
+  - Updated my dists to latest
 
 1.82      2016-01-06 07:38:17 -0500
   - Updated my dists to latest
