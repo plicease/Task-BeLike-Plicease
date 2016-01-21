@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Add App::Ack back in
 
 1.84      2016-01-20 17:13:32 -0500
   - Add Test::Script::Async
