@@ -42,6 +42,7 @@ $modules{$_} = $_ for qw(
   AnyEvent::Ident
   AnyEvent::Open3::Simple
   AnyEvent::WebSocket::Client
+  App::Ack
   App::RegexFileUtils
   App::cpangitify
   App::cpanminus

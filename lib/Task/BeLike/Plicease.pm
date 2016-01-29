@@ -145,6 +145,10 @@ AnyEvent::WebSocket::Client
 
 =item *
 
+App::Ack
+
+=item *
+
 App::cpangitify
 
 =item *

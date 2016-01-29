@@ -45,6 +45,7 @@ comes with this distribution for details.
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
+- App::Ack
 - App::cpangitify
 - App::cpanminus
 - App::palien
