@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.88      2016-05-09 13:07:34 -0400
   - Added Clustericious::Coder::BSON
   - Added Dist::Zilla::App::Command::aliendeps
   - Added Dist::Zilla::Plugin::Alt
