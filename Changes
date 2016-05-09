@@ -1,6 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Clustericious::Coder::BSON
+  - Added Dist::Zilla::App::Command::aliendeps
+  - Added Dist::Zilla::Plugin::Alt
+  - Added Dist::Zilla::Plugin::Author::Plicease
+  - Updated my dists to latest  
 
 1.87      2016-02-10 11:31:10 -0500
   - Updated my dists to latest  

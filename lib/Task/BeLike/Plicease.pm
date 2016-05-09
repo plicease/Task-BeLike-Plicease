@@ -209,6 +209,10 @@ Clustericious::Admin
 
 =item *
 
+Clustericious::Coder::BSON
+
+=item *
+
 Cpanel::JSON::XS
 
 =item *
@@ -230,6 +234,18 @@ Devel::StackTrace
 =item *
 
 Digest::MD5
+
+=item *
+
+Dist::Zilla::App::Command::aliendeps
+
+=item *
+
+Dist::Zilla::Plugin::Alt
+
+=item *
+
+Dist::Zilla::Plugin::Author::Plicease
 
 =item *
 

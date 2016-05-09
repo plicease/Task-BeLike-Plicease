@@ -61,12 +61,16 @@ comes with this distribution for details.
 - autodie
 - Clustericious
 - Clustericious::Admin
+- Clustericious::Coder::BSON
 - Cpanel::JSON::XS
 - DBD::mysqlPP
 - DBD::PgPP
 - DBD::SQLite
 - Devel::StackTrace
 - Digest::MD5
+- Dist::Zilla::App::Command::aliendeps
+- Dist::Zilla::Plugin::Alt
+- Dist::Zilla::Plugin::Author::Plicease
 - Dist::Zilla::Plugin::CSS::Compressor
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
@@ -179,7 +183,7 @@ comes with this distribution for details.
 
 # AUTHOR
 
-Graham Ollis &lt;plicease@cpan.org>
+Graham Ollis <plicease@cpan.org>
 
 # COPYRIGHT AND LICENSE
 

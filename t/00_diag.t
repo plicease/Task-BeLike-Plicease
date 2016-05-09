@@ -57,12 +57,16 @@ $modules{$_} = $_ for qw(
   Authen::Simple::PlugAuth
   Clustericious
   Clustericious::Admin
+  Clustericious::Coder::BSON
   Cpanel::JSON::XS
   DBD::PgPP
   DBD::SQLite
   DBD::mysqlPP
   Devel::StackTrace
   Digest::MD5
+  Dist::Zilla::App::Command::aliendeps
+  Dist::Zilla::Plugin::Alt
+  Dist::Zilla::Plugin::Author::Plicease
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
