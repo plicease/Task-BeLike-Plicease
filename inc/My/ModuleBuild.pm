@@ -87,6 +87,7 @@ sub new
     push @skip, qw(
       WWW::Bugzilla::BugTree
       FFI
+      File::LibMagic::FFI
     );
   }
 
