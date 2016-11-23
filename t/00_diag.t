@@ -55,6 +55,7 @@ $modules{$_} = $_ for qw(
   Archive::Libarchive::FFI
   Archive::Libarchive::XS
   Authen::Simple::PlugAuth
+  Class::Inspector
   Clustericious
   Clustericious::Admin
   Clustericious::Coder::BSON

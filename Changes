@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Class::Inspector
+  - Updated my dists to latest
 
 1.88      2016-05-09 13:07:34 -0400
   - Added Clustericious::Coder::BSON

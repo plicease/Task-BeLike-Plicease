@@ -59,6 +59,7 @@ comes with this distribution for details.
 - Archive::Libarchive::XS
 - Authen::Simple::PlugAuth
 - autodie
+- Class::Inspector
 - Clustericious
 - Clustericious::Admin
 - Clustericious::Coder::BSON

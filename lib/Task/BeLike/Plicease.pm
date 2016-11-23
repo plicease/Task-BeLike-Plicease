@@ -201,6 +201,10 @@ autodie
 
 =item *
 
+Class::Inspector
+
+=item *
+
 Clustericious
 
 =item *
