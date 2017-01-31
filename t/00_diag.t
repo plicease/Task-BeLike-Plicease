@@ -16,6 +16,7 @@ $modules{$_} = $_ for qw(
   Acme::Ford::Prefect::FFI
   Alien
   Alien::Base
+  Alien::Build
   Alien::CMake
   Alien::Editline
   Alien::FFI
@@ -29,6 +30,7 @@ $modules{$_} = $_ for qw(
   Alien::bison
   Alien::bz2
   Alien::bz2::Installer
+  Alien::curl
   Alien::flex
   Alien::gmake
   Alien::libtool24
@@ -36,6 +38,8 @@ $modules{$_} = $_ for qw(
   Alien::nasm
   Alien::o2dll
   Alien::patch
+  Alien::pkgconf
+  Alien::xz
   AnyEvent::FTP
   AnyEvent::Finger
   AnyEvent::Git::Wrapper
@@ -66,6 +70,7 @@ $modules{$_} = $_ for qw(
   Devel::StackTrace
   Digest::MD5
   Dist::Zilla::App::Command::aliendeps
+  Dist::Zilla::Plugin::AlienBuild
   Dist::Zilla::Plugin::Alt
   Dist::Zilla::Plugin::Author::Plicease
   Dist::Zilla::Plugin::CSS::Compressor
@@ -114,6 +119,7 @@ $modules{$_} = $_ for qw(
   Photography::DX
   Photography::EV
   PkgConfig
+  PkgConfig::LibPkgConf
   PlugAuth
   PlugAuth::Client::Tiny
   PlugAuth::Client::Tiny::Apache2AuthenHandler

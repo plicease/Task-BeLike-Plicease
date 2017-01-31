@@ -20,9 +20,11 @@ comes with this distribution for details.
 - Alien
 - Alien::Base
 - Alien::bison
+- Alien::Build
 - Alien::bz2
 - Alien::bz2::Installer
 - Alien::CMake
+- Alien::curl
 - Alien::Editline
 - Alien::FFI
 - Alien::flex
@@ -39,6 +41,8 @@ comes with this distribution for details.
 - Alien::o2dll
 - Alien::Packages::Cygwin
 - Alien::patch
+- Alien::pkgconf
+- Alien::xz
 - AnyEvent::Finger
 - AnyEvent::FTP
 - AnyEvent::Git::Wrapper
@@ -70,6 +74,7 @@ comes with this distribution for details.
 - Devel::StackTrace
 - Digest::MD5
 - Dist::Zilla::App::Command::aliendeps
+- Dist::Zilla::Plugin::AlienBuild
 - Dist::Zilla::Plugin::Alt
 - Dist::Zilla::Plugin::Author::Plicease
 - Dist::Zilla::Plugin::CSS::Compressor
@@ -118,6 +123,7 @@ comes with this distribution for details.
 - Photography::DX
 - Photography::EV
 - PkgConfig
+- PkgConfig::LibPkgConf
 - PlugAuth
 - PlugAuth::Client::Tiny
 - PlugAuth::Client::Tiny::Apache2AuthenHandler

@@ -45,6 +45,10 @@ Alien::bison
 
 =item *
 
+Alien::Build
+
+=item *
+
 Alien::bz2
 
 =item *
@@ -54,6 +58,10 @@ Alien::bz2::Installer
 =item *
 
 Alien::CMake
+
+=item *
+
+Alien::curl
 
 =item *
 
@@ -118,6 +126,14 @@ Alien::Packages::Cygwin
 =item *
 
 Alien::patch
+
+=item *
+
+Alien::pkgconf
+
+=item *
+
+Alien::xz
 
 =item *
 
@@ -242,6 +258,10 @@ Digest::MD5
 =item *
 
 Dist::Zilla::App::Command::aliendeps
+
+=item *
+
+Dist::Zilla::Plugin::AlienBuild
 
 =item *
 
@@ -434,6 +454,10 @@ Photography::EV
 =item *
 
 PkgConfig
+
+=item *
+
+PkgConfig::LibPkgConf
 
 =item *
 
