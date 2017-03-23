@@ -137,10 +137,6 @@ Alien::nasm
 
 =item *
 
-Alien::o2dll
-
-=item *
-
 Alien::Packages::Cygwin
 
 =item *

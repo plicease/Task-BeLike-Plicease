@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Remove Alien::o2dll
 
 1.91      2017-03-23 12:40:05 -0400
   - Removed Alien::bz2 (now part of Alien::Libbz2)

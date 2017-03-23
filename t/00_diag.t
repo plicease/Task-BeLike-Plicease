@@ -41,7 +41,6 @@ $modules{$_} = $_ for qw(
   Alien::libtool24
   Alien::m4
   Alien::nasm
-  Alien::o2dll
   Alien::patch
   Alien::pkgconf
   Alien::xz

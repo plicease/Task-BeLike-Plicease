@@ -43,7 +43,6 @@ comes with this distribution for details.
 - Alien::MSYS
 - Alien::MSYS2
 - Alien::nasm
-- Alien::o2dll
 - Alien::Packages::Cygwin
 - Alien::patch
 - Alien::pkgconf
