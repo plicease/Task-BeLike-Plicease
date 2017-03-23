@@ -25,7 +25,15 @@ Acme::Alien::DontPanic
 
 =item *
 
+Acme::Alien::DontPanic2
+
+=item *
+
 Acme::Ford::Prefect
+
+=item *
+
+Acme::Ford::Prefect2
 
 =item *
 
@@ -41,6 +49,10 @@ Alien::Base
 
 =item *
 
+Alien::Base::Wrapper
+
+=item *
+
 Alien::bison
 
 =item *
@@ -49,7 +61,11 @@ Alien::Build
 
 =item *
 
-Alien::bz2
+Alien::Build::MB
+
+=item *
+
+Alien::Build::Plugin::Fetch::Cache
 
 =item *
 
@@ -113,6 +129,10 @@ Alien::MSYS
 
 =item *
 
+Alien::MSYS2
+
+=item *
+
 Alien::nasm
 
 =item *
@@ -162,6 +182,10 @@ AnyEvent::WebSocket::Client
 =item *
 
 App::Ack
+
+=item *
+
+App::af
 
 =item *
 
@@ -318,6 +342,10 @@ Dist::Zilla::Plugin::TextTabs
 =item *
 
 Dist::Zilla::PluginBundle::Author::Plicease
+
+=item *
+
+Env::ShellWords
 
 =item *
 

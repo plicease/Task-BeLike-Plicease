@@ -12,11 +12,16 @@ my $post_diag;
 BEGIN { eval q{ use EV; } }
 $modules{$_} = $_ for qw(
   Acme::Alien::DontPanic
+  Acme::Alien::DontPanic2
   Acme::Ford::Prefect
+  Acme::Ford::Prefect2
   Acme::Ford::Prefect::FFI
   Alien
   Alien::Base
+  Alien::Base::Wrapper
   Alien::Build
+  Alien::Build::MB
+  Alien::Build::Plugin::Fetch::Cache
   Alien::CMake
   Alien::Editline
   Alien::FFI
@@ -26,9 +31,9 @@ $modules{$_} = $_ for qw(
   Alien::Libarchive::Installer
   Alien::Libbz2
   Alien::MSYS
+  Alien::MSYS2
   Alien::Packages::Cygwin
   Alien::bison
-  Alien::bz2
   Alien::bz2::Installer
   Alien::curl
   Alien::flex
@@ -48,6 +53,7 @@ $modules{$_} = $_ for qw(
   AnyEvent::WebSocket::Client
   App::Ack
   App::RegexFileUtils
+  App::af
   App::cpangitify
   App::cpanminus
   App::palien
@@ -86,6 +92,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::jQuery
   Dist::Zilla::PluginBundle::Author::Plicease
   EV
+  Env::ShellWords
   FFI
   FFI::CheckLib
   FFI::ExtractSymbols

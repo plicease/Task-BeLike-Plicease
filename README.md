@@ -15,13 +15,17 @@ not to work on those platforms.  See the Makefile.PL or dist.ini that
 comes with this distribution for details.
 
 - Acme::Alien::DontPanic
+- Acme::Alien::DontPanic2
 - Acme::Ford::Prefect
+- Acme::Ford::Prefect2
 - Acme::Ford::Prefect::FFI
 - Alien
 - Alien::Base
+- Alien::Base::Wrapper
 - Alien::bison
 - Alien::Build
-- Alien::bz2
+- Alien::Build::MB
+- Alien::Build::Plugin::Fetch::Cache
 - Alien::bz2::Installer
 - Alien::CMake
 - Alien::curl
@@ -37,6 +41,7 @@ comes with this distribution for details.
 - Alien::LibYAML
 - Alien::m4
 - Alien::MSYS
+- Alien::MSYS2
 - Alien::nasm
 - Alien::o2dll
 - Alien::Packages::Cygwin
@@ -50,6 +55,7 @@ comes with this distribution for details.
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
 - App::Ack
+- App::af
 - App::cpangitify
 - App::cpanminus
 - App::palien
@@ -89,6 +95,7 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::Test::Version
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::PluginBundle::Author::Plicease
+- Env::ShellWords
 - EV
 - FFI
 - FFI::CheckLib

@@ -54,6 +54,7 @@ sub new
   else
   {
     push @skip, 'Alien::Libarchive::MSWin32';
+    push @skip, 'Alien::MSYS2';
   }
 
   if($^O eq 'cygwin')
