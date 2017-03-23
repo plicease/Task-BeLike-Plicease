@@ -5,16 +5,10 @@ Revision history for {{$dist->name}}
   - Added Acme::Alien::DontPanic2
   - Added Acme::Ford::Prefect2
   - Added Alien::Base::Wrapper
-  - Added Alien::Build
   - Added Alien::Build::MB
   - Added Alien::Build::Plugin::Fetch::Cache
-  - Added Alien::curl
   - Added Alien::MSYS2
-  - Added Alien::pkgconf
-  - Added Alien::xz
   - Added App::af
-  - Added Dist::Zilla::Plugin::AlienBuild
-  - Added PkgConfig::LibPkgConf
   - Updated my dists to latest
 
 1.90      2017-01-31 11:03:39 -0500
