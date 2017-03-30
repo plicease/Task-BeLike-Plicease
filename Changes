@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Remove Alien::Packages::Cygwin
+  - Remove App::which_package
 
 1.92      2017-03-23 14:00:31 -0400
   - Remove Alien::o2dll
