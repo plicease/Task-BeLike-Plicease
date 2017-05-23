@@ -18,6 +18,7 @@ $modules{$_} = $_ for qw(
   Acme::Ford::Prefect::FFI
   Alien
   Alien::Base
+  Alien::Base::ModuleBuild
   Alien::Base::Wrapper
   Alien::Build
   Alien::Build::MB
@@ -26,13 +27,16 @@ $modules{$_} = $_ for qw(
   Alien::Editline
   Alien::FFI
   Alien::Hunspell
+  Alien::LZO
   Alien::LibYAML
   Alien::Libarchive
+  Alien::Libarchive3
   Alien::Libarchive::Installer
   Alien::Libbz2
+  Alien::Libxml2
   Alien::MSYS
   Alien::MSYS2
-  Alien::Packages::Cygwin
+  Alien::Nettle
   Alien::bison
   Alien::bz2::Installer
   Alien::curl
@@ -58,7 +62,6 @@ $modules{$_} = $_ for qw(
   App::palien
   App::pwhich
   App::spaceless
-  App::which_package
   Archive::Ar::Libarchive
   Archive::Libarchive::Any
   Archive::Libarchive::FFI
@@ -114,6 +117,7 @@ $modules{$_} = $_ for qw(
   Log::Log4perl
   Log::Log4perl::Appender::TAP
   Module::Build
+  Module::Build::FFI
   Module::CoreList
   Module::Which
   Mojolicious

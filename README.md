@@ -21,6 +21,7 @@ comes with this distribution for details.
 - Acme::Ford::Prefect::FFI
 - Alien
 - Alien::Base
+- Alien::Base::ModuleBuild
 - Alien::Base::Wrapper
 - Alien::bison
 - Alien::Build
@@ -35,15 +36,18 @@ comes with this distribution for details.
 - Alien::gmake
 - Alien::Hunspell
 - Alien::Libarchive
+- Alien::Libarchive3
 - Alien::Libarchive::Installer
 - Alien::Libbz2
 - Alien::libtool24
+- Alien::Libxml2
 - Alien::LibYAML
+- Alien::LZO
 - Alien::m4
 - Alien::MSYS
 - Alien::MSYS2
 - Alien::nasm
-- Alien::Packages::Cygwin
+- Alien::Nettle
 - Alien::patch
 - Alien::pkgconf
 - Alien::xz
@@ -61,7 +65,6 @@ comes with this distribution for details.
 - App::pwhich
 - App::RegexFileUtils
 - App::spaceless
-- App::which\_package
 - Archive::Ar::Libarchive
 - Archive::Libarchive::Any
 - Archive::Libarchive::FFI
@@ -118,6 +121,7 @@ comes with this distribution for details.
 - local::lib
 - Log::Log4perl
 - Log::Log4perl::Appender::TAP
+- Module::Build::FFI
 - Module::CoreList
 - Module::Which
 - Mojolicious

@@ -49,6 +49,10 @@ Alien::Base
 
 =item *
 
+Alien::Base::ModuleBuild
+
+=item *
+
 Alien::Base::Wrapper
 
 =item *
@@ -105,6 +109,10 @@ Alien::Libarchive
 
 =item *
 
+Alien::Libarchive3
+
+=item *
+
 Alien::Libarchive::Installer
 
 =item *
@@ -117,7 +125,15 @@ Alien::libtool24
 
 =item *
 
+Alien::Libxml2
+
+=item *
+
 Alien::LibYAML
+
+=item *
+
+Alien::LZO
 
 =item *
 
@@ -137,7 +153,7 @@ Alien::nasm
 
 =item *
 
-Alien::Packages::Cygwin
+Alien::Nettle
 
 =item *
 
@@ -206,10 +222,6 @@ App::RegexFileUtils
 =item *
 
 App::spaceless
-
-=item *
-
-App::which_package
 
 =item *
 
@@ -434,6 +446,10 @@ Log::Log4perl
 =item *
 
 Log::Log4perl::Appender::TAP
+
+=item *
+
+Module::Build::FFI
 
 =item *
 

@@ -3,6 +3,13 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - Remove Alien::Packages::Cygwin
   - Remove App::which_package
+  - Added Alien::Libxml2
+  - Added Alien::Libarchive3
+  - Added Alien::LZO
+  - Added Alien::Build::ModuleBuild
+  - Added Alien::Nettle
+  - Added Module::Build::FFI
+  - Updated my dists to latest
 
 1.92      2017-03-23 14:00:31 -0400
   - Remove Alien::o2dll
