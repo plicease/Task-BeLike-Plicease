@@ -23,6 +23,8 @@ $modules{$_} = $_ for qw(
   Alien::Build
   Alien::Build::MB
   Alien::Build::Plugin::Fetch::Cache
+  Alien::Build::Plugin::Fetch::PromptBeforeDownload
+  Alien::Build::Plugin::Probe::GnuWin32
   Alien::CMake
   Alien::Editline
   Alien::FFI
@@ -37,11 +39,14 @@ $modules{$_} = $_ for qw(
   Alien::MSYS
   Alien::MSYS2
   Alien::Nettle
+  Alien::autoconf
+  Alien::automake
   Alien::bison
   Alien::bz2::Installer
   Alien::curl
   Alien::flex
   Alien::gmake
+  Alien::libtool
   Alien::libtool24
   Alien::m4
   Alien::nasm
@@ -152,7 +157,6 @@ $modules{$_} = $_ for qw(
   Template
   Template::Tiny
   Term::EditLine
-  Test::Alien
   Test::CChecker
   Test::CPAN::Changes
   Test::Clustericious::Blocking

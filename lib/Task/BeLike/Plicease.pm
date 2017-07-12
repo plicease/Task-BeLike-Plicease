@@ -45,6 +45,14 @@ Alien
 
 =item *
 
+Alien::autoconf
+
+=item *
+
+Alien::automake
+
+=item *
+
 Alien::Base
 
 =item *
@@ -70,6 +78,14 @@ Alien::Build::MB
 =item *
 
 Alien::Build::Plugin::Fetch::Cache
+
+=item *
+
+Alien::Build::Plugin::Fetch::PromptBeforeDownload
+
+=item *
+
+Alien::Build::Plugin::Probe::GnuWin32
 
 =item *
 
@@ -118,6 +134,10 @@ Alien::Libarchive::Installer
 =item *
 
 Alien::Libbz2
+
+=item *
+
+Alien::libtool
 
 =item *
 
@@ -586,10 +606,6 @@ Template::Tiny
 =item *
 
 Term::EditLine
-
-=item *
-
-Test::Alien
 
 =item *
 

@@ -20,6 +20,8 @@ comes with this distribution for details.
 - Acme::Ford::Prefect2
 - Acme::Ford::Prefect::FFI
 - Alien
+- Alien::autoconf
+- Alien::automake
 - Alien::Base
 - Alien::Base::ModuleBuild
 - Alien::Base::Wrapper
@@ -27,6 +29,8 @@ comes with this distribution for details.
 - Alien::Build
 - Alien::Build::MB
 - Alien::Build::Plugin::Fetch::Cache
+- Alien::Build::Plugin::Fetch::PromptBeforeDownload
+- Alien::Build::Plugin::Probe::GnuWin32
 - Alien::bz2::Installer
 - Alien::CMake
 - Alien::curl
@@ -39,6 +43,7 @@ comes with this distribution for details.
 - Alien::Libarchive3
 - Alien::Libarchive::Installer
 - Alien::Libbz2
+- Alien::libtool
 - Alien::libtool24
 - Alien::Libxml2
 - Alien::LibYAML
@@ -156,7 +161,6 @@ comes with this distribution for details.
 - Template
 - Template::Tiny
 - Term::EditLine
-- Test::Alien
 - Test::CChecker
 - Test::Clustericious::Blocking
 - Test::Clustericious::Cluster
