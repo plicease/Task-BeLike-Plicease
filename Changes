@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.94      2017-07-12 19:57:30 -0400
   - Remove Test::Alien
   - add Alien::autoconf
   - add Alien::automake
