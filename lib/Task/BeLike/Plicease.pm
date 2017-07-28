@@ -45,6 +45,10 @@ Alien
 
 =item *
 
+Alien::Alien
+
+=item *
+
 Alien::autoconf
 
 =item *
@@ -53,15 +57,15 @@ Alien::automake
 
 =item *
 
-Alien::Base
+Alien::Autotools
+
+=item *
+
+Alien::Base::Dino
 
 =item *
 
 Alien::Base::ModuleBuild
-
-=item *
-
-Alien::Base::Wrapper
 
 =item *
 
@@ -73,7 +77,15 @@ Alien::Build
 
 =item *
 
+Alien::Build::Git
+
+=item *
+
 Alien::Build::MB
+
+=item *
+
+Alien::Build::Plugin::Decode::SourceForge
 
 =item *
 
@@ -81,7 +93,11 @@ Alien::Build::Plugin::Fetch::Cache
 
 =item *
 
-Alien::Build::Plugin::Fetch::PromptBeforeDownload
+Alien::Build::Plugin::Fetch::Prompt
+
+=item *
+
+Alien::Build::Plugin::Fetch::Rewrite
 
 =item *
 
@@ -114,6 +130,14 @@ Alien::flex
 =item *
 
 Alien::gmake
+
+=item *
+
+Alien::GMP
+
+=item *
+
+ALien::gzip
 
 =item *
 
@@ -441,6 +465,10 @@ File::Listing::Ftpcopy
 
 =item *
 
+File::SareDir::Dist
+
+=item *
+
 File::Touch
 
 =item *
@@ -606,6 +634,14 @@ Template::Tiny
 =item *
 
 Term::EditLine
+
+=item *
+
+Test2::Plugin::FauxHomeDir
+
+=item *
+
+Test2::Tools::URL
 
 =item *
 

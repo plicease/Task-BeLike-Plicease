@@ -11,23 +11,29 @@ my $post_diag;
 
 BEGIN { eval q{ use EV; } }
 $modules{$_} = $_ for qw(
+  ALien::gzip
   Acme::Alien::DontPanic
   Acme::Alien::DontPanic2
   Acme::Ford::Prefect
   Acme::Ford::Prefect2
   Acme::Ford::Prefect::FFI
   Alien
-  Alien::Base
+  Alien::Alien
+  Alien::Autotools
+  Alien::Base::Dino
   Alien::Base::ModuleBuild
-  Alien::Base::Wrapper
   Alien::Build
+  Alien::Build::Git
   Alien::Build::MB
+  Alien::Build::Plugin::Decode::SourceForge
   Alien::Build::Plugin::Fetch::Cache
-  Alien::Build::Plugin::Fetch::PromptBeforeDownload
+  Alien::Build::Plugin::Fetch::Prompt
+  Alien::Build::Plugin::Fetch::Rewrite
   Alien::Build::Plugin::Probe::GnuWin32
   Alien::CMake
   Alien::Editline
   Alien::FFI
+  Alien::GMP
   Alien::Hunspell
   Alien::LZO
   Alien::LibYAML
@@ -115,6 +121,7 @@ $modules{$_} = $_ for qw(
   File::LibMagic::FFI
   File::Listing
   File::Listing::Ftpcopy
+  File::SareDir::Dist
   File::Touch
   File::Which
   JSON
@@ -157,6 +164,8 @@ $modules{$_} = $_ for qw(
   Template
   Template::Tiny
   Term::EditLine
+  Test2::Plugin::FauxHomeDir
+  Test2::Tools::URL
   Test::CChecker
   Test::CPAN::Changes
   Test::Clustericious::Blocking

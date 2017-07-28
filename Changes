@@ -1,6 +1,21 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add Alien::Alien
+  - remove Alien::Base
+  - add Alien::Autotools
+  - add Alien::Base::Dino
+  - remove Alien::Base::Wrapper
+  - add Alien::Build::Git
+  - add Alien::Build::Plugin::Decode::SourceForge
+  - add Alien::Build::Plugin::Fetch::Prompt
+  - add Alien::Build::Plugin::Fetch::Rewrite
+  - add Alien::GMP
+  - add Alien::gzip
+  - add File::ShareDir::Dist
+  - add Test2::Plugin::FauxHomeDir
+  - add Test2::Tools::URL
+  - Updated my dists to latest
 
 1.95      2017-07-12 20:22:33 -0400
   - Updated my dists to latest
