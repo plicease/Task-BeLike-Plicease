@@ -43,7 +43,7 @@ comes with this distribution for details.
 - Alien::flex
 - Alien::gmake
 - Alien::GMP
-- ALien::gzip
+- Alien::gzip
 - Alien::Hunspell
 - Alien::Libarchive
 - Alien::Libarchive3
@@ -125,7 +125,7 @@ comes with this distribution for details.
 - File::LibMagic::FFI
 - File::Listing
 - File::Listing::Ftpcopy
-- File::SareDir::Dist
+- File::ShareDir::Dist
 - File::Touch
 - File::Which
 - JSON

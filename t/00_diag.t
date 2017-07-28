@@ -11,7 +11,6 @@ my $post_diag;
 
 BEGIN { eval q{ use EV; } }
 $modules{$_} = $_ for qw(
-  ALien::gzip
   Acme::Alien::DontPanic
   Acme::Alien::DontPanic2
   Acme::Ford::Prefect
@@ -52,6 +51,7 @@ $modules{$_} = $_ for qw(
   Alien::curl
   Alien::flex
   Alien::gmake
+  Alien::gzip
   Alien::libtool
   Alien::libtool24
   Alien::m4
@@ -121,7 +121,7 @@ $modules{$_} = $_ for qw(
   File::LibMagic::FFI
   File::Listing
   File::Listing::Ftpcopy
-  File::SareDir::Dist
+  File::ShareDir::Dist
   File::Touch
   File::Which
   JSON

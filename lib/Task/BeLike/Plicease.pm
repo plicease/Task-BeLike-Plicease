@@ -137,7 +137,7 @@ Alien::GMP
 
 =item *
 
-ALien::gzip
+Alien::gzip
 
 =item *
 
@@ -465,7 +465,7 @@ File::Listing::Ftpcopy
 
 =item *
 
-File::SareDir::Dist
+File::ShareDir::Dist
 
 =item *
 
