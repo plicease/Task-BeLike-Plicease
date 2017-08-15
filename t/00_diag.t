@@ -19,11 +19,12 @@ $modules{$_} = $_ for qw(
   Alien
   Alien::Alien
   Alien::Autotools
-  Alien::Base::Dino
   Alien::Base::ModuleBuild
   Alien::Build
   Alien::Build::Git
   Alien::Build::MB
+  Alien::Build::Plugin::Build::CMake
+  Alien::Build::Plugin::Build::Make
   Alien::Build::Plugin::Decode::SourceForge
   Alien::Build::Plugin::Fetch::Cache
   Alien::Build::Plugin::Fetch::Prompt
@@ -44,10 +45,13 @@ $modules{$_} = $_ for qw(
   Alien::MSYS
   Alien::MSYS2
   Alien::Nettle
+  Alien::Role::Alt
+  Alien::Role::Dino
   Alien::autoconf
   Alien::automake
   Alien::bison
   Alien::bz2::Installer
+  Alien::cmake3
   Alien::curl
   Alien::flex
   Alien::gmake
@@ -70,7 +74,6 @@ $modules{$_} = $_ for qw(
   App::af
   App::cpangitify
   App::cpanminus
-  App::palien
   App::pwhich
   App::spaceless
   Archive::Ar::Libarchive
@@ -93,6 +96,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::Alt
   Dist::Zilla::Plugin::Author::Plicease
   Dist::Zilla::Plugin::CSS::Compressor
+  Dist::Zilla::Plugin::CommentOut
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64

@@ -24,12 +24,13 @@ comes with this distribution for details.
 - Alien::autoconf
 - Alien::automake
 - Alien::Autotools
-- Alien::Base::Dino
 - Alien::Base::ModuleBuild
 - Alien::bison
 - Alien::Build
 - Alien::Build::Git
 - Alien::Build::MB
+- Alien::Build::Plugin::Build::CMake
+- Alien::Build::Plugin::Build::Make
 - Alien::Build::Plugin::Decode::SourceForge
 - Alien::Build::Plugin::Fetch::Cache
 - Alien::Build::Plugin::Fetch::Prompt
@@ -37,6 +38,7 @@ comes with this distribution for details.
 - Alien::Build::Plugin::Probe::GnuWin32
 - Alien::bz2::Installer
 - Alien::CMake
+- Alien::cmake3
 - Alien::curl
 - Alien::Editline
 - Alien::FFI
@@ -61,6 +63,8 @@ comes with this distribution for details.
 - Alien::Nettle
 - Alien::patch
 - Alien::pkgconf
+- Alien::Role::Alt
+- Alien::Role::Dino
 - Alien::xz
 - AnyEvent::Finger
 - AnyEvent::FTP
@@ -72,7 +76,6 @@ comes with this distribution for details.
 - App::af
 - App::cpangitify
 - App::cpanminus
-- App::palien
 - App::pwhich
 - App::RegexFileUtils
 - App::spaceless
@@ -96,6 +99,7 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::AlienBuild
 - Dist::Zilla::Plugin::Alt
 - Dist::Zilla::Plugin::Author::Plicease
+- Dist::Zilla::Plugin::CommentOut
 - Dist::Zilla::Plugin::CSS::Compressor
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier

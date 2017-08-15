@@ -61,10 +61,6 @@ Alien::Autotools
 
 =item *
 
-Alien::Base::Dino
-
-=item *
-
 Alien::Base::ModuleBuild
 
 =item *
@@ -82,6 +78,14 @@ Alien::Build::Git
 =item *
 
 Alien::Build::MB
+
+=item *
+
+Alien::Build::Plugin::Build::CMake
+
+=item *
+
+Alien::Build::Plugin::Build::Make
 
 =item *
 
@@ -110,6 +114,10 @@ Alien::bz2::Installer
 =item *
 
 Alien::CMake
+
+=item *
+
+Alien::cmake3
 
 =item *
 
@@ -209,6 +217,14 @@ Alien::pkgconf
 
 =item *
 
+Alien::Role::Alt
+
+=item *
+
+Alien::Role::Dino
+
+=item *
+
 Alien::xz
 
 =item *
@@ -250,10 +266,6 @@ App::cpangitify
 =item *
 
 App::cpanminus
-
-=item *
-
-App::palien
 
 =item *
 
@@ -346,6 +358,10 @@ Dist::Zilla::Plugin::Alt
 =item *
 
 Dist::Zilla::Plugin::Author::Plicease
+
+=item *
+
+Dist::Zilla::Plugin::CommentOut
 
 =item *
 

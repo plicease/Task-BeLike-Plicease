@@ -1,6 +1,15 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - remove App::palien (merged into App-af)
+  - add Alien::cmake3
+  - add Alien::Build::Plugin::Build::CMake
+  - add Alien::Build::Plugin::Build::Make
+  - add Alien::Role::Alt
+  - add Alien::Role::Dino
+  - remove Alien::Base::Dino
+  - add Dist::Zilla::Plugin::CommentOut
+  - Updated my dists to latest
 
 1.96      2017-07-28 17:25:53 -0400
   - add Alien::Alien
