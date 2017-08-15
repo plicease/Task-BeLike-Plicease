@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+1.97      2017-08-15 14:44:04 -0400
   - remove App::palien (merged into App-af)
   - add Alien::cmake3
   - add Alien::Build::Plugin::Build::CMake
