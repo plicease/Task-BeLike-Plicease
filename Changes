@@ -1,6 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - remove Dist::Zilla::Plugin::jQuery
+  - remove AnyEvent::Git::Wrapper
+  - remove Alien::Build::Plugin::Build::CMake
+  - remove Alien::Build::Plugin::Build::Make
+  - add Test::Alien::CPP
+  - Updated my dists to latest
 
 1.97      2017-08-15 14:44:04 -0400
   - remove App::palien (merged into App-af)

@@ -81,14 +81,6 @@ Alien::Build::MB
 
 =item *
 
-Alien::Build::Plugin::Build::CMake
-
-=item *
-
-Alien::Build::Plugin::Build::Make
-
-=item *
-
 Alien::Build::Plugin::Decode::SourceForge
 
 =item *
@@ -237,10 +229,6 @@ AnyEvent::FTP
 
 =item *
 
-AnyEvent::Git::Wrapper
-
-=item *
-
 AnyEvent::Ident
 
 =item *
@@ -374,10 +362,6 @@ Dist::Zilla::Plugin::InsertExample
 =item *
 
 Dist::Zilla::Plugin::JavaScript::Minifier
-
-=item *
-
-Dist::Zilla::Plugin::jQuery
 
 =item *
 
@@ -658,6 +642,10 @@ Test2::Plugin::FauxHomeDir
 =item *
 
 Test2::Tools::URL
+
+=item *
+
+Test::Alien::CPP
 
 =item *
 

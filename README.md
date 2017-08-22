@@ -29,8 +29,6 @@ comes with this distribution for details.
 - Alien::Build
 - Alien::Build::Git
 - Alien::Build::MB
-- Alien::Build::Plugin::Build::CMake
-- Alien::Build::Plugin::Build::Make
 - Alien::Build::Plugin::Decode::SourceForge
 - Alien::Build::Plugin::Fetch::Cache
 - Alien::Build::Plugin::Fetch::Prompt
@@ -68,7 +66,6 @@ comes with this distribution for details.
 - Alien::xz
 - AnyEvent::Finger
 - AnyEvent::FTP
-- AnyEvent::Git::Wrapper
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
@@ -103,7 +100,6 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::CSS::Compressor
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
-- Dist::Zilla::Plugin::jQuery
 - Dist::Zilla::Plugin::MathInt64
 - Dist::Zilla::Plugin::Meta::Dynamic::Config
 - Dist::Zilla::Plugin::OurPkgVersion
@@ -174,6 +170,7 @@ comes with this distribution for details.
 - Term::EditLine
 - Test2::Plugin::FauxHomeDir
 - Test2::Tools::URL
+- Test::Alien::CPP
 - Test::CChecker
 - Test::Clustericious::Blocking
 - Test::Clustericious::Cluster

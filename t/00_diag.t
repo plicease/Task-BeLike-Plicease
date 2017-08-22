@@ -23,8 +23,6 @@ $modules{$_} = $_ for qw(
   Alien::Build
   Alien::Build::Git
   Alien::Build::MB
-  Alien::Build::Plugin::Build::CMake
-  Alien::Build::Plugin::Build::Make
   Alien::Build::Plugin::Decode::SourceForge
   Alien::Build::Plugin::Fetch::Cache
   Alien::Build::Plugin::Fetch::Prompt
@@ -65,7 +63,6 @@ $modules{$_} = $_ for qw(
   Alien::xz
   AnyEvent::FTP
   AnyEvent::Finger
-  AnyEvent::Git::Wrapper
   AnyEvent::Ident
   AnyEvent::Open3::Simple
   AnyEvent::WebSocket::Client
@@ -106,7 +103,6 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::Template::Tiny
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
-  Dist::Zilla::Plugin::jQuery
   Dist::Zilla::PluginBundle::Author::Plicease
   EV
   Env::ShellWords
@@ -170,6 +166,7 @@ $modules{$_} = $_ for qw(
   Term::EditLine
   Test2::Plugin::FauxHomeDir
   Test2::Tools::URL
+  Test::Alien::CPP
   Test::CChecker
   Test::CPAN::Changes
   Test::Clustericious::Blocking
