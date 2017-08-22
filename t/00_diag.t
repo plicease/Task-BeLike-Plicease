@@ -82,7 +82,6 @@ $modules{$_} = $_ for qw(
   Clustericious
   Clustericious::Admin
   Clustericious::Coder::BSON
-  Cpanel::JSON::XS
   DBD::PgPP
   DBD::SQLite
   DBD::mysqlPP
@@ -122,22 +121,22 @@ $modules{$_} = $_ for qw(
   File::Listing
   File::Listing::Ftpcopy
   File::ShareDir::Dist
-  File::Touch
   File::Which
   JSON
+  JSON::MaybeXS
+  JSON::PP
+  JSON::XS
   Lingua::Alphabet::Phonetic::LAPD
   Log::Log4perl
   Log::Log4perl::Appender::TAP
   Module::Build
   Module::Build::FFI
-  Module::CoreList
   Module::Which
   Mojolicious
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
   Monkey::Patch
   Moose
-  Net::DNS
   Photography::DX
   Photography::EV
   PkgConfig
@@ -150,19 +149,13 @@ $modules{$_} = $_ for qw(
   PlugAuth::Plugin::DBIAuth
   PlugAuth::Plugin::Finger
   PlugAuth::Plugin::LDAP
-  Pod::Abstract
   Pod::POM::Web
   Pod::Perldoc
   Role::Tiny
-  Rose::DB
-  Rose::DB::Object
-  Sereal::Decoder
-  Sereal::Encoder
   Shell::Config::Generate
   Shell::Guess
   String::Template
   Template
-  Template::Tiny
   Term::EditLine
   Test2::Plugin::FauxHomeDir
   Test2::Tools::URL
@@ -171,11 +164,8 @@ $modules{$_} = $_ for qw(
   Test::CPAN::Changes
   Test::Clustericious::Blocking
   Test::Clustericious::Cluster
-  Test::Differences
-  Test::Dir
   Test::EOL
   Test::Exec
-  Test::File
   Test::Fixme
   Test::Memory::Cycle
   Test::NoTabs
@@ -187,8 +177,6 @@ $modules{$_} = $_ for qw(
   Test::Spelling
   Test::Version
   Text::Hunspell::FFI
-  Text::Tabs
-  Try::Tiny
   URI
   URI::Encode
   URI::ws
@@ -201,8 +189,6 @@ $modules{$_} = $_ for qw(
   Win32::Process::Info
   Win32::Shortcut::Readlink
   Win32API::ProcessStatus
-  XML::Simple
-  XML::Writer
   YAML
   YAML::XS
   Yars

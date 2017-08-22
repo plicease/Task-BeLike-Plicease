@@ -5,6 +5,25 @@ Revision history for {{$dist->name}}
   - remove AnyEvent::Git::Wrapper
   - remove Alien::Build::Plugin::Build::CMake
   - remove Alien::Build::Plugin::Build::Make
+  - remove File::Touch
+  - remove Cpanel::JSON::XS
+  - add JSON::MaybeXS
+  - remove Module::CoreList
+  - update Mojolicious to 7.43
+  - remove Net::DNS
+  - remove Pod::Abstract
+  - remove Rose::DB
+  - remove Rose::DB::Object
+  - remove Sereal::Decoder
+  - remove Sereal::Encoder
+  - remove Template::Tiny
+  - remove Test::Differences
+  - remove Test::Dir
+  - remove Test::File
+  - remove Text::Tabs
+  - remove Try::Tiny
+  - remove XML::Simple
+  - remove XML::Writer
   - add Test::Alien::CPP
   - Updated my dists to latest
 

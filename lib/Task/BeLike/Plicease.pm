@@ -309,10 +309,6 @@ Clustericious::Coder::BSON
 
 =item *
 
-Cpanel::JSON::XS
-
-=item *
-
 DBD::mysqlPP
 
 =item *
@@ -469,15 +465,15 @@ File::ShareDir::Dist
 
 =item *
 
-File::Touch
-
-=item *
-
 File::Which
 
 =item *
 
 JSON
+
+=item *
+
+JSON::MaybeXS
 
 =item *
 
@@ -498,10 +494,6 @@ Log::Log4perl::Appender::TAP
 =item *
 
 Module::Build::FFI
-
-=item *
-
-Module::CoreList
 
 =item *
 
@@ -526,10 +518,6 @@ Monkey::Patch
 =item *
 
 Moose
-
-=item *
-
-Net::DNS
 
 =item *
 
@@ -581,10 +569,6 @@ PlugAuth::Plugin::LDAP
 
 =item *
 
-Pod::Abstract
-
-=item *
-
 Pod::Perldoc
 
 =item *
@@ -594,22 +578,6 @@ Pod::POM::Web
 =item *
 
 Role::Tiny
-
-=item *
-
-Rose::DB
-
-=item *
-
-Rose::DB::Object
-
-=item *
-
-Sereal::Decoder
-
-=item *
-
-Sereal::Encoder
 
 =item *
 
@@ -626,10 +594,6 @@ String::Template
 =item *
 
 Template
-
-=item *
-
-Template::Tiny
 
 =item *
 
@@ -665,23 +629,11 @@ Test::CPAN::Changes
 
 =item *
 
-Test::Differences
-
-=item *
-
-Test::Dir
-
-=item *
-
 Test::EOL
 
 =item *
 
 Test::Exec
-
-=item *
-
-Test::File
 
 =item *
 
@@ -726,14 +678,6 @@ Test::Version
 =item *
 
 Text::Hunspell::FFI
-
-=item *
-
-Text::Tabs
-
-=item *
-
-Try::Tiny
 
 =item *
 
@@ -782,14 +726,6 @@ Win32API::ProcessStatus
 =item *
 
 WWW::Bugzilla::BugTree
-
-=item *
-
-XML::Simple
-
-=item *
-
-XML::Writer
 
 =item *
 
