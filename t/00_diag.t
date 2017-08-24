@@ -35,9 +35,7 @@ $modules{$_} = $_ for qw(
   Alien::Hunspell
   Alien::LZO
   Alien::LibYAML
-  Alien::Libarchive
   Alien::Libarchive3
-  Alien::Libarchive::Installer
   Alien::Libbz2
   Alien::Libxml2
   Alien::MSYS
@@ -48,7 +46,6 @@ $modules{$_} = $_ for qw(
   Alien::autoconf
   Alien::automake
   Alien::bison
-  Alien::bz2::Installer
   Alien::cmake3
   Alien::curl
   Alien::flex

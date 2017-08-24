@@ -34,7 +34,6 @@ comes with this distribution for details.
 - Alien::Build::Plugin::Fetch::Prompt
 - Alien::Build::Plugin::Fetch::Rewrite
 - Alien::Build::Plugin::Probe::GnuWin32
-- Alien::bz2::Installer
 - Alien::CMake
 - Alien::cmake3
 - Alien::curl
@@ -45,9 +44,7 @@ comes with this distribution for details.
 - Alien::GMP
 - Alien::gzip
 - Alien::Hunspell
-- Alien::Libarchive
 - Alien::Libarchive3
-- Alien::Libarchive::Installer
 - Alien::Libbz2
 - Alien::libtool
 - Alien::libtool24

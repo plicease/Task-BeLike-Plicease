@@ -101,10 +101,6 @@ Alien::Build::Plugin::Probe::GnuWin32
 
 =item *
 
-Alien::bz2::Installer
-
-=item *
-
 Alien::CMake
 
 =item *
@@ -145,15 +141,7 @@ Alien::Hunspell
 
 =item *
 
-Alien::Libarchive
-
-=item *
-
 Alien::Libarchive3
-
-=item *
-
-Alien::Libarchive::Installer
 
 =item *
 
