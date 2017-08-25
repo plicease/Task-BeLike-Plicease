@@ -365,10 +365,6 @@ Dist::Zilla::Plugin::PPPort
 
 =item *
 
-Dist::Zilla::Plugin::Template::Tiny
-
-=item *
-
 Dist::Zilla::Plugin::Test::Version
 
 =item *

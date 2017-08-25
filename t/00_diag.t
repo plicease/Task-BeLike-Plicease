@@ -96,7 +96,6 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::Meta::Dynamic::Config
   Dist::Zilla::Plugin::OurPkgVersion
   Dist::Zilla::Plugin::PPPort
-  Dist::Zilla::Plugin::Template::Tiny
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease

@@ -4,6 +4,7 @@ Revision history for {{$dist->name}}
   - remove Alien::Libarchive::Installer
   - remove Alien::bz2::Installer
   - remove Alien::Libarchive
+  - remove Dist::Zilla::Plugin::Template::Tiny
 
 1.98      2017-08-22 06:39:09 -0400
   - remove Dist::Zilla::Plugin::jQuery
