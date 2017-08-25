@@ -649,10 +649,6 @@ Test::Script
 
 =item *
 
-Test::Script::Async
-
-=item *
-
 Test::Spelling
 
 =item *

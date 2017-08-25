@@ -169,7 +169,6 @@ $modules{$_} = $_ for qw(
   Test::Pod::Coverage
   Test::Pod::Spelling::CommonMistakes
   Test::Script
-  Test::Script::Async
   Test::Spelling
   Test::Version
   Text::Hunspell::FFI
