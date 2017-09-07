@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - add Alien::Build::Plugin::Probe::Override
+  - Updated my dists to latest
 
 1.99      2017-08-29 01:11:17 -0400
   - remove Alien::Libarchive::Installer
