@@ -101,6 +101,10 @@ Alien::Build::Plugin::Probe::GnuWin32
 
 =item *
 
+Alien::Build::Plugin::Probe::Override
+
+=item *
+
 Alien::CMake
 
 =item *

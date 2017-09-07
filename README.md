@@ -34,6 +34,7 @@ comes with this distribution for details.
 - Alien::Build::Plugin::Fetch::Prompt
 - Alien::Build::Plugin::Fetch::Rewrite
 - Alien::Build::Plugin::Probe::GnuWin32
+- Alien::Build::Plugin::Probe::Override
 - Alien::CMake
 - Alien::cmake3
 - Alien::curl

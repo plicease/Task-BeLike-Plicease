@@ -28,6 +28,7 @@ $modules{$_} = $_ for qw(
   Alien::Build::Plugin::Fetch::Prompt
   Alien::Build::Plugin::Fetch::Rewrite
   Alien::Build::Plugin::Probe::GnuWin32
+  Alien::Build::Plugin::Probe::Override
   Alien::CMake
   Alien::Editline
   Alien::FFI
