@@ -38,6 +38,7 @@ $modules{$_} = $_ for qw(
   Alien::LibYAML
   Alien::Libarchive3
   Alien::Libbz2
+  Alien::LibreSSL
   Alien::Libxml2
   Alien::MSYS
   Alien::MSYS2
@@ -75,11 +76,7 @@ $modules{$_} = $_ for qw(
   Archive::Libarchive::Any
   Archive::Libarchive::FFI
   Archive::Libarchive::XS
-  Authen::Simple::PlugAuth
   Class::Inspector
-  Clustericious
-  Clustericious::Admin
-  Clustericious::Coder::BSON
   DBD::PgPP
   DBD::SQLite
   DBD::mysqlPP
@@ -94,9 +91,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64
-  Dist::Zilla::Plugin::Meta::Dynamic::Config
   Dist::Zilla::Plugin::OurPkgVersion
-  Dist::Zilla::Plugin::PPPort
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
@@ -124,12 +119,10 @@ $modules{$_} = $_ for qw(
   JSON::PP
   JSON::XS
   Lingua::Alphabet::Phonetic::LAPD
-  Log::Log4perl
   Log::Log4perl::Appender::TAP
   Module::Build
   Module::Build::FFI
   Module::Which
-  Mojolicious
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
   Monkey::Patch
@@ -138,16 +131,7 @@ $modules{$_} = $_ for qw(
   Photography::EV
   PkgConfig
   PkgConfig::LibPkgConf
-  PlugAuth
-  PlugAuth::Client::Tiny
-  PlugAuth::Client::Tiny::Apache2AuthenHandler
-  PlugAuth::Client::Tiny::Apache2AuthzHandler
-  PlugAuth::Plugin::AuthenSimple
-  PlugAuth::Plugin::DBIAuth
-  PlugAuth::Plugin::Finger
-  PlugAuth::Plugin::LDAP
   Pod::POM::Web
-  Pod::Perldoc
   Role::Tiny
   Shell::Config::Generate
   Shell::Guess
@@ -159,8 +143,6 @@ $modules{$_} = $_ for qw(
   Test::Alien::CPP
   Test::CChecker
   Test::CPAN::Changes
-  Test::Clustericious::Blocking
-  Test::Clustericious::Cluster
   Test::EOL
   Test::Exec
   Test::Fixme
@@ -173,11 +155,8 @@ $modules{$_} = $_ for qw(
   Test::Spelling
   Test::Version
   Text::Hunspell::FFI
-  URI
-  URI::Encode
   URI::ws
   UUID::FFI
-  Validate::Tiny
   WWW::Bugzilla::BugTree
   WebService::LiveJournal
   Win32::ErrorMode
@@ -187,8 +166,6 @@ $modules{$_} = $_ for qw(
   Win32API::ProcessStatus
   YAML
   YAML::XS
-  Yars
-  Yars::Command::yars_exercise
   autodie
   local::lib
 );

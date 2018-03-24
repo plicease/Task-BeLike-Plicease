@@ -1,6 +1,29 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated my dists to latest
+  - remove PlugAuth::Plugin::Finger (deprecated)
+  - remove PlugAuth::Plugin::DBIAuth (deprecated)
+  - remove PlugAuth::Plugin::AuthenSimple (deprecated)
+  - remove Test::Clustericious::Blocking (deprecated)
+  - remove Test::Clustericious::Cluster (deprecated)
+  - remove PlugAuth (deprecated)
+  - remove PlugAuth::Plugin::LDAP (deprecated)
+  - remove PlugAuth::Client::Tiny::Apache2AuthenHandler
+  - remove PlugAuth::Client::Tiny::Apache2AuthzHandler
+  - remove Clustericious (deprecated)
+  - remove Clustericious::Admin (deprecated)
+  - remove Clustericious::Coder::BSON
+  - remove Authen::Simple::PlugAuth (deprecated)
+  - remove PlugAuth::Client::Tiny (deprecated)
+  - remove Yars (deprecated)
+  - remove Dist::Zilla::Plugin::Meta::Dynamic::Config
+  - remove Dist::Zilla::Plugin::PPPort
+  - remove Log::Log4perl
+  - remove Mojolicious
+  - remove Pod::Perldoc
+  - remove URI
+  - remove URI::Encode
 
 2.00      2017-09-07 11:51:57 -0400
   - add Alien::Build::Plugin::Probe::Override

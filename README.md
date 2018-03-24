@@ -47,6 +47,7 @@ comes with this distribution for details.
 - Alien::Hunspell
 - Alien::Libarchive3
 - Alien::Libbz2
+- Alien::LibreSSL
 - Alien::libtool
 - Alien::libtool24
 - Alien::Libxml2
@@ -78,12 +79,8 @@ comes with this distribution for details.
 - Archive::Libarchive::Any
 - Archive::Libarchive::FFI
 - Archive::Libarchive::XS
-- Authen::Simple::PlugAuth
 - autodie
 - Class::Inspector
-- Clustericious
-- Clustericious::Admin
-- Clustericious::Coder::BSON
 - DBD::mysqlPP
 - DBD::PgPP
 - DBD::SQLite
@@ -98,9 +95,7 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
 - Dist::Zilla::Plugin::MathInt64
-- Dist::Zilla::Plugin::Meta::Dynamic::Config
 - Dist::Zilla::Plugin::OurPkgVersion
-- Dist::Zilla::Plugin::PPPort
 - Dist::Zilla::Plugin::Test::Version
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::PluginBundle::Author::Plicease
@@ -127,11 +122,9 @@ comes with this distribution for details.
 - JSON::MaybeXS
 - Lingua::Alphabet::Phonetic::LAPD
 - local::lib
-- Log::Log4perl
 - Log::Log4perl::Appender::TAP
 - Module::Build::FFI
 - Module::Which
-- Mojolicious
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer
 - Monkey::Patch
@@ -140,15 +133,6 @@ comes with this distribution for details.
 - Photography::EV
 - PkgConfig
 - PkgConfig::LibPkgConf
-- PlugAuth
-- PlugAuth::Client::Tiny
-- PlugAuth::Client::Tiny::Apache2AuthenHandler
-- PlugAuth::Client::Tiny::Apache2AuthzHandler
-- PlugAuth::Plugin::AuthenSimple
-- PlugAuth::Plugin::DBIAuth
-- PlugAuth::Plugin::Finger
-- PlugAuth::Plugin::LDAP
-- Pod::Perldoc
 - Pod::POM::Web
 - Role::Tiny
 - Shell::Config::Generate
@@ -160,8 +144,6 @@ comes with this distribution for details.
 - Test2::Tools::URL
 - Test::Alien::CPP
 - Test::CChecker
-- Test::Clustericious::Blocking
-- Test::Clustericious::Cluster
 - Test::CPAN::Changes
 - Test::EOL
 - Test::Exec
@@ -175,11 +157,8 @@ comes with this distribution for details.
 - Test::Spelling
 - Test::Version
 - Text::Hunspell::FFI
-- URI
-- URI::Encode
 - URI::ws
 - UUID::FFI
-- Validate::Tiny
 - WebService::LiveJournal
 - Win32::ErrorMode
 - Win32::Getppid
@@ -189,8 +168,6 @@ comes with this distribution for details.
 - WWW::Bugzilla::BugTree
 - YAML
 - YAML::XS
-- Yars
-- Yars::Command::yars\_exercise
 
 # AUTHOR
 

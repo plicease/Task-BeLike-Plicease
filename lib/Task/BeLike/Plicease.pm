@@ -153,6 +153,10 @@ Alien::Libbz2
 
 =item *
 
+Alien::LibreSSL
+
+=item *
+
 Alien::libtool
 
 =item *
@@ -277,27 +281,11 @@ Archive::Libarchive::XS
 
 =item *
 
-Authen::Simple::PlugAuth
-
-=item *
-
 autodie
 
 =item *
 
 Class::Inspector
-
-=item *
-
-Clustericious
-
-=item *
-
-Clustericious::Admin
-
-=item *
-
-Clustericious::Coder::BSON
 
 =item *
 
@@ -357,15 +345,7 @@ Dist::Zilla::Plugin::MathInt64
 
 =item *
 
-Dist::Zilla::Plugin::Meta::Dynamic::Config
-
-=item *
-
 Dist::Zilla::Plugin::OurPkgVersion
-
-=item *
-
-Dist::Zilla::Plugin::PPPort
 
 =item *
 
@@ -473,10 +453,6 @@ local::lib
 
 =item *
 
-Log::Log4perl
-
-=item *
-
 Log::Log4perl::Appender::TAP
 
 =item *
@@ -486,10 +462,6 @@ Module::Build::FFI
 =item *
 
 Module::Which
-
-=item *
-
-Mojolicious
 
 =item *
 
@@ -522,42 +494,6 @@ PkgConfig
 =item *
 
 PkgConfig::LibPkgConf
-
-=item *
-
-PlugAuth
-
-=item *
-
-PlugAuth::Client::Tiny
-
-=item *
-
-PlugAuth::Client::Tiny::Apache2AuthenHandler
-
-=item *
-
-PlugAuth::Client::Tiny::Apache2AuthzHandler
-
-=item *
-
-PlugAuth::Plugin::AuthenSimple
-
-=item *
-
-PlugAuth::Plugin::DBIAuth
-
-=item *
-
-PlugAuth::Plugin::Finger
-
-=item *
-
-PlugAuth::Plugin::LDAP
-
-=item *
-
-Pod::Perldoc
 
 =item *
 
@@ -602,14 +538,6 @@ Test::Alien::CPP
 =item *
 
 Test::CChecker
-
-=item *
-
-Test::Clustericious::Blocking
-
-=item *
-
-Test::Clustericious::Cluster
 
 =item *
 
@@ -665,23 +593,11 @@ Text::Hunspell::FFI
 
 =item *
 
-URI
-
-=item *
-
-URI::Encode
-
-=item *
-
 URI::ws
 
 =item *
 
 UUID::FFI
-
-=item *
-
-Validate::Tiny
 
 =item *
 
@@ -718,14 +634,6 @@ YAML
 =item *
 
 YAML::XS
-
-=item *
-
-Yars
-
-=item *
-
-Yars::Command::yars_exercise
 
 =back
 
