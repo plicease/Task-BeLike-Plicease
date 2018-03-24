@@ -24,6 +24,7 @@ Revision history for {{$dist->name}}
   - remove Pod::Perldoc
   - remove URI
   - remove URI::Encode
+  - remove Validate::Tiny
 
 2.00      2017-09-07 11:51:57 -0400
   - add Alien::Build::Plugin::Probe::Override
