@@ -89,6 +89,7 @@ sub new
       WWW::Bugzilla::BugTree
       FFI
       File::LibMagic::FFI
+      FFI::TinyCC
     );
   }
 
