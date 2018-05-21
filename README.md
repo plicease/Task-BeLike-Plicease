@@ -72,6 +72,7 @@ comes with this distribution for details.
 - App::af
 - App::cpangitify
 - App::cpanminus
+- App::Prove::Plugin::TermTable
 - App::pwhich
 - App::RegexFileUtils
 - App::spaceless
@@ -141,6 +142,7 @@ comes with this distribution for details.
 - Template
 - Term::EditLine
 - Test2::Plugin::FauxHomeDir
+- Test2::Tools::JSON::Pointer
 - Test2::Tools::URL
 - Test::Alien::CPP
 - Test::CChecker

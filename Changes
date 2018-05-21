@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - add App::Prove::Plugin::TermTable
+  - add Test2::Tools::JSON::Pointer
 
 2.02      2018-05-08 07:11:52 -0400
   - Updated my dists to latest

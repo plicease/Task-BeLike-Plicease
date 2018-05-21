@@ -253,6 +253,10 @@ App::cpanminus
 
 =item *
 
+App::Prove::Plugin::TermTable
+
+=item *
+
 App::pwhich
 
 =item *
@@ -526,6 +530,10 @@ Term::EditLine
 =item *
 
 Test2::Plugin::FauxHomeDir
+
+=item *
+
+Test2::Tools::JSON::Pointer
 
 =item *
 

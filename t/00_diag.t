@@ -66,6 +66,7 @@ $modules{$_} = $_ for qw(
   AnyEvent::Open3::Simple
   AnyEvent::WebSocket::Client
   App::Ack
+  App::Prove::Plugin::TermTable
   App::RegexFileUtils
   App::af
   App::cpangitify
@@ -139,6 +140,7 @@ $modules{$_} = $_ for qw(
   Template
   Term::EditLine
   Test2::Plugin::FauxHomeDir
+  Test2::Tools::JSON::Pointer
   Test2::Tools::URL
   Test::Alien::CPP
   Test::CChecker
