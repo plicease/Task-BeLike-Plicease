@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.04      2018-06-19 17:03:56 -0600
   - Updated my dists to latest
   - Add FFI::TinyCC::Inline
   - Add Test2::Tools::HTTP
