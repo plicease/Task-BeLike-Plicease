@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Add FFI::TinyCC::Inline
+  - Add Test2::Tools::HTTP
+  - Add Test2::Tools::HTTP::UA::Mojo
 
 2.03      2018-05-21 09:46:22 -0400
   - Updated my dists to latest

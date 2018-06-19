@@ -113,6 +113,7 @@ comes with this distribution for details.
 - FFI::Platypus::Lang::Rust
 - FFI::Platypus::Type::StringArray
 - FFI::TinyCC
+- FFI::TinyCC::Inline
 - FFI::Util
 - File::LibMagic::FFI
 - File::Listing
@@ -142,6 +143,8 @@ comes with this distribution for details.
 - Template
 - Term::EditLine
 - Test2::Plugin::FauxHomeDir
+- Test2::Tools::HTTP
+- Test2::Tools::HTTP::UA::Mojo
 - Test2::Tools::JSON::Pointer
 - Test2::Tools::URL
 - Test::Alien::CPP

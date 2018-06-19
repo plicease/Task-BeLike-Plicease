@@ -417,6 +417,10 @@ FFI::TinyCC
 
 =item *
 
+FFI::TinyCC::Inline
+
+=item *
+
 FFI::Util
 
 =item *
@@ -530,6 +534,14 @@ Term::EditLine
 =item *
 
 Test2::Plugin::FauxHomeDir
+
+=item *
+
+Test2::Tools::HTTP
+
+=item *
+
+Test2::Tools::HTTP::UA::Mojo
 
 =item *
 
