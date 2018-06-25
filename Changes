@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.05      2018-06-25 17:00:53 -0400
   - Updated my dists to latest
   - Add Term::Clui
 
