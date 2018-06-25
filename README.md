@@ -141,6 +141,7 @@ comes with this distribution for details.
 - Shell::Guess
 - String::Template
 - Template
+- Term::Clui
 - Term::EditLine
 - Test2::Plugin::FauxHomeDir
 - Test2::Tools::HTTP

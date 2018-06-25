@@ -529,6 +529,10 @@ Template
 
 =item *
 
+Term::Clui
+
+=item *
+
 Term::EditLine
 
 =item *
