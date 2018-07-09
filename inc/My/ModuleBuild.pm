@@ -15,6 +15,7 @@ sub new
   {
     push @skip, qw(
       WWW::Bugzilla::BugTree
+      Term::Clui
       Archive::Libarchive::FFI
       Test::Vars
       WebService::LiveJournal
