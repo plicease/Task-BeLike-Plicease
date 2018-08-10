@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.06      2018-08-10 07:37:43 -0400
   - Remove Term::Clui on MSWin32 only
   - Added Dist::Zilla::Plugin::FFI
   - Added FFI::Build
