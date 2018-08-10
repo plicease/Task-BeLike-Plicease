@@ -89,6 +89,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::Author::Plicease
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
+  Dist::Zilla::Plugin::FFI
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64
@@ -99,6 +100,7 @@ $modules{$_} = $_ for qw(
   EV
   Env::ShellWords
   FFI
+  FFI::Build
   FFI::CheckLib
   FFI::ExtractSymbols
   FFI::Platypus

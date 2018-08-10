@@ -337,6 +337,10 @@ Dist::Zilla::Plugin::CSS::Compressor
 
 =item *
 
+Dist::Zilla::Plugin::FFI
+
+=item *
+
 Dist::Zilla::Plugin::InsertExample
 
 =item *
@@ -374,6 +378,10 @@ EV
 =item *
 
 FFI
+
+=item *
+
+FFI::Build
 
 =item *
 

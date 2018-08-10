@@ -93,6 +93,7 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::Author::Plicease
 - Dist::Zilla::Plugin::CommentOut
 - Dist::Zilla::Plugin::CSS::Compressor
+- Dist::Zilla::Plugin::FFI
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
 - Dist::Zilla::Plugin::MathInt64
@@ -103,6 +104,7 @@ comes with this distribution for details.
 - Env::ShellWords
 - EV
 - FFI
+- FFI::Build
 - FFI::CheckLib
 - FFI::ExtractSymbols
 - FFI::Platypus
