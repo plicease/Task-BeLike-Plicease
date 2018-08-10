@@ -91,6 +91,7 @@ sub new
       FFI
       File::LibMagic::FFI
       FFI::TinyCC
+      FFI::Platypus::Lang::CPP
     );
   }
 

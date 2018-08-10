@@ -54,7 +54,6 @@ $modules{$_} = $_ for qw(
   Alien::gmake
   Alien::gzip
   Alien::libtool
-  Alien::libtool24
   Alien::m4
   Alien::nasm
   Alien::patch

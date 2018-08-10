@@ -161,10 +161,6 @@ Alien::libtool
 
 =item *
 
-Alien::libtool24
-
-=item *
-
 Alien::Libxml2
 
 =item *

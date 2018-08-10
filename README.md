@@ -49,7 +49,6 @@ comes with this distribution for details.
 - Alien::Libbz2
 - Alien::LibreSSL
 - Alien::libtool
-- Alien::libtool24
 - Alien::Libxml2
 - Alien::LibYAML
 - Alien::LZO
