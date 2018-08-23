@@ -57,6 +57,7 @@ comes with this distribution for details.
 - Alien::MSYS2
 - Alien::nasm
 - Alien::Nettle
+- Alien::nragent
 - Alien::patch
 - Alien::pkgconf
 - Alien::Role::Alt
@@ -93,6 +94,7 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::CommentOut
 - Dist::Zilla::Plugin::CSS::Compressor
 - Dist::Zilla::Plugin::FFI
+- Dist::Zilla::Plugin::FFI::CheckLib
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
 - Dist::Zilla::Plugin::MathInt64
@@ -132,6 +134,7 @@ comes with this distribution for details.
 - Mojolicious::Plugin::TtRenderer
 - Monkey::Patch
 - Moose
+- NewRelic::Agent::FFI
 - Photography::DX
 - Photography::EV
 - PkgConfig

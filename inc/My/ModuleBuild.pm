@@ -97,11 +97,22 @@ sub new
 
   if($^O eq 'linux')
   {
-    # nothing special
+    # archname=x86_64-linux
+    if($Config{archname} !~ /^x86_64/)
+    {
+    push @skip, qw(
+      NewRelic::Agent::FFI
+      Alien::nragent
+    );
+    }
   }
   else
   {
-    push @skip, qw( UUID::FFI );
+    push @skip, qw(
+      UUID::FFI
+      NewRelic::Agent::FFI
+      Alien::nragent
+    );
   }
 
   unless($] >= 5.008009)

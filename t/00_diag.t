@@ -56,6 +56,7 @@ $modules{$_} = $_ for qw(
   Alien::libtool
   Alien::m4
   Alien::nasm
+  Alien::nragent
   Alien::patch
   Alien::pkgconf
   Alien::xz
@@ -89,6 +90,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
   Dist::Zilla::Plugin::FFI
+  Dist::Zilla::Plugin::FFI::CheckLib
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64
@@ -130,6 +132,7 @@ $modules{$_} = $_ for qw(
   Mojolicious::Plugin::TtRenderer
   Monkey::Patch
   Moose
+  NewRelic::Agent::FFI
   Photography::DX
   Photography::EV
   PkgConfig

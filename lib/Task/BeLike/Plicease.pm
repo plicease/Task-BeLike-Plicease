@@ -193,6 +193,10 @@ Alien::Nettle
 
 =item *
 
+Alien::nragent
+
+=item *
+
 Alien::patch
 
 =item *
@@ -334,6 +338,10 @@ Dist::Zilla::Plugin::CSS::Compressor
 =item *
 
 Dist::Zilla::Plugin::FFI
+
+=item *
+
+Dist::Zilla::Plugin::FFI::CheckLib
 
 =item *
 
@@ -490,6 +498,10 @@ Monkey::Patch
 =item *
 
 Moose
+
+=item *
+
+NewRelic::Agent::FFI
 
 =item *
 

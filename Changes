@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Add NewRelic::Agent::FFI
+  - Add Alien::nragent
+  - Add Dist::Zilla::Plugin::FFI::CheckLib
+  - updated my dists to latest
 
 2.06      2018-08-10 07:37:43 -0400
   - Remove Term::Clui on MSWin32 only
