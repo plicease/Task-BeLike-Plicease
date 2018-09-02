@@ -108,6 +108,7 @@ sub new
   }
   else
   {
+    # TODO: alienize https://sourceforge.net/projects/libuuid/ for UUID::FFI?
     push @skip, qw(
       UUID::FFI
       NewRelic::Agent::FFI
