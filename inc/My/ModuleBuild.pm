@@ -39,6 +39,18 @@ sub new
       Alien::Libbz2
       
       Test::Clustericious::Blocking
+
+      Archive::Libarchive::Any
+      Archive::Libarchive::XS
+      Archive::Libarchive::FFI
+      Alien::MSYS2
+      Alien::pkgconf
+      Alien::Alien
+      Alien::Libarchive3
+      AnyEvent::FTP
+      PkgConfig::LibPkgConf
+      App::Prove::Plugin::TermTable
+      App::Prove::Plugin::TermTableStty
     );
     
     # could probably fix the Alien::Hunspell error:
