@@ -67,6 +67,7 @@ $modules{$_} = $_ for qw(
   AnyEvent::WebSocket::Client
   App::Ack
   App::Prove::Plugin::TermTable
+  App::Prove::Plugin::TermTableStty
   App::RegexFileUtils
   App::af
   App::cpangitify
@@ -90,7 +91,6 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
   Dist::Zilla::Plugin::FFI
-  Dist::Zilla::Plugin::FFI::CheckLib
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64

@@ -257,6 +257,10 @@ App::Prove::Plugin::TermTable
 
 =item *
 
+App::Prove::Plugin::TermTableStty
+
+=item *
+
 App::pwhich
 
 =item *
@@ -338,10 +342,6 @@ Dist::Zilla::Plugin::CSS::Compressor
 =item *
 
 Dist::Zilla::Plugin::FFI
-
-=item *
-
-Dist::Zilla::Plugin::FFI::CheckLib
 
 =item *
 
