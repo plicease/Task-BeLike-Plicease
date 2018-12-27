@@ -51,6 +51,11 @@ sub new
     #     case SUBLANG_SINDHI_PAKISTAN: return "sd_PK";
     #     ^
     # make[2]: *** [localename.o] Error 1
+
+    if($] >= 5.024)
+    {
+      push @skip, 'Mojolicious::Plugin::Ident';
+    }
   }
   else
   {
