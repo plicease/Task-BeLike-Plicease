@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.08      2018-12-27 15:06:53 -0500
   - updated my dists to latest
   - Remove Dist::Zilla::Plugin::FFI::CheckLib
     (now part of Dist::Zilla::Plugin::FFI)
