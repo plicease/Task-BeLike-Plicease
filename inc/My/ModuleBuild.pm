@@ -43,14 +43,17 @@ sub new
       Archive::Libarchive::Any
       Archive::Libarchive::XS
       Archive::Libarchive::FFI
+      Archive::Ar::Libarchive
       Alien::MSYS2
       Alien::pkgconf
       Alien::Alien
       Alien::Libarchive3
+      Alien::bison
       AnyEvent::FTP
       PkgConfig::LibPkgConf
       App::Prove::Plugin::TermTable
       App::Prove::Plugin::TermTableStty
+      Text::Hunspell::FFI
     );
     
     # could probably fix the Alien::Hunspell error:
