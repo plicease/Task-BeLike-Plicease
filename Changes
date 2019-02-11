@@ -1,6 +1,13 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated my dists to latest
+  - Remove FFI-Build as it is now part of FFI-Platypus
+  - Added Alien::Librdkafka
+  - Added Kafka::Librd
+  - Added WebService::DailyConnect
+  - FFI is now installed on more platforms as it relies
+    on FFI-PLatypus instead of ffcall now
 
 2.08      2018-12-27 15:06:53 -0500
   - updated my dists to latest
