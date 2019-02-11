@@ -101,7 +101,6 @@ $modules{$_} = $_ for qw(
   EV
   Env::ShellWords
   FFI
-  FFI::Build
   FFI::CheckLib
   FFI::ExtractSymbols
   FFI::Platypus

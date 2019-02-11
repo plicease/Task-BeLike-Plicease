@@ -385,10 +385,6 @@ FFI
 
 =item *
 
-FFI::Build
-
-=item *
-
 FFI::CheckLib
 
 =item *

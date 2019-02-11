@@ -105,7 +105,6 @@ comes with this distribution for details.
 - Env::ShellWords
 - EV
 - FFI
-- FFI::Build
 - FFI::CheckLib
 - FFI::ExtractSymbols
 - FFI::Platypus

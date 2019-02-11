@@ -21,7 +21,6 @@ sub new
       WebService::LiveJournal
       Term::EditLine
       Alien::Editline
-      FFI
       Alien::flex
       Alien::Hunspell
       
@@ -81,7 +80,6 @@ sub new
   if($^O eq 'cygwin')
   {
     push @skip, 'FFI::TinyCC';
-    push @skip, 'FFI' if $Config{ptrsize} == 8;
   }
   else  
   {
@@ -108,7 +106,6 @@ sub new
   {
     push @skip, qw(
       WWW::Bugzilla::BugTree
-      FFI
       File::LibMagic::FFI
       FFI::TinyCC
       FFI::Platypus::Lang::CPP
