@@ -47,6 +47,7 @@ comes with this distribution for details.
 - Alien::Hunspell
 - Alien::Libarchive3
 - Alien::Libbz2
+- Alien::Librdkafka
 - Alien::LibreSSL
 - Alien::libtool
 - Alien::Libxml2
@@ -124,6 +125,7 @@ comes with this distribution for details.
 - File::Which
 - JSON
 - JSON::MaybeXS
+- Kafka::Librd
 - Lingua::Alphabet::Phonetic::LAPD
 - local::lib
 - Log::Log4perl::Appender::TAP
@@ -168,6 +170,7 @@ comes with this distribution for details.
 - Text::Hunspell::FFI
 - URI::ws
 - UUID::FFI
+- WebService::DailyConnect
 - WebService::LiveJournal
 - Win32::ErrorMode
 - Win32::Getppid

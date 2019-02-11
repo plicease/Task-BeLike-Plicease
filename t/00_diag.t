@@ -38,6 +38,7 @@ $modules{$_} = $_ for qw(
   Alien::LibYAML
   Alien::Libarchive3
   Alien::Libbz2
+  Alien::Librdkafka
   Alien::LibreSSL
   Alien::Libxml2
   Alien::MSYS
@@ -122,6 +123,7 @@ $modules{$_} = $_ for qw(
   JSON::MaybeXS
   JSON::PP
   JSON::XS
+  Kafka::Librd
   Lingua::Alphabet::Phonetic::LAPD
   Log::Log4perl::Appender::TAP
   Module::Build
@@ -167,6 +169,7 @@ $modules{$_} = $_ for qw(
   URI::ws
   UUID::FFI
   WWW::Bugzilla::BugTree
+  WebService::DailyConnect
   WebService::LiveJournal
   Win32::ErrorMode
   Win32::Getppid

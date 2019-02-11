@@ -153,6 +153,10 @@ Alien::Libbz2
 
 =item *
 
+Alien::Librdkafka
+
+=item *
+
 Alien::LibreSSL
 
 =item *
@@ -461,6 +465,10 @@ JSON::MaybeXS
 
 =item *
 
+Kafka::Librd
+
+=item *
+
 Lingua::Alphabet::Phonetic::LAPD
 
 =item *
@@ -634,6 +642,10 @@ URI::ws
 =item *
 
 UUID::FFI
+
+=item *
+
+WebService::DailyConnect
 
 =item *
 
