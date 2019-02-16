@@ -277,6 +277,10 @@ App::spaceless
 
 =item *
 
+App::whichdll
+
+=item *
+
 Archive::Ar::Libarchive
 
 =item *
@@ -421,6 +425,10 @@ FFI::Platypus::Lang::Rust
 
 =item *
 
+FFI::Platypus::Legacy::Raw
+
+=item *
+
 FFI::Platypus::Type::StringArray
 
 =item *
@@ -558,6 +566,10 @@ Term::EditLine
 =item *
 
 Test2::Plugin::FauxHomeDir
+
+=item *
+
+Test2::Tools::FFI
 
 =item *
 

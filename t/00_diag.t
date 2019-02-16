@@ -75,6 +75,7 @@ $modules{$_} = $_ for qw(
   App::cpanminus
   App::pwhich
   App::spaceless
+  App::whichdll
   Archive::Ar::Libarchive
   Archive::Libarchive::Any
   Archive::Libarchive::FFI
@@ -110,6 +111,7 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Lang::Fortran
   FFI::Platypus::Lang::Pascal
   FFI::Platypus::Lang::Rust
+  FFI::Platypus::Legacy::Raw
   FFI::Platypus::Type::StringArray
   FFI::TinyCC
   FFI::TinyCC::Inline
@@ -147,6 +149,7 @@ $modules{$_} = $_ for qw(
   Term::Clui
   Term::EditLine
   Test2::Plugin::FauxHomeDir
+  Test2::Tools::FFI
   Test2::Tools::HTTP
   Test2::Tools::HTTP::UA::Mojo
   Test2::Tools::JSON::Pointer

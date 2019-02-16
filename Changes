@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - updated my dists to latest
+  - Added Test2::Tools::FFI
+  - Added FFI::Platypus::Legacy::Raw
+  - Added App::whichdll
 
 2.09      2019-02-11 14:32:15 -0500
   - updated my dists to latest
