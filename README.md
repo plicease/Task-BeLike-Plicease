@@ -30,6 +30,7 @@ comes with this distribution for details.
 - Alien::Build::Git
 - Alien::Build::MB
 - Alien::Build::Plugin::Decode::SourceForge
+- Alien::Build::Plugin::Download::GitHub
 - Alien::Build::Plugin::Fetch::Cache
 - Alien::Build::Plugin::Fetch::Prompt
 - Alien::Build::Plugin::Fetch::Rewrite
@@ -50,6 +51,7 @@ comes with this distribution for details.
 - Alien::Librdkafka
 - Alien::LibreSSL
 - Alien::libtool
+- Alien::libuuid
 - Alien::Libxml2
 - Alien::LibYAML
 - Alien::LZO
@@ -63,6 +65,7 @@ comes with this distribution for details.
 - Alien::pkgconf
 - Alien::Role::Alt
 - Alien::Role::Dino
+- Alien::unzip
 - Alien::xz
 - AnyEvent::Finger
 - AnyEvent::FTP
@@ -94,13 +97,17 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::AlienBuild
 - Dist::Zilla::Plugin::Alt
 - Dist::Zilla::Plugin::Author::Plicease
+- Dist::Zilla::Plugin::Bootstrap::lib
 - Dist::Zilla::Plugin::CommentOut
 - Dist::Zilla::Plugin::CSS::Compressor
+- Dist::Zilla::Plugin::DynamicPrereqs
 - Dist::Zilla::Plugin::FFI
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
 - Dist::Zilla::Plugin::MathInt64
+- Dist::Zilla::Plugin::Meta::Dynamic::Config
 - Dist::Zilla::Plugin::OurPkgVersion
+- Dist::Zilla::Plugin::PPPort
 - Dist::Zilla::Plugin::Test::Version
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::PluginBundle::Author::Plicease

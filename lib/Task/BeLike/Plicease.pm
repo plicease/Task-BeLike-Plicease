@@ -85,6 +85,10 @@ Alien::Build::Plugin::Decode::SourceForge
 
 =item *
 
+Alien::Build::Plugin::Download::GitHub
+
+=item *
+
 Alien::Build::Plugin::Fetch::Cache
 
 =item *
@@ -165,6 +169,10 @@ Alien::libtool
 
 =item *
 
+Alien::libuuid
+
+=item *
+
 Alien::Libxml2
 
 =item *
@@ -214,6 +222,10 @@ Alien::Role::Alt
 =item *
 
 Alien::Role::Dino
+
+=item *
+
+Alien::unzip
 
 =item *
 
@@ -341,11 +353,19 @@ Dist::Zilla::Plugin::Author::Plicease
 
 =item *
 
+Dist::Zilla::Plugin::Bootstrap::lib
+
+=item *
+
 Dist::Zilla::Plugin::CommentOut
 
 =item *
 
 Dist::Zilla::Plugin::CSS::Compressor
+
+=item *
+
+Dist::Zilla::Plugin::DynamicPrereqs
 
 =item *
 
@@ -365,7 +385,15 @@ Dist::Zilla::Plugin::MathInt64
 
 =item *
 
+Dist::Zilla::Plugin::Meta::Dynamic::Config
+
+=item *
+
 Dist::Zilla::Plugin::OurPkgVersion
+
+=item *
+
+Dist::Zilla::Plugin::PPPort
 
 =item *
 

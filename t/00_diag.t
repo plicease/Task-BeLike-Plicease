@@ -24,6 +24,7 @@ $modules{$_} = $_ for qw(
   Alien::Build::Git
   Alien::Build::MB
   Alien::Build::Plugin::Decode::SourceForge
+  Alien::Build::Plugin::Download::GitHub
   Alien::Build::Plugin::Fetch::Cache
   Alien::Build::Plugin::Fetch::Prompt
   Alien::Build::Plugin::Fetch::Rewrite
@@ -55,11 +56,13 @@ $modules{$_} = $_ for qw(
   Alien::gmake
   Alien::gzip
   Alien::libtool
+  Alien::libuuid
   Alien::m4
   Alien::nasm
   Alien::nragent
   Alien::patch
   Alien::pkgconf
+  Alien::unzip
   Alien::xz
   AnyEvent::FTP
   AnyEvent::Finger
@@ -90,13 +93,17 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::AlienBuild
   Dist::Zilla::Plugin::Alt
   Dist::Zilla::Plugin::Author::Plicease
+  Dist::Zilla::Plugin::Bootstrap::lib
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
+  Dist::Zilla::Plugin::DynamicPrereqs
   Dist::Zilla::Plugin::FFI
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64
+  Dist::Zilla::Plugin::Meta::Dynamic::Config
   Dist::Zilla::Plugin::OurPkgVersion
+  Dist::Zilla::Plugin::PPPort
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
