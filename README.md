@@ -36,10 +36,12 @@ comes with this distribution for details.
 - Alien::Build::Plugin::Fetch::Rewrite
 - Alien::Build::Plugin::Probe::GnuWin32
 - Alien::Build::Plugin::Probe::Override
+- Alien::chromaprint
 - Alien::CMake
 - Alien::cmake3
 - Alien::curl
 - Alien::Editline
+- Alien::Expat
 - Alien::FFI
 - Alien::flex
 - Alien::gmake
@@ -86,7 +88,9 @@ comes with this distribution for details.
 - Archive::Libarchive::Any
 - Archive::Libarchive::FFI
 - Archive::Libarchive::XS
+- Archive::Tar::Wrapper
 - autodie
+- Browser::Start
 - Class::Inspector
 - DBD::mysqlPP
 - DBD::PgPP
@@ -113,6 +117,7 @@ comes with this distribution for details.
 - Dist::Zilla::PluginBundle::Author::Plicease
 - Env::ShellWords
 - EV
+- Exception::Class::DBI
 - FFI
 - FFI::CheckLib
 - FFI::ExtractSymbols
@@ -123,6 +128,7 @@ comes with this distribution for details.
 - FFI::Platypus::Lang::Pascal
 - FFI::Platypus::Lang::Rust
 - FFI::Platypus::Legacy::Raw
+- FFI::Platypus::Record::StringArray
 - FFI::Platypus::Type::StringArray
 - FFI::TinyCC
 - FFI::TinyCC::Inline
@@ -145,6 +151,7 @@ comes with this distribution for details.
 - Monkey::Patch
 - Moose
 - NewRelic::Agent::FFI
+- Perl::Critic::Plicease
 - Photography::DX
 - Photography::EV
 - PkgConfig

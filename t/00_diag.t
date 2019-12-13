@@ -32,6 +32,7 @@ $modules{$_} = $_ for qw(
   Alien::Build::Plugin::Probe::Override
   Alien::CMake
   Alien::Editline
+  Alien::Expat
   Alien::FFI
   Alien::GMP
   Alien::Hunspell
@@ -50,6 +51,7 @@ $modules{$_} = $_ for qw(
   Alien::autoconf
   Alien::automake
   Alien::bison
+  Alien::chromaprint
   Alien::cmake3
   Alien::curl
   Alien::flex
@@ -83,6 +85,8 @@ $modules{$_} = $_ for qw(
   Archive::Libarchive::Any
   Archive::Libarchive::FFI
   Archive::Libarchive::XS
+  Archive::Tar::Wrapper
+  Browser::Start
   Class::Inspector
   DBD::PgPP
   DBD::SQLite
@@ -109,6 +113,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::PluginBundle::Author::Plicease
   EV
   Env::ShellWords
+  Exception::Class::DBI
   FFI
   FFI::CheckLib
   FFI::ExtractSymbols
@@ -119,6 +124,7 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Lang::Pascal
   FFI::Platypus::Lang::Rust
   FFI::Platypus::Legacy::Raw
+  FFI::Platypus::Record::StringArray
   FFI::Platypus::Type::StringArray
   FFI::TinyCC
   FFI::TinyCC::Inline
@@ -143,6 +149,7 @@ $modules{$_} = $_ for qw(
   Monkey::Patch
   Moose
   NewRelic::Agent::FFI
+  Perl::Critic::Plicease
   Photography::DX
   Photography::EV
   PkgConfig
@@ -207,7 +214,7 @@ pass 'okay';
 
 my $max = 1;
 $max = $_ > $max ? $_ : $max for map { length $_ } @modules;
-our $format = "%-${max}s %s"; 
+our $format = "%-${max}s %s";
 
 spacer;
 
@@ -216,13 +223,13 @@ my @keys = sort grep /(MOJO|PERL|\A(LC|HARNESS)_|\A(SHELL|LANG)\Z)/i, keys %ENV;
 if(@keys > 0)
 {
   diag "$_=$ENV{$_}" for @keys;
-  
+
   if($ENV{PERL5LIB})
   {
     spacer;
     diag "PERL5LIB path";
     diag $_ for split $Config{path_sep}, $ENV{PERL5LIB};
-    
+
   }
   elsif($ENV{PERLLIB})
   {
@@ -230,7 +237,7 @@ if(@keys > 0)
     diag "PERLLIB path";
     diag $_ for split $Config{path_sep}, $ENV{PERLLIB};
   }
-  
+
   spacer;
 }
 
@@ -238,9 +245,11 @@ diag sprintf $format, 'perl ', $];
 
 foreach my $module (@modules)
 {
-  if(eval qq{ require $module; 1 })
+  my $pm = "$module.pm";
+  $pm =~ s{::}{/}g;
+  if(eval { require $pm; 1 })
   {
-    my $ver = eval qq{ \$$module\::VERSION };
+    my $ver = eval { $module->VERSION };
     $ver = 'undef' unless defined $ver;
     diag sprintf $format, $module, $ver;
   }

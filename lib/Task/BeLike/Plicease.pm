@@ -109,6 +109,10 @@ Alien::Build::Plugin::Probe::Override
 
 =item *
 
+Alien::chromaprint
+
+=item *
+
 Alien::CMake
 
 =item *
@@ -122,6 +126,10 @@ Alien::curl
 =item *
 
 Alien::Editline
+
+=item *
+
+Alien::Expat
 
 =item *
 
@@ -309,7 +317,15 @@ Archive::Libarchive::XS
 
 =item *
 
+Archive::Tar::Wrapper
+
+=item *
+
 autodie
+
+=item *
+
+Browser::Start
 
 =item *
 
@@ -417,6 +433,10 @@ EV
 
 =item *
 
+Exception::Class::DBI
+
+=item *
+
 FFI
 
 =item *
@@ -454,6 +474,10 @@ FFI::Platypus::Lang::Rust
 =item *
 
 FFI::Platypus::Legacy::Raw
+
+=item *
+
+FFI::Platypus::Record::StringArray
 
 =item *
 
@@ -542,6 +566,10 @@ Moose
 =item *
 
 NewRelic::Agent::FFI
+
+=item *
+
+Perl::Critic::Plicease
 
 =item *
 

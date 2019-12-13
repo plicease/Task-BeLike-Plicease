@@ -13,6 +13,9 @@ my $config = Config::INI::Reader->read_file('dist.ini');
 my @modules = sort{ lc $a cmp lc $b } keys %{ $config->{Prereqs} };
 
 open $fh, '>', File::Spec->catfile( qw( lib Task BeLike Plicease.pm ));
+# this gives us UNIX line endings in Windows
+# and is a no-op on UNIX
+binmode $fh;
 
 while(defined $lines[0])
 {

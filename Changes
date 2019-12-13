@@ -1,6 +1,13 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added Perl::Critic::Plicease
+  - Added Alien::Expat
+  - Added FFI::Platypus::Record::StringArray
+  - Added Alien::chromaprint
+  - Added Browser::Start
+  - Added Exception::Class::DBI
 
 2.11      2019-05-19 14:07:56 -0600
   - Updated my dists to latest
