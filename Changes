@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.12      2019-12-14 13:55:13 -0700
   - Updated my dists to latest
   - Added Perl::Critic::Plicease
   - Added Alien::Expat
