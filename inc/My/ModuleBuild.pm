@@ -11,6 +11,42 @@ sub new
 
   my @skip;
 
+  if($^O eq 'MSWin32' && $Config{ccname} eq 'cl')
+  {
+    push @skip, qw(
+      Acme::Alien::DontPanic
+      Acme::Alien::DontPanic2
+      Acme::Ford::Prefect
+      Acme::Ford::Prefect2
+      Acme::Ford::Prefect::FFI
+      
+      Alien::Autotools
+      Alien::autoconf
+      Alien::automake
+      Alien::libtool
+      Alien::libuuid
+      Alien::m4
+      Alien::patch
+      Alien::unzip
+      Alien::xz
+      Alien::Expat
+      Alien::GMP
+      Alien::LZO
+      Alien::LibYAML
+      Alien::Nettle
+      Alien::chromaprint
+      Alien::curl
+      
+      FFI::Platypus::Lang::CPP::Demangle::XS
+      
+      Archive::Tar::Wrapper
+      
+      Alien::Build::Plugin::Fetch::Cache
+      Alien::Role::Dino
+      Dist::Zilla::Plugin::JavaScript::Minifier
+    );
+  }
+
   if($^O eq 'MSWin32')
   {
     push @skip, qw(
@@ -53,6 +89,9 @@ sub new
       App::Prove::Plugin::TermTable
       App::Prove::Plugin::TermTableStty
       Text::Hunspell::FFI
+      
+      Alien::Librdkafka
+      Kafka::Librd
     );
     
     # could probably fix the Alien::Hunspell error:
