@@ -19,7 +19,7 @@ sub new
       Acme::Ford::Prefect
       Acme::Ford::Prefect2
       Acme::Ford::Prefect::FFI
-      
+
       Alien::Autotools
       Alien::autoconf
       Alien::automake
@@ -36,11 +36,11 @@ sub new
       Alien::Nettle
       Alien::chromaprint
       Alien::curl
-      
+
       FFI::Platypus::Lang::CPP::Demangle::XS
-      
+
       Archive::Tar::Wrapper
-      
+
       Alien::Build::Plugin::Fetch::Cache
       Alien::Role::Dino
       Dist::Zilla::Plugin::JavaScript::Minifier
@@ -59,7 +59,7 @@ sub new
       Alien::Editline
       Alien::flex
       Alien::Hunspell
-      
+
       App::cpangitify
       FFI::ExtractSymbols
       FFI::Platypus::Lang::Fortran
@@ -68,11 +68,11 @@ sub new
       Clustericious::Admin
       File::LibMagic::FFI
       Yars::Command::yars_exercise
-      
+
       Rose::DB
       Rose::DB::Object
       Alien::Libbz2
-      
+
       Test::Clustericious::Blocking
 
       Archive::Libarchive::Any
@@ -89,11 +89,11 @@ sub new
       App::Prove::Plugin::TermTable
       App::Prove::Plugin::TermTableStty
       Text::Hunspell::FFI
-      
+
       Alien::Librdkafka
       Kafka::Librd
     );
-    
+
     # could probably fix the Alien::Hunspell error:
     #
     # localename.c: In function '_nl_locale_name_default':
@@ -120,7 +120,7 @@ sub new
   {
     push @skip, 'FFI::TinyCC';
   }
-  else  
+  else
   {
     push @skip, 'Alien::Packages::Cygwin';
   }
@@ -194,7 +194,7 @@ sub new
       'Validate::Tiny',
     ;
   }
-  
+
   unless($] >= 5.010001)
   {
     push @skip,
@@ -235,25 +235,25 @@ sub new
   {
     push @skip, 'Photography::DX';
   }
-  
+
   unless(eval q{ use  Apache2::Const (); 1 })
   {
     push @skip, 'PlugAuth::Client::Tiny::Apache2AuthenHandler';
     push @skip, 'PlugAuth::Client::Tiny::Apache2AuthzHandler';
   }
-  
+
   delete $args{requires}->{$_} for @skip;
 
   open my $fh, '>', 'testlist.txt';
   print $fh "$_\n" for grep !/^perl$/, sort keys %{ $args{requires} };
   close $fh;
-  
+
   my $self = $class->SUPER::new(%args);
-  
+
   $self->add_to_cleanup(
     'testlist.txt',
   );
-  
+
   $self;
 }
 
