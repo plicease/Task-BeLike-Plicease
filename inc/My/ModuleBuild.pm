@@ -20,6 +20,7 @@ sub new
       Acme::Ford::Prefect2
       Acme::Ford::Prefect::FFI
 
+      Alien::nasm
       Alien::Autotools
       Alien::autoconf
       Alien::automake
