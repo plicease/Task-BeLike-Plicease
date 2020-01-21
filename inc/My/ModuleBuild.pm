@@ -44,6 +44,10 @@ sub new
       Alien::Build::Plugin::Fetch::Cache
       Alien::Role::Dino
       Dist::Zilla::Plugin::JavaScript::Minifier
+
+      FFI::TinyCC
+      Pod::POM::Web
+      FFI::TinyCC::Inline
     );
   }
 

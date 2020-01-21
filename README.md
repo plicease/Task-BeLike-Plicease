@@ -4,7 +4,9 @@ Modules Plicease Uses.
 
 # SYNOPSIS
 
-    cpanm Task::BeLike::Plicease
+```
+cpanm Task::BeLike::Plicease
+```
 
 # DESCRIPTION
 
