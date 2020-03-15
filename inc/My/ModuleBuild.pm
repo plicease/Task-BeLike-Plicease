@@ -76,7 +76,6 @@ sub new
       FFI::Platypus::Lang::CPP
       FFI::Platypus::Lang::Pascal
       File::LibMagic::FFI
-      Yars::Command::yars_exercise
 
       Alien::Libbz2
 
