@@ -11,53 +11,59 @@ sub new
 
   my @skip;
 
-  if($^O eq 'MSWin32' && $Config{ccname} eq 'cl')
-  {
-    push @skip, qw(
-      Acme::Alien::DontPanic
-      Acme::Alien::DontPanic2
-      Acme::Ford::Prefect
-      Acme::Ford::Prefect2
-      Acme::Ford::Prefect::FFI
-
-      Alien::Autotools
-      Alien::autoconf
-      Alien::automake
-      Alien::libtool
-      Alien::libuuid
-      Alien::m4
-      Alien::patch
-      Alien::unzip
-      Alien::xz
-      Alien::Expat
-      Alien::GMP
-      Alien::LZO
-      Alien::LibYAML
-      Alien::Nettle
-      Alien::chromaprint
-      Alien::curl
-
-      FFI::Platypus::Lang::CPP::Demangle::XS
-
-      Archive::Tar::Wrapper
-
-      Alien::Build::Plugin::Fetch::Cache
-      Alien::Role::Dino
-      Dist::Zilla::Plugin::JavaScript::Minifier
-
-      FFI::TinyCC
-      Pod::POM::Web
-      FFI::TinyCC::Inline
-    );
-  }
-
   if($^O eq 'MSWin32')
   {
+    if($Config{ccname} eq 'cl')
+    {
+      push @skip, qw(
+        Acme::Alien::DontPanic
+        Acme::Alien::DontPanic2
+        Acme::Ford::Prefect
+        Acme::Ford::Prefect2
+        Acme::Ford::Prefect::FFI
+
+        Alien::Autotools
+        Alien::autoconf
+        Alien::automake
+        Alien::libtool
+        Alien::libuuid
+        Alien::m4
+        Alien::patch
+        Alien::unzip
+        Alien::xz
+        Alien::Expat
+        Alien::GMP
+        Alien::LZO
+        Alien::LibYAML
+        Alien::Nettle
+        Alien::chromaprint
+        Alien::curl
+
+        FFI::Platypus::Lang::CPP::Demangle::XS
+
+        Archive::Tar::Wrapper
+
+        Alien::Build::Plugin::Fetch::Cache
+        Alien::Role::Dino
+        Dist::Zilla::Plugin::JavaScript::Minifier
+
+        FFI::TinyCC
+        Pod::POM::Web
+        FFI::TinyCC::Inline
+      );
+    }
+    else # strawberry, generally
+    {
+      push @skip, qw(
+        Alien::Librdkafka
+        Kafka::Librd
+      );
+    }
+
     push @skip, qw(
       WWW::Bugzilla::BugTree
       Term::Clui
       Archive::Libarchive::FFI
-      Test::Vars
       WebService::LiveJournal
       Term::EditLine
       Alien::Editline
@@ -69,15 +75,10 @@ sub new
       FFI::Platypus::Lang::Fortran
       FFI::Platypus::Lang::CPP
       FFI::Platypus::Lang::Pascal
-      Clustericious::Admin
       File::LibMagic::FFI
       Yars::Command::yars_exercise
 
-      Rose::DB
-      Rose::DB::Object
       Alien::Libbz2
-
-      Test::Clustericious::Blocking
 
       Archive::Libarchive::Any
       Archive::Libarchive::XS
@@ -88,14 +89,10 @@ sub new
       Alien::Alien
       Alien::Libarchive3
       Alien::bison
-      AnyEvent::FTP
       PkgConfig::LibPkgConf
       App::Prove::Plugin::TermTable
       App::Prove::Plugin::TermTableStty
       Text::Hunspell::FFI
-
-      Alien::Librdkafka
-      Kafka::Librd
     );
 
     # could probably fix the Alien::Hunspell error:
@@ -205,8 +202,6 @@ sub new
       'AnyEvent::FTP',
       'App::cpangitify',
       'App::spaceless',
-      'Clustericious',
-      'Clustericious::Admin',
       'Dist::Zilla::PluginBundle::ACPS',
       'Mojolicious',
       'Mojolicious::Plugin::Ident',
@@ -216,10 +211,6 @@ sub new
       'PlugAuth::Plugin::LDAP',
       'PlugAuth::Plugin::AuthenSimple',
       'PlugAuth::Plugin::Finger',
-      'Test::Clustericious::Cluster',
-      'Yars',
-      'Yars::Command::yars_exercise',
-      'Test::Clustericious::Blocking',
     ;
   }
 
