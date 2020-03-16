@@ -185,6 +185,7 @@ $modules{$_} = $_ for qw(
   Test::Script
   Test::Spelling
   Test::Version
+  Text::Hunspell
   Text::Hunspell::FFI
   URI::ws
   UUID::FFI

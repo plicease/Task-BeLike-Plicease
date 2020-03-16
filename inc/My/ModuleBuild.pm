@@ -13,6 +13,7 @@ sub new
 
   if($^O eq 'MSWin32')
   {
+    # Microsoft Visual C++
     if($Config{ccname} eq 'cl')
     {
       push @skip, qw(
@@ -27,7 +28,6 @@ sub new
         Alien::autoconf
         Alien::automake
         Alien::libtool
-        Alien::libuuid
         Alien::m4
         Alien::patch
         Alien::unzip
@@ -39,6 +39,7 @@ sub new
         Alien::Nettle
         Alien::chromaprint
         Alien::curl
+        Alien::help2man;
 
         FFI::Platypus::Lang::CPP::Demangle::XS
 
@@ -54,7 +55,8 @@ sub new
         Text::Hunspell
       );
     }
-    else # strawberry, generally
+    # Usually Strawberry Perl
+    else
     {
       push @skip, qw(
         Alien::Librdkafka
@@ -78,13 +80,10 @@ sub new
       FFI::Platypus::Lang::Pascal
       File::LibMagic::FFI
 
-      Alien::Libbz2
-
       Archive::Libarchive::Any
       Archive::Libarchive::XS
       Archive::Libarchive::FFI
       Archive::Ar::Libarchive
-      Alien::MSYS2
       Alien::pkgconf
       Alien::Alien
       Alien::Libarchive3
@@ -99,32 +98,10 @@ sub new
       push @skip, 'Mojolicious::Plugin::Ident';
     }
   }
-  else
-  {
-    push @skip, 'Alien::Libarchive::MSWin32';
-    push @skip, 'Alien::MSYS2';
-  }
-
-  if($^O eq 'cygwin')
-  {
-    push @skip, 'FFI::TinyCC';
-  }
-  else
-  {
-    push @skip, 'Alien::Packages::Cygwin';
-  }
-
-  if($^O =~ /^(MSWin32|cygwin)$/)
-  {
-    push @skip, qw(
-      Alien::Editline
-      Term::EditLine
-    );
-  }
+  # Not windows
   else
   {
     push @skip, qw(
-      Alien::o2dll
       Win32::ErrorMode
       Win32API::ProcessStatus
     );
@@ -153,9 +130,7 @@ sub new
   }
   else
   {
-    # TODO: alienize https://sourceforge.net/projects/libuuid/ for UUID::FFI?
     push @skip, qw(
-      UUID::FFI
       NewRelic::Agent::FFI
       Alien::nragent
     );
@@ -217,12 +192,6 @@ sub new
   unless($] >= 5.022000)
   {
     push @skip, 'Photography::DX';
-  }
-
-  unless(eval q{ use  Apache2::Const (); 1 })
-  {
-    push @skip, 'PlugAuth::Client::Tiny::Apache2AuthenHandler';
-    push @skip, 'PlugAuth::Client::Tiny::Apache2AuthzHandler';
   }
 
   delete $args{requires}->{$_} for @skip;

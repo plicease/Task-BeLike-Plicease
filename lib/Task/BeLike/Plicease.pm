@@ -713,6 +713,10 @@ Test::Version
 
 =item *
 
+Text::Hunspell
+
+=item *
+
 Text::Hunspell::FFI
 
 =item *
