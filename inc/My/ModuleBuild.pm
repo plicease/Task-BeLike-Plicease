@@ -21,6 +21,7 @@ sub new
         Acme::Ford::Prefect
         Acme::Ford::Prefect2
         Acme::Ford::Prefect::FFI
+        Acme::Ford::Prefect2::FFI
 
         Alien::Autotools
         Alien::autoconf
@@ -50,6 +51,7 @@ sub new
         FFI::TinyCC
         Pod::POM::Web
         FFI::TinyCC::Inline
+        Text::Hunspell
       );
     }
     else # strawberry, generally
@@ -68,7 +70,6 @@ sub new
       Term::EditLine
       Alien::Editline
       Alien::flex
-      Alien::Hunspell
 
       App::cpangitify
       FFI::ExtractSymbols
@@ -91,19 +92,7 @@ sub new
       PkgConfig::LibPkgConf
       App::Prove::Plugin::TermTable
       App::Prove::Plugin::TermTableStty
-      Text::Hunspell::FFI
     );
-
-    # could probably fix the Alien::Hunspell error:
-    #
-    # localename.c: In function '_nl_locale_name_default':
-    # localename.c:1390:4: error: duplicate case value
-    #     case SUBLANG_SINDHI_AFGHANISTAN: return "sd_AF";
-    #     ^
-    # localename.c:1389:4: error: previously used here
-    #     case SUBLANG_SINDHI_PAKISTAN: return "sd_PK";
-    #     ^
-    # make[2]: *** [localename.o] Error 1
 
     if($] >= 5.024)
     {
