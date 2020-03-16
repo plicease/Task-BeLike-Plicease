@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Alien::libuv
+  - Altered exclusion logic for MSWin32 (mainly to account for Visual C++ + vcpkg)
 
 2.14      2019-12-16 12:21:02 -0700
   - Updated my dists to latest
