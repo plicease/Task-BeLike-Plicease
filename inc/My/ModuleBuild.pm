@@ -53,6 +53,7 @@ sub new
         Pod::POM::Web
         FFI::TinyCC::Inline
         Text::Hunspell
+        PkgConfig
       );
     }
     # Usually Strawberry Perl
