@@ -20,6 +20,7 @@ comes with this distribution for details.
 - Acme::Alien::DontPanic2
 - Acme::Ford::Prefect
 - Acme::Ford::Prefect2
+- Acme::Ford::Prefect2::FFI
 - Acme::Ford::Prefect::FFI
 - Alien
 - Alien::Alien
@@ -49,6 +50,7 @@ comes with this distribution for details.
 - Alien::gmake
 - Alien::GMP
 - Alien::gzip
+- Alien::help2man
 - Alien::Hunspell
 - Alien::Libarchive3
 - Alien::Libbz2
@@ -56,6 +58,7 @@ comes with this distribution for details.
 - Alien::LibreSSL
 - Alien::libtool
 - Alien::libuuid
+- Alien::libuv
 - Alien::Libxml2
 - Alien::LibYAML
 - Alien::LZO
@@ -85,6 +88,7 @@ comes with this distribution for details.
 - App::pwhich
 - App::RegexFileUtils
 - App::spaceless
+- App::supertouch
 - App::whichdll
 - Archive::Ar::Libarchive
 - Archive::Libarchive::Any
@@ -102,7 +106,6 @@ comes with this distribution for details.
 - Dist::Zilla::App::Command::aliendeps
 - Dist::Zilla::Plugin::AlienBuild
 - Dist::Zilla::Plugin::Alt
-- Dist::Zilla::Plugin::Author::Plicease
 - Dist::Zilla::Plugin::Bootstrap::lib
 - Dist::Zilla::Plugin::CommentOut
 - Dist::Zilla::Plugin::CSS::Compressor
@@ -195,6 +198,7 @@ comes with this distribution for details.
 - Win32::Getppid
 - Win32::Process::Info
 - Win32::Shortcut::Readlink
+- Win32::Vcpkg
 - Win32API::ProcessStatus
 - WWW::Bugzilla::BugTree
 - YAML

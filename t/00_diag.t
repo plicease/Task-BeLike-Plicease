@@ -15,6 +15,7 @@ $modules{$_} = $_ for qw(
   Acme::Alien::DontPanic2
   Acme::Ford::Prefect
   Acme::Ford::Prefect2
+  Acme::Ford::Prefect2::FFI
   Acme::Ford::Prefect::FFI
   Alien
   Alien::Alien
@@ -57,8 +58,10 @@ $modules{$_} = $_ for qw(
   Alien::flex
   Alien::gmake
   Alien::gzip
+  Alien::help2man
   Alien::libtool
   Alien::libuuid
+  Alien::libuv
   Alien::m4
   Alien::nasm
   Alien::nragent
@@ -80,6 +83,7 @@ $modules{$_} = $_ for qw(
   App::cpanminus
   App::pwhich
   App::spaceless
+  App::supertouch
   App::whichdll
   Archive::Ar::Libarchive
   Archive::Libarchive::Any
@@ -96,7 +100,6 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::App::Command::aliendeps
   Dist::Zilla::Plugin::AlienBuild
   Dist::Zilla::Plugin::Alt
-  Dist::Zilla::Plugin::Author::Plicease
   Dist::Zilla::Plugin::Bootstrap::lib
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
@@ -192,6 +195,7 @@ $modules{$_} = $_ for qw(
   Win32::Getppid
   Win32::Process::Info
   Win32::Shortcut::Readlink
+  Win32::Vcpkg
   Win32API::ProcessStatus
   YAML
   YAML::XS

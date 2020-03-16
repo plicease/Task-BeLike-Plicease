@@ -37,6 +37,10 @@ Acme::Ford::Prefect2
 
 =item *
 
+Acme::Ford::Prefect2::FFI
+
+=item *
+
 Acme::Ford::Prefect::FFI
 
 =item *
@@ -153,6 +157,10 @@ Alien::gzip
 
 =item *
 
+Alien::help2man
+
+=item *
+
 Alien::Hunspell
 
 =item *
@@ -178,6 +186,10 @@ Alien::libtool
 =item *
 
 Alien::libuuid
+
+=item *
+
+Alien::libuv
 
 =item *
 
@@ -297,6 +309,10 @@ App::spaceless
 
 =item *
 
+App::supertouch
+
+=item *
+
 App::whichdll
 
 =item *
@@ -362,10 +378,6 @@ Dist::Zilla::Plugin::AlienBuild
 =item *
 
 Dist::Zilla::Plugin::Alt
-
-=item *
-
-Dist::Zilla::Plugin::Author::Plicease
 
 =item *
 
@@ -734,6 +746,10 @@ Win32::Process::Info
 =item *
 
 Win32::Shortcut::Readlink
+
+=item *
+
+Win32::Vcpkg
 
 =item *
 
