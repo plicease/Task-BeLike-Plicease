@@ -45,7 +45,6 @@ $modules{$_} = $_ for qw(
   Alien::LibreSSL
   Alien::Libxml2
   Alien::MSYS
-  Alien::MSYS2
   Alien::Nettle
   Alien::Role::Alt
   Alien::Role::Dino
@@ -117,6 +116,7 @@ $modules{$_} = $_ for qw(
   EV
   Env::ShellWords
   Exception::Class::DBI
+  ExtUtils::MakeMaker
   FFI
   FFI::CheckLib
   FFI::ExtractSymbols
@@ -144,7 +144,6 @@ $modules{$_} = $_ for qw(
   Kafka::Librd
   Lingua::Alphabet::Phonetic::LAPD
   Log::Log4perl::Appender::TAP
-  Module::Build
   Module::Build::FFI
   Module::Which
   Mojolicious::Plugin::Ident
