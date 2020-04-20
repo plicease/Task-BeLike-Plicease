@@ -581,6 +581,10 @@ NewRelic::Agent::FFI
 
 =item *
 
+PeekPoke::FFI
+
+=item *
+
 Perl::Critic::Plicease
 
 =item *
@@ -730,6 +734,10 @@ UUID::FFI
 =item *
 
 Wasm
+
+=item *
+
+Wasm::Hook
 
 =item *
 

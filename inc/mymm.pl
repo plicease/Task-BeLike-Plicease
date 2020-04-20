@@ -32,11 +32,12 @@ sub myWriteMakefile
   my @skip;
 
   # Wasm
-  if(wasm_ok())
+  unless(wasm_ok())
   {
     push @skip, qw(
       Alien::wasmtime
       Wasm
+      Wasm::Hook
     );
   }
 

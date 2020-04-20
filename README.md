@@ -156,6 +156,7 @@ comes with this distribution for details.
 - Monkey::Patch
 - Moose
 - NewRelic::Agent::FFI
+- PeekPoke::FFI
 - Perl::Critic::Plicease
 - Photography::DX
 - Photography::EV
@@ -194,6 +195,7 @@ comes with this distribution for details.
 - URI::ws
 - UUID::FFI
 - Wasm
+- Wasm::Hook
 - WebService::DailyConnect
 - WebService::LiveJournal
 - Win32::ErrorMode
