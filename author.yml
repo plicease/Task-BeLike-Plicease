@@ -13,6 +13,7 @@ pod_spelling_system:
     - PlugAuth
     - EV
     - PkgConfig
+    - Wasm
 
 pod_coverage:
   # format is "Class#method" or "Class", regex allowed
