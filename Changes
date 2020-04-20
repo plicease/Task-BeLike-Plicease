@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Switched to EUMM
   - Updated my dists to latest
   - Added Alien::libuv
   - Altered exclusion logic for MSWin32 (mainly to account for Visual C++ + vcpkg)
