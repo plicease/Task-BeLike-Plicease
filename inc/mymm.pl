@@ -9,15 +9,15 @@ sub wasm_ok
 {
   if($^O eq 'linux')
   {
-    return $Config{archname} !~ /^x86_64-linux/;
+    return $Config{archname} =~ /^x86_64-linux/ || $Config{ptrsize} != 8;
   }
   elsif($^O eq 'MSWin32')
   {
-    return $Config{archname} !~ /^MSWin32-x64/;
+    return $Config{archname} =~ /^MSWin32-x64/ || $Config{ptrsize} != 8;
   }
   elsif($^O eq 'darwin')
   {
-    return $Config{myarchname} !~ /^i386-darwin/ || $Config{ptrsize} != 8;
+    return $Config{myarchname} =~ /^i386-darwin/ || $Config{ptrsize} != 8;
   }
   else
   {
