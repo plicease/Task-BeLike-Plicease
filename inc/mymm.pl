@@ -1,13 +1,13 @@
-package My::ModuleBuild;
+package mymm;
 
 use strict;
 use warnings;
 use Config;
-use base qw( Module::Build );
+use ExtUtils::MakeMaker ();
 
-sub new
+sub myWriteMakefile
 {
-  my($class, %args) = @_;
+  my %args = @_;
 
   my @skip;
 
@@ -195,19 +195,14 @@ sub new
     push @skip, 'Photography::DX';
   }
 
-  delete $args{requires}->{$_} for @skip;
+  delete $args{PREREQ_PM}->{$_} for @skip;
 
   open my $fh, '>', 'testlist.txt';
-  print $fh "$_\n" for grep !/^perl$/, sort keys %{ $args{requires} };
+  print $fh "$_\n" for grep !/^perl$/, sort keys %{ $args{PREREQ_PM} };
   close $fh;
 
-  my $self = $class->SUPER::new(%args);
-
-  $self->add_to_cleanup(
-    'testlist.txt',
-  );
-
-  $self;
+  $args{clean} = { FILES => "testlist.txt" };
+  ExtUtils::MakeMaker::WriteMakefile(%args);
 }
 
 1;

@@ -64,7 +64,6 @@ comes with this distribution for details.
 - Alien::LZO
 - Alien::m4
 - Alien::MSYS
-- Alien::MSYS2
 - Alien::nasm
 - Alien::Nettle
 - Alien::nragent

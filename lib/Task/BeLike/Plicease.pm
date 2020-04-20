@@ -213,10 +213,6 @@ Alien::MSYS
 
 =item *
 
-Alien::MSYS2
-
-=item *
-
 Alien::nasm
 
 =item *
