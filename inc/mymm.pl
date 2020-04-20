@@ -41,6 +41,16 @@ sub myWriteMakefile
     );
   }
 
+  # Linux PPC64
+  if($^O eq 'linux' && $Config{archname} =~ /^ppc64/)
+  {
+    push @skip, qw(
+      FFI::TinyCC
+      FFI::TinyCC::Inline
+      Win32::Vcpkg
+    );
+  }
+
   if($^O eq 'MSWin32')
   {
     # Microsoft Visual C++
