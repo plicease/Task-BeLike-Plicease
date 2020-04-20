@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.15      2020-04-20 13:17:00 -0600
   - Switched to EUMM
   - Removed Dist::Zilla::Plugin::Author::Plicease (now reunited with Dist::Zilla::PluginBundle::Author::Plicease)
   - Altered exclusion logic for MSWin32 (mainly to account for Visual C++ + vcpkg)
