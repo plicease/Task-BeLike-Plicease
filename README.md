@@ -72,6 +72,7 @@ comes with this distribution for details.
 - Alien::Role::Alt
 - Alien::Role::Dino
 - Alien::unzip
+- Alien::wasmtime
 - Alien::xz
 - AnyEvent::Finger
 - AnyEvent::FTP
@@ -192,6 +193,7 @@ comes with this distribution for details.
 - Text::Hunspell::FFI
 - URI::ws
 - UUID::FFI
+- Wasm
 - WebService::DailyConnect
 - WebService::LiveJournal
 - Win32::ErrorMode

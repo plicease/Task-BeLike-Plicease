@@ -245,6 +245,10 @@ Alien::unzip
 
 =item *
 
+Alien::wasmtime
+
+=item *
+
 Alien::xz
 
 =item *
@@ -722,6 +726,10 @@ URI::ws
 =item *
 
 UUID::FFI
+
+=item *
+
+Wasm
 
 =item *
 

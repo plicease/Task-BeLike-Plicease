@@ -5,11 +5,40 @@ use warnings;
 use Config;
 use ExtUtils::MakeMaker ();
 
+sub wasm_ok
+{
+  if($^O eq 'linux')
+  {
+    return $Config{archname} !~ /^x86_64-linux/;
+  }
+  elsif($^O eq 'MSWin32')
+  {
+    return $Config{archname} !~ /^MSWin32-x64/;
+  }
+  elsif($^O eq 'darwin')
+  {
+    return $Config{myarchname} !~ /^i386-darwin/ || $Config{ptrsize} != 8;
+  }
+  else
+  {
+    return 0;
+  }
+}
+
 sub myWriteMakefile
 {
   my %args = @_;
 
   my @skip;
+
+  # Wasm
+  if(wasm_ok())
+  {
+    push @skip, qw(
+      Alien::wasmtime
+      Wasm
+    );
+  }
 
   if($^O eq 'MSWin32')
   {
@@ -141,9 +170,9 @@ sub myWriteMakefile
   {
     push @skip,
       'Dist::Zilla::Plugin::jQuery', # due to Bread::Board
-      'FFI::TinyCC',            # in practice does not work on 5.8.8
-      'File::Listing::Ftpcopy', # in practice does not work on 5.8.8
-      'Sereal::Encoder',        # https://github.com/Sereal/Sereal/issues/95
+      'FFI::TinyCC',                 # in practice does not work on 5.8.8
+      'File::Listing::Ftpcopy',      # in practice does not work on 5.8.8
+      'Sereal::Encoder',             # https://github.com/Sereal/Sereal/issues/95
     ;
   }
 

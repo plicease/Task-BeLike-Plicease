@@ -11,6 +11,8 @@ Revision history for {{$dist->name}}
   - Added Alien::help2man
   - Removed Dist::Zilla::Plugin::Author::Plicease (now reunited with Dist::Zilla::PluginBundle::Author::Plicease)
   - Added Text::Hunspell
+  - Added Wasm
+  - Added Alien::wasmtime
 
 2.14      2019-12-16 12:21:02 -0700
   - Updated my dists to latest

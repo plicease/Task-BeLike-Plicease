@@ -67,6 +67,7 @@ $modules{$_} = $_ for qw(
   Alien::patch
   Alien::pkgconf
   Alien::unzip
+  Alien::wasmtime
   Alien::xz
   AnyEvent::FTP
   AnyEvent::Finger
@@ -189,6 +190,7 @@ $modules{$_} = $_ for qw(
   URI::ws
   UUID::FFI
   WWW::Bugzilla::BugTree
+  Wasm
   WebService::DailyConnect
   WebService::LiveJournal
   Win32::ErrorMode
