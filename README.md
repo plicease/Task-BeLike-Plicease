@@ -58,7 +58,6 @@ comes with this distribution for details.
 - Alien::LibreSSL
 - Alien::libtool
 - Alien::libuuid
-- Alien::libuv
 - Alien::Libxml2
 - Alien::LibYAML
 - Alien::LZO
@@ -98,6 +97,7 @@ comes with this distribution for details.
 - autodie
 - Browser::Start
 - Class::Inspector
+- Cpanel::JSON::XS
 - DBD::mysqlPP
 - DBD::PgPP
 - DBD::SQLite
@@ -121,7 +121,6 @@ comes with this distribution for details.
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::PluginBundle::Author::Plicease
 - Env::ShellWords
-- EV
 - Exception::Class::DBI
 - FFI
 - FFI::CheckLib
@@ -134,7 +133,7 @@ comes with this distribution for details.
 - FFI::Platypus::Lang::Rust
 - FFI::Platypus::Legacy::Raw
 - FFI::Platypus::Record::StringArray
-- FFI::Platypus::Type::StringArray
+- FFI::Platypus::Type::PtrObject
 - FFI::TinyCC
 - FFI::TinyCC::Inline
 - FFI::Util
@@ -153,7 +152,6 @@ comes with this distribution for details.
 - Module::Which
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer
-- Monkey::Patch
 - Moose
 - NewRelic::Agent::FFI
 - PeekPoke::FFI
@@ -162,12 +160,9 @@ comes with this distribution for details.
 - Photography::EV
 - PkgConfig
 - PkgConfig::LibPkgConf
-- Pod::POM::Web
-- Role::Tiny
 - Shell::Config::Generate
 - Shell::Guess
 - String::Template
-- Template
 - Term::Clui
 - Term::EditLine
 - Test2::Plugin::FauxHomeDir

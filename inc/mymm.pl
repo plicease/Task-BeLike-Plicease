@@ -235,6 +235,8 @@ sub myWriteMakefile
     push @skip, 'Photography::DX';
   }
 
+  print "Note: skipping on this platform:\n";
+  print " + $_\n" for @skip;
   delete $args{PREREQ_PM}->{$_} for @skip;
 
   open my $fh, '>', 'testlist.txt';

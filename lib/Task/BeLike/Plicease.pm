@@ -189,10 +189,6 @@ Alien::libuuid
 
 =item *
 
-Alien::libuv
-
-=item *
-
 Alien::Libxml2
 
 =item *
@@ -349,6 +345,10 @@ Class::Inspector
 
 =item *
 
+Cpanel::JSON::XS
+
+=item *
+
 DBD::mysqlPP
 
 =item *
@@ -441,10 +441,6 @@ Env::ShellWords
 
 =item *
 
-EV
-
-=item *
-
 Exception::Class::DBI
 
 =item *
@@ -493,7 +489,7 @@ FFI::Platypus::Record::StringArray
 
 =item *
 
-FFI::Platypus::Type::StringArray
+FFI::Platypus::Type::PtrObject
 
 =item *
 
@@ -569,10 +565,6 @@ Mojolicious::Plugin::TtRenderer
 
 =item *
 
-Monkey::Patch
-
-=item *
-
 Moose
 
 =item *
@@ -605,14 +597,6 @@ PkgConfig::LibPkgConf
 
 =item *
 
-Pod::POM::Web
-
-=item *
-
-Role::Tiny
-
-=item *
-
 Shell::Config::Generate
 
 =item *
@@ -622,10 +606,6 @@ Shell::Guess
 =item *
 
 String::Template
-
-=item *
-
-Template
 
 =item *
 

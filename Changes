@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added FFI::Platypus::Type::PtrObject
 
 2.15      2020-04-20 13:17:00 -0600
   - Switched to EUMM

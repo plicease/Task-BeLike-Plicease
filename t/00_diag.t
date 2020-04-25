@@ -9,7 +9,6 @@ use Test::More tests => 1;
 my %modules;
 my $post_diag;
 
-BEGIN { eval q{ use EV; } }
 $modules{$_} = $_ for qw(
   Acme::Alien::DontPanic
   Acme::Alien::DontPanic2
@@ -60,7 +59,6 @@ $modules{$_} = $_ for qw(
   Alien::help2man
   Alien::libtool
   Alien::libuuid
-  Alien::libuv
   Alien::m4
   Alien::nasm
   Alien::nragent
@@ -92,6 +90,7 @@ $modules{$_} = $_ for qw(
   Archive::Tar::Wrapper
   Browser::Start
   Class::Inspector
+  Cpanel::JSON::XS
   DBD::PgPP
   DBD::SQLite
   DBD::mysqlPP
@@ -114,7 +113,6 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
-  EV
   Env::ShellWords
   Exception::Class::DBI
   ExtUtils::MakeMaker
@@ -129,7 +127,7 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Lang::Rust
   FFI::Platypus::Legacy::Raw
   FFI::Platypus::Record::StringArray
-  FFI::Platypus::Type::StringArray
+  FFI::Platypus::Type::PtrObject
   FFI::TinyCC
   FFI::TinyCC::Inline
   FFI::Util
@@ -149,7 +147,6 @@ $modules{$_} = $_ for qw(
   Module::Which
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
-  Monkey::Patch
   Moose
   NewRelic::Agent::FFI
   PeekPoke::FFI
@@ -158,12 +155,9 @@ $modules{$_} = $_ for qw(
   Photography::EV
   PkgConfig
   PkgConfig::LibPkgConf
-  Pod::POM::Web
-  Role::Tiny
   Shell::Config::Generate
   Shell::Guess
   String::Template
-  Template
   Term::Clui
   Term::EditLine
   Test2::Plugin::FauxHomeDir
