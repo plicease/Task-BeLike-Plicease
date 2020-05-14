@@ -61,6 +61,14 @@ sub myWriteMakefile
     );
   }
 
+  if($^O ne 'linux')
+  {
+    push @skip, qw(
+      Alien::libnewrelic
+      NewFangle
+    );
+  }
+
   if($^O eq 'MSWin32')
   {
     # Microsoft Visual C++

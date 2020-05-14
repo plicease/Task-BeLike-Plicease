@@ -57,6 +57,7 @@ $modules{$_} = $_ for qw(
   Alien::gmake
   Alien::gzip
   Alien::help2man
+  Alien::libnewrelic
   Alien::libtool
   Alien::libuuid
   Alien::m4
@@ -116,6 +117,7 @@ $modules{$_} = $_ for qw(
   Exception::Class::DBI
   ExtUtils::MakeMaker
   FFI
+  FFI::C
   FFI::CheckLib
   FFI::ExtractSymbols
   FFI::Platypus
@@ -126,6 +128,7 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Lang::Rust
   FFI::Platypus::Legacy::Raw
   FFI::Platypus::Record::StringArray
+  FFI::Platypus::Type::Enum
   FFI::Platypus::Type::PtrObject
   FFI::TinyCC
   FFI::TinyCC::Inline
@@ -147,6 +150,7 @@ $modules{$_} = $_ for qw(
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
   Moose
+  NewFangle
   PeekPoke::FFI
   Perl::Critic::Plicease
   Photography::DX

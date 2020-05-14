@@ -3,6 +3,10 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
   - Remove deprecated module Alien::nragent
   - Remove deprecated module NewRelic::Agent::FFI
+  - Added Alien::libnewrelic
+  - Added FFI::C
+  - Added FFI::Platypus::Type::Enum
+  - Added NewFangle
 
 2.16      2020-04-25 16:58:27 -0600
   - Updated my dists to latest

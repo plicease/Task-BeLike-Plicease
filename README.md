@@ -54,6 +54,7 @@ comes with this distribution for details.
 - Alien::Hunspell
 - Alien::Libarchive3
 - Alien::Libbz2
+- Alien::libnewrelic
 - Alien::Librdkafka
 - Alien::LibreSSL
 - Alien::libtool
@@ -122,6 +123,7 @@ comes with this distribution for details.
 - Env::ShellWords
 - Exception::Class::DBI
 - FFI
+- FFI::C
 - FFI::CheckLib
 - FFI::ExtractSymbols
 - FFI::Platypus
@@ -132,6 +134,7 @@ comes with this distribution for details.
 - FFI::Platypus::Lang::Rust
 - FFI::Platypus::Legacy::Raw
 - FFI::Platypus::Record::StringArray
+- FFI::Platypus::Type::Enum
 - FFI::Platypus::Type::PtrObject
 - FFI::TinyCC
 - FFI::TinyCC::Inline
@@ -152,6 +155,7 @@ comes with this distribution for details.
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer
 - Moose
+- NewFangle
 - PeekPoke::FFI
 - Perl::Critic::Plicease
 - Photography::DX

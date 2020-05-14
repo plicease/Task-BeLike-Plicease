@@ -173,6 +173,10 @@ Alien::Libbz2
 
 =item *
 
+Alien::libnewrelic
+
+=item *
+
 Alien::Librdkafka
 
 =item *
@@ -445,6 +449,10 @@ FFI
 
 =item *
 
+FFI::C
+
+=item *
+
 FFI::CheckLib
 
 =item *
@@ -482,6 +490,10 @@ FFI::Platypus::Legacy::Raw
 =item *
 
 FFI::Platypus::Record::StringArray
+
+=item *
+
+FFI::Platypus::Type::Enum
 
 =item *
 
@@ -562,6 +574,10 @@ Mojolicious::Plugin::TtRenderer
 =item *
 
 Moose
+
+=item *
+
+NewFangle
 
 =item *
 
