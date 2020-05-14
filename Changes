@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
   - Remove deprecated module Alien::nragent
   - Remove deprecated module NewRelic::Agent::FFI
   - Added Alien::libnewrelic
