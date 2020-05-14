@@ -5,9 +5,12 @@ Revision history for {{$dist->name}}
   - Remove deprecated module NewRelic::Agent::FFI
   - Added Alien::libnewrelic
   - Added App::plasm
+  - Added Devel::ebug
   - Added FFI::C
+  - Added FFI::Platypus::Lang::Go
   - Added FFI::Platypus::Type::Enum
   - Added NewFangle
+  - Added Test2::Tools::PerlCritic
 
 2.16      2020-04-25 16:58:27 -0600
   - Updated my dists to latest

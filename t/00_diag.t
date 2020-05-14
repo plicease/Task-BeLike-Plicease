@@ -96,6 +96,7 @@ $modules{$_} = $_ for qw(
   DBD::SQLite
   DBD::mysqlPP
   Devel::StackTrace
+  Devel::ebug
   Digest::MD5
   Dist::Zilla::App::Command::aliendeps
   Dist::Zilla::Plugin::AlienBuild
@@ -125,6 +126,7 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Lang::CPP
   FFI::Platypus::Lang::CPP::Demangle::XS
   FFI::Platypus::Lang::Fortran
+  FFI::Platypus::Lang::Go
   FFI::Platypus::Lang::Pascal
   FFI::Platypus::Lang::Rust
   FFI::Platypus::Legacy::Raw
@@ -168,6 +170,7 @@ $modules{$_} = $_ for qw(
   Test2::Tools::HTTP
   Test2::Tools::HTTP::UA::Mojo
   Test2::Tools::JSON::Pointer
+  Test2::Tools::PerlCritic
   Test2::Tools::URL
   Test::Alien::CPP
   Test::CChecker

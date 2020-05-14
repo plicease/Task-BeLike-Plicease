@@ -365,6 +365,10 @@ DBD::SQLite
 
 =item *
 
+Devel::ebug
+
+=item *
+
 Devel::StackTrace
 
 =item *
@@ -478,6 +482,10 @@ FFI::Platypus::Lang::CPP::Demangle::XS
 =item *
 
 FFI::Platypus::Lang::Fortran
+
+=item *
+
+FFI::Platypus::Lang::Go
 
 =item *
 
@@ -646,6 +654,10 @@ Test2::Tools::HTTP::UA::Mojo
 =item *
 
 Test2::Tools::JSON::Pointer
+
+=item *
+
+Test2::Tools::PerlCritic
 
 =item *
 
