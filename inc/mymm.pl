@@ -168,25 +168,6 @@ sub myWriteMakefile
     );
   }
 
-  if($^O eq 'linux')
-  {
-    # archname=x86_64-linux
-    if($Config{archname} !~ /^x86_64/)
-    {
-    push @skip, qw(
-      NewRelic::Agent::FFI
-      Alien::nragent
-    );
-    }
-  }
-  else
-  {
-    push @skip, qw(
-      NewRelic::Agent::FFI
-      Alien::nragent
-    );
-  }
-
   unless($] >= 5.008009)
   {
     push @skip,

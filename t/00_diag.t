@@ -61,7 +61,6 @@ $modules{$_} = $_ for qw(
   Alien::libuuid
   Alien::m4
   Alien::nasm
-  Alien::nragent
   Alien::patch
   Alien::pkgconf
   Alien::unzip
@@ -148,7 +147,6 @@ $modules{$_} = $_ for qw(
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
   Moose
-  NewRelic::Agent::FFI
   PeekPoke::FFI
   Perl::Critic::Plicease
   Photography::DX

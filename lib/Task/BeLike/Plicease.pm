@@ -217,10 +217,6 @@ Alien::Nettle
 
 =item *
 
-Alien::nragent
-
-=item *
-
 Alien::patch
 
 =item *
@@ -566,10 +562,6 @@ Mojolicious::Plugin::TtRenderer
 =item *
 
 Moose
-
-=item *
-
-NewRelic::Agent::FFI
 
 =item *
 

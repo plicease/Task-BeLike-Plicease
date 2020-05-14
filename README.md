@@ -65,7 +65,6 @@ comes with this distribution for details.
 - Alien::MSYS
 - Alien::nasm
 - Alien::Nettle
-- Alien::nragent
 - Alien::patch
 - Alien::pkgconf
 - Alien::Role::Alt
@@ -153,7 +152,6 @@ comes with this distribution for details.
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer
 - Moose
-- NewRelic::Agent::FFI
 - PeekPoke::FFI
 - Perl::Critic::Plicease
 - Photography::DX
