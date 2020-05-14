@@ -79,6 +79,7 @@ $modules{$_} = $_ for qw(
   App::af
   App::cpangitify
   App::cpanminus
+  App::plasm
   App::pwhich
   App::spaceless
   App::supertouch

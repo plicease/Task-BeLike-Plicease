@@ -82,6 +82,7 @@ comes with this distribution for details.
 - App::af
 - App::cpangitify
 - App::cpanminus
+- App::plasm
 - App::Prove::Plugin::TermTable
 - App::Prove::Plugin::TermTableStty
 - App::pwhich

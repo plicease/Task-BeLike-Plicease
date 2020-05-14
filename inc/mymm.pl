@@ -36,6 +36,7 @@ sub myWriteMakefile
   {
     push @skip, qw(
       Alien::wasmtime
+      App::plasm
       Wasm
       Wasm::Hook
     );

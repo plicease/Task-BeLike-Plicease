@@ -285,6 +285,10 @@ App::cpanminus
 
 =item *
 
+App::plasm
+
+=item *
+
 App::Prove::Plugin::TermTable
 
 =item *

@@ -4,6 +4,7 @@ Revision history for {{$dist->name}}
   - Remove deprecated module Alien::nragent
   - Remove deprecated module NewRelic::Agent::FFI
   - Added Alien::libnewrelic
+  - Added App::plasm
   - Added FFI::C
   - Added FFI::Platypus::Type::Enum
   - Added NewFangle
