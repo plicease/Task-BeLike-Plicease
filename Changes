@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Removed deprecated WebService::Livejournal
 
 2.17      2020-05-14 19:26:28 -0400
   - Updated my dists to latest

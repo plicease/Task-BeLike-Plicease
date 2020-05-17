@@ -198,7 +198,6 @@ comes with this distribution for details.
 - Wasm
 - Wasm::Hook
 - WebService::DailyConnect
-- WebService::LiveJournal
 - Win32::ErrorMode
 - Win32::Getppid
 - Win32::Process::Info

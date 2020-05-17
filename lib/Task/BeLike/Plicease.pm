@@ -749,10 +749,6 @@ WebService::DailyConnect
 
 =item *
 
-WebService::LiveJournal
-
-=item *
-
 Win32::ErrorMode
 
 =item *

@@ -194,7 +194,6 @@ $modules{$_} = $_ for qw(
   Wasm
   Wasm::Hook
   WebService::DailyConnect
-  WebService::LiveJournal
   Win32::ErrorMode
   Win32::Getppid
   Win32::Process::Info
