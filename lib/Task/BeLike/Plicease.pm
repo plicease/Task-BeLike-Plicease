@@ -177,6 +177,10 @@ Alien::libnewrelic
 
 =item *
 
+Alien::libpcre
+
+=item *
+
 Alien::Librdkafka
 
 =item *

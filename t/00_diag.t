@@ -58,6 +58,7 @@ $modules{$_} = $_ for qw(
   Alien::gzip
   Alien::help2man
   Alien::libnewrelic
+  Alien::libpcre
   Alien::libtool
   Alien::libuuid
   Alien::m4

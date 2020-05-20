@@ -55,6 +55,7 @@ comes with this distribution for details.
 - Alien::Libarchive3
 - Alien::Libbz2
 - Alien::libnewrelic
+- Alien::libpcre
 - Alien::Librdkafka
 - Alien::LibreSSL
 - Alien::libtool
