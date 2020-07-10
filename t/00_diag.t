@@ -87,7 +87,6 @@ $modules{$_} = $_ for qw(
   App::whichdll
   Archive::Ar::Libarchive
   Archive::Libarchive::Any
-  Archive::Libarchive::FFI
   Archive::Libarchive::XS
   Archive::Tar::Wrapper
   Browser::Start
@@ -136,7 +135,6 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Type::PtrObject
   FFI::TinyCC
   FFI::TinyCC::Inline
-  FFI::Util
   File::LibMagic::FFI
   File::Listing
   File::Listing::Ftpcopy
@@ -149,7 +147,6 @@ $modules{$_} = $_ for qw(
   Kafka::Librd
   Lingua::Alphabet::Phonetic::LAPD
   Log::Log4perl::Appender::TAP
-  Module::Build::FFI
   Module::Which
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer

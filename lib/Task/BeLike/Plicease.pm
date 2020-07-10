@@ -329,10 +329,6 @@ Archive::Libarchive::Any
 
 =item *
 
-Archive::Libarchive::FFI
-
-=item *
-
 Archive::Libarchive::XS
 
 =item *
@@ -525,10 +521,6 @@ FFI::TinyCC::Inline
 
 =item *
 
-FFI::Util
-
-=item *
-
 File::LibMagic::FFI
 
 =item *
@@ -570,10 +562,6 @@ local::lib
 =item *
 
 Log::Log4perl::Appender::TAP
-
-=item *
-
-Module::Build::FFI
 
 =item *
 

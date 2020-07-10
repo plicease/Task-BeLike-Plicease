@@ -93,7 +93,6 @@ comes with this distribution for details.
 - App::whichdll
 - Archive::Ar::Libarchive
 - Archive::Libarchive::Any
-- Archive::Libarchive::FFI
 - Archive::Libarchive::XS
 - Archive::Tar::Wrapper
 - autodie
@@ -142,7 +141,6 @@ comes with this distribution for details.
 - FFI::Platypus::Type::PtrObject
 - FFI::TinyCC
 - FFI::TinyCC::Inline
-- FFI::Util
 - File::LibMagic::FFI
 - File::Listing
 - File::Listing::Ftpcopy
@@ -154,7 +152,6 @@ comes with this distribution for details.
 - Lingua::Alphabet::Phonetic::LAPD
 - local::lib
 - Log::Log4perl::Appender::TAP
-- Module::Build::FFI
 - Module::Which
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer

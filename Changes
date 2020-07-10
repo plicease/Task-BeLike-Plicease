@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Remove deprecated module Module::Build::FFI
+  - Remove deprecated module FFI::Util
+  - Remove unused module Archive::Libarchive::FFI
 
 2.18      2020-05-20 17:28:20 -0600
   - Updated my dists to latest
