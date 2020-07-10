@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.19      2020-07-10 12:19:50 -0600
   - Updated my dists to latest
   - Remove deprecated module Module::Build::FFI
   - Remove deprecated module FFI::Util
