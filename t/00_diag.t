@@ -50,6 +50,7 @@ $modules{$_} = $_ for qw(
   Alien::autoconf
   Alien::automake
   Alien::bison
+  Alien::castxml
   Alien::chromaprint
   Alien::cmake3
   Alien::curl
@@ -90,7 +91,9 @@ $modules{$_} = $_ for qw(
   Archive::Libarchive::XS
   Archive::Tar::Wrapper
   Browser::Start
+  Clang::CastXML
   Class::Inspector
+  Const::Introspect::C
   Cpanel::JSON::XS
   DBD::PgPP
   DBD::SQLite
@@ -190,7 +193,6 @@ $modules{$_} = $_ for qw(
   UUID::FFI
   WWW::Bugzilla::BugTree
   Wasm
-  Wasm::Hook
   WebService::DailyConnect
   Win32::ErrorMode
   Win32::Getppid

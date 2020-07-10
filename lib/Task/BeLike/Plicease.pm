@@ -113,6 +113,10 @@ Alien::Build::Plugin::Probe::Override
 
 =item *
 
+Alien::castxml
+
+=item *
+
 Alien::chromaprint
 
 =item *
@@ -345,7 +349,15 @@ Browser::Start
 
 =item *
 
+Clang::CastXML
+
+=item *
+
 Class::Inspector
+
+=item *
+
+Const::Introspect::C
 
 =item *
 
@@ -730,10 +742,6 @@ UUID::FFI
 =item *
 
 Wasm
-
-=item *
-
-Wasm::Hook
 
 =item *
 

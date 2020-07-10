@@ -1,9 +1,14 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
   - Remove deprecated module Module::Build::FFI
   - Remove deprecated module FFI::Util
   - Remove unused module Archive::Libarchive::FFI
+  - Remove merged module Wasm::Hook
+  - Added Const::Introspect::C
+  - Added Clang::CastXML
+  - Added Alien::castxml
 
 2.18      2020-05-20 17:28:20 -0600
   - Updated my dists to latest

@@ -39,6 +39,7 @@ comes with this distribution for details.
 - Alien::Build::Plugin::Fetch::Rewrite
 - Alien::Build::Plugin::Probe::GnuWin32
 - Alien::Build::Plugin::Probe::Override
+- Alien::castxml
 - Alien::chromaprint
 - Alien::CMake
 - Alien::cmake3
@@ -97,7 +98,9 @@ comes with this distribution for details.
 - Archive::Tar::Wrapper
 - autodie
 - Browser::Start
+- Clang::CastXML
 - Class::Inspector
+- Const::Introspect::C
 - Cpanel::JSON::XS
 - DBD::mysqlPP
 - DBD::PgPP
@@ -194,7 +197,6 @@ comes with this distribution for details.
 - URI::ws
 - UUID::FFI
 - Wasm
-- Wasm::Hook
 - WebService::DailyConnect
 - Win32::ErrorMode
 - Win32::Getppid
