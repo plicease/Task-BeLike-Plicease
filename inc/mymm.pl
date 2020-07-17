@@ -42,6 +42,14 @@ sub myWriteMakefile
     );
   }
 
+  # any BSD (Free, Net, Open etc)
+  if($^O =~ /bsd$/)
+  {
+    push @skip, qw(
+      Win32::Vcpkg
+    );
+  }
+
   # Linux PPC64
   if($^O eq 'linux' && $Config{archname} =~ /^ppc64/)
   {
