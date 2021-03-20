@@ -45,6 +45,7 @@ $modules{$_} = $_ for qw(
   Alien::Libxml2
   Alien::MSYS
   Alien::Nettle
+  Alien::OpenSSL
   Alien::Role::Alt
   Alien::Role::Dino
   Alien::autoconf
@@ -126,6 +127,7 @@ $modules{$_} = $_ for qw(
   FFI::CheckLib
   FFI::ExtractSymbols
   FFI::Platypus
+  FFI::Platypus::Declare
   FFI::Platypus::Lang::CPP
   FFI::Platypus::Lang::CPP::Demangle::XS
   FFI::Platypus::Lang::Fortran
@@ -248,7 +250,7 @@ if(@keys > 0)
   spacer;
 }
 
-diag sprintf $format, 'perl ', $];
+diag sprintf $format, 'perl', "$] $^O $Config{archname}";
 
 foreach my $module (@modules)
 {

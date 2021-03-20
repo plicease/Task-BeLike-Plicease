@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added FFI::Platypus::Declare
+  - Added Alien::OpenSSL
 
 2.19      2020-07-10 12:19:50 -0600
   - Updated my dists to latest

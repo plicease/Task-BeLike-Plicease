@@ -229,6 +229,10 @@ Alien::Nettle
 
 =item *
 
+Alien::OpenSSL
+
+=item *
+
 Alien::patch
 
 =item *
@@ -482,6 +486,10 @@ FFI::ExtractSymbols
 =item *
 
 FFI::Platypus
+
+=item *
+
+FFI::Platypus::Declare
 
 =item *
 

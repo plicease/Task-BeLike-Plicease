@@ -68,6 +68,7 @@ comes with this distribution for details.
 - Alien::MSYS
 - Alien::nasm
 - Alien::Nettle
+- Alien::OpenSSL
 - Alien::patch
 - Alien::pkgconf
 - Alien::Role::Alt
@@ -132,6 +133,7 @@ comes with this distribution for details.
 - FFI::CheckLib
 - FFI::ExtractSymbols
 - FFI::Platypus
+- FFI::Platypus::Declare
 - FFI::Platypus::Lang::CPP
 - FFI::Platypus::Lang::CPP::Demangle::XS
 - FFI::Platypus::Lang::Fortran
