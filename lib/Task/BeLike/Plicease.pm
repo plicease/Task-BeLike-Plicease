@@ -673,6 +673,10 @@ Test2::Tools::PerlCritic
 
 =item *
 
+Test2::Tools::Process
+
+=item *
+
 Test2::Tools::URL
 
 =item *
@@ -690,10 +694,6 @@ Test::CPAN::Changes
 =item *
 
 Test::EOL
-
-=item *
-
-Test::Exec
 
 =item *
 

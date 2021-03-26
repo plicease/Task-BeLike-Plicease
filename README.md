@@ -179,12 +179,12 @@ comes with this distribution for details.
 - Test2::Tools::HTTP::UA::Mojo
 - Test2::Tools::JSON::Pointer
 - Test2::Tools::PerlCritic
+- Test2::Tools::Process
 - Test2::Tools::URL
 - Test::Alien::CPP
 - Test::CChecker
 - Test::CPAN::Changes
 - Test::EOL
-- Test::Exec
 - Test::Fixme
 - Test::Memory::Cycle
 - Test::NoTabs

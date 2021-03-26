@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added Test2::Tools::Process
+  - Remove Test::Exit
 
 2.20      2021-03-20 04:56:40 -0600
   - Updated my dists to latest
