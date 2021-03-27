@@ -2,6 +2,7 @@ use strict;
 use warnings;
 BEGIN { eval q{ use EV; } }
 BEGIN { eval q{ use Role::Tiny; } }
+BEGIN { eval q{ use IPC::Run3; } }
 use Test::More;
 
 my @list;
