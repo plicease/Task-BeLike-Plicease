@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.22      2021-04-17 03:03:38 -0600
   - Updated my dists to latest
   - Remove FFI::TinyCC::Inline on macos
   - Remove WebService::DailyConnect
