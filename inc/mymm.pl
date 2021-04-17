@@ -181,6 +181,7 @@ sub myWriteMakefile
       WWW::Bugzilla::BugTree
       File::LibMagic::FFI
       FFI::TinyCC
+      FFI::TinyCC::Inline
       FFI::Platypus::Lang::CPP
     );
   }
