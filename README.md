@@ -199,7 +199,6 @@ comes with this distribution for details.
 - URI::ws
 - UUID::FFI
 - Wasm
-- WebService::DailyConnect
 - Win32::ErrorMode
 - Win32::Getppid
 - Win32::Process::Info

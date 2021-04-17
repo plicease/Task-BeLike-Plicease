@@ -753,10 +753,6 @@ Wasm
 
 =item *
 
-WebService::DailyConnect
-
-=item *
-
 Win32::ErrorMode
 
 =item *

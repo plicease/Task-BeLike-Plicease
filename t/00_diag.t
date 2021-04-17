@@ -195,7 +195,6 @@ $modules{$_} = $_ for qw(
   UUID::FFI
   WWW::Bugzilla::BugTree
   Wasm
-  WebService::DailyConnect
   Win32::ErrorMode
   Win32::Getppid
   Win32::Process::Info

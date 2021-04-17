@@ -1,6 +1,9 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Remove FFI::TinyCC::Inline on macos
+  - Remove WebService::DailyConnect
 
 2.21      2021-03-27 09:21:28 -0600
   - Updated my dists to latest
