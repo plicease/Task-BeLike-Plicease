@@ -50,6 +50,7 @@ comes with this distribution for details.
 - Alien::flex
 - Alien::gmake
 - Alien::GMP
+- Alien::GSL
 - Alien::gzip
 - Alien::help2man
 - Alien::Hunspell
@@ -94,8 +95,10 @@ comes with this distribution for details.
 - App::supertouch
 - App::whichdll
 - Archive::Ar::Libarchive
-- Archive::Libarchive::Any
-- Archive::Libarchive::XS
+- Archive::Libarchive
+- Archive::Libarchive::Extract
+- Archive::Libarchive::Peek
+- Archive::Libarchive::Unwrap
 - Archive::Tar::Wrapper
 - autodie
 - Browser::Start
@@ -130,6 +133,7 @@ comes with this distribution for details.
 - Exception::Class::DBI
 - FFI
 - FFI::C
+- FFI::C::Stat
 - FFI::CheckLib
 - FFI::ExtractSymbols
 - FFI::Platypus
@@ -149,6 +153,7 @@ comes with this distribution for details.
 - File::LibMagic::FFI
 - File::Listing
 - File::Listing::Ftpcopy
+- File::ReadBackwards
 - File::ShareDir::Dist
 - File::Which
 - JSON
@@ -162,12 +167,14 @@ comes with this distribution for details.
 - Mojolicious::Plugin::TtRenderer
 - Moose
 - NewFangle
+- Package::Checkpoint
 - PeekPoke::FFI
 - Perl::Critic::Plicease
 - Photography::DX
 - Photography::EV
 - PkgConfig
 - PkgConfig::LibPkgConf
+- PPIx::DocumentName
 - Shell::Config::Generate
 - Shell::Guess
 - String::Template
@@ -182,6 +189,7 @@ comes with this distribution for details.
 - Test2::Tools::Process
 - Test2::Tools::URL
 - Test::Alien::CPP
+- Test::Archive::Libarchive
 - Test::CChecker
 - Test::CPAN::Changes
 - Test::EOL

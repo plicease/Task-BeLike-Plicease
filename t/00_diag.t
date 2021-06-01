@@ -35,6 +35,7 @@ $modules{$_} = $_ for qw(
   Alien::Expat
   Alien::FFI
   Alien::GMP
+  Alien::GSL
   Alien::Hunspell
   Alien::LZO
   Alien::LibYAML
@@ -88,8 +89,10 @@ $modules{$_} = $_ for qw(
   App::supertouch
   App::whichdll
   Archive::Ar::Libarchive
-  Archive::Libarchive::Any
-  Archive::Libarchive::XS
+  Archive::Libarchive
+  Archive::Libarchive::Extract
+  Archive::Libarchive::Peek
+  Archive::Libarchive::Unwrap
   Archive::Tar::Wrapper
   Browser::Start
   Clang::CastXML
@@ -124,6 +127,7 @@ $modules{$_} = $_ for qw(
   ExtUtils::MakeMaker
   FFI
   FFI::C
+  FFI::C::Stat
   FFI::CheckLib
   FFI::ExtractSymbols
   FFI::Platypus
@@ -143,6 +147,7 @@ $modules{$_} = $_ for qw(
   File::LibMagic::FFI
   File::Listing
   File::Listing::Ftpcopy
+  File::ReadBackwards
   File::ShareDir::Dist
   File::Which
   JSON
@@ -157,6 +162,8 @@ $modules{$_} = $_ for qw(
   Mojolicious::Plugin::TtRenderer
   Moose
   NewFangle
+  PPIx::DocumentName
+  Package::Checkpoint
   PeekPoke::FFI
   Perl::Critic::Plicease
   Photography::DX
@@ -177,6 +184,7 @@ $modules{$_} = $_ for qw(
   Test2::Tools::Process
   Test2::Tools::URL
   Test::Alien::CPP
+  Test::Archive::Libarchive
   Test::CChecker
   Test::CPAN::Changes
   Test::EOL

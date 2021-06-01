@@ -157,6 +157,10 @@ Alien::GMP
 
 =item *
 
+Alien::GSL
+
+=item *
+
 Alien::gzip
 
 =item *
@@ -333,11 +337,19 @@ Archive::Ar::Libarchive
 
 =item *
 
-Archive::Libarchive::Any
+Archive::Libarchive
 
 =item *
 
-Archive::Libarchive::XS
+Archive::Libarchive::Extract
+
+=item *
+
+Archive::Libarchive::Peek
+
+=item *
+
+Archive::Libarchive::Unwrap
 
 =item *
 
@@ -477,6 +489,10 @@ FFI::C
 
 =item *
 
+FFI::C::Stat
+
+=item *
+
 FFI::CheckLib
 
 =item *
@@ -553,6 +569,10 @@ File::Listing::Ftpcopy
 
 =item *
 
+File::ReadBackwards
+
+=item *
+
 File::ShareDir::Dist
 
 =item *
@@ -605,6 +625,10 @@ NewFangle
 
 =item *
 
+Package::Checkpoint
+
+=item *
+
 PeekPoke::FFI
 
 =item *
@@ -626,6 +650,10 @@ PkgConfig
 =item *
 
 PkgConfig::LibPkgConf
+
+=item *
+
+PPIx::DocumentName
 
 =item *
 
@@ -682,6 +710,10 @@ Test2::Tools::URL
 =item *
 
 Test::Alien::CPP
+
+=item *
+
+Test::Archive::Libarchive
 
 =item *
 

@@ -1,6 +1,19 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added Archive::Libarchive
+  - Added Archive::Libarchive::Extract
+  - Added Archive::Libarchive::Peek
+  - Added Archive::Libarchive::Unwrap
+  - Added Alien::GSL
+  - Added FFI::C::Stat
+  - Added Test::Archive::Libarchive
+  - Added Package::Checkpoint
+  - Added File::Readbackwards
+  - Added PPIx::DocumentName
+  - Removed Archive::Libarchive::XS
+  - Removed Archive::Libarchive::Any
 
 2.22      2021-04-17 03:03:38 -0600
   - Updated my dists to latest
