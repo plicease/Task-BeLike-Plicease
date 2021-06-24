@@ -34,6 +34,7 @@ comes with this distribution for details.
 - Alien::Build::MB
 - Alien::Build::Plugin::Decode::SourceForge
 - Alien::Build::Plugin::Download::GitHub
+- Alien::Build::Plugin::Extract::Libarchive
 - Alien::Build::Plugin::Fetch::Cache
 - Alien::Build::Plugin::Fetch::Prompt
 - Alien::Build::Plugin::Fetch::Rewrite
@@ -174,6 +175,7 @@ comes with this distribution for details.
 - Photography::EV
 - PkgConfig
 - PkgConfig::LibPkgConf
+- Pod::Simple::Words
 - PPIx::DocumentName
 - Shell::Config::Generate
 - Shell::Guess
@@ -202,6 +204,7 @@ comes with this distribution for details.
 - Test::Script
 - Test::Spelling
 - Test::Version
+- Text::HumanComputerWords
 - Text::Hunspell
 - Text::Hunspell::FFI
 - URI::ws

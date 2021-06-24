@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Added Pod::Simple::Words
+  - Added Text::HumanComputerWords
+  - Added Alien::Build::Plugin::Extract::Libarchive
 
 2.23      2021-06-01 13:05:17 -0600
   - Updated my dists to latest

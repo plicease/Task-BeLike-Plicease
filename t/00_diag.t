@@ -25,6 +25,7 @@ $modules{$_} = $_ for qw(
   Alien::Build::MB
   Alien::Build::Plugin::Decode::SourceForge
   Alien::Build::Plugin::Download::GitHub
+  Alien::Build::Plugin::Extract::Libarchive
   Alien::Build::Plugin::Fetch::Cache
   Alien::Build::Plugin::Fetch::Prompt
   Alien::Build::Plugin::Fetch::Rewrite
@@ -170,6 +171,7 @@ $modules{$_} = $_ for qw(
   Photography::EV
   PkgConfig
   PkgConfig::LibPkgConf
+  Pod::Simple::Words
   Shell::Config::Generate
   Shell::Guess
   String::Template
@@ -197,6 +199,7 @@ $modules{$_} = $_ for qw(
   Test::Script
   Test::Spelling
   Test::Version
+  Text::HumanComputerWords
   Text::Hunspell
   Text::Hunspell::FFI
   URI::ws

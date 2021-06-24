@@ -93,6 +93,10 @@ Alien::Build::Plugin::Download::GitHub
 
 =item *
 
+Alien::Build::Plugin::Extract::Libarchive
+
+=item *
+
 Alien::Build::Plugin::Fetch::Cache
 
 =item *
@@ -653,6 +657,10 @@ PkgConfig::LibPkgConf
 
 =item *
 
+Pod::Simple::Words
+
+=item *
+
 PPIx::DocumentName
 
 =item *
@@ -762,6 +770,10 @@ Test::Spelling
 =item *
 
 Test::Version
+
+=item *
+
+Text::HumanComputerWords
 
 =item *
 
