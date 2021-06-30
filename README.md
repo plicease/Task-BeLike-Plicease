@@ -111,6 +111,7 @@ comes with this distribution for details.
 - DBD::PgPP
 - DBD::SQLite
 - Devel::ebug
+- Devel::ebug::HTTP
 - Devel::StackTrace
 - Digest::MD5
 - Dist::Zilla::App::Command::aliendeps

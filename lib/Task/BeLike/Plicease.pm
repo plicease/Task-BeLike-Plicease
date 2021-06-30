@@ -401,6 +401,10 @@ Devel::ebug
 
 =item *
 
+Devel::ebug::HTTP
+
+=item *
+
 Devel::StackTrace
 
 =item *

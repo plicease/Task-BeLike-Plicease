@@ -105,6 +105,7 @@ $modules{$_} = $_ for qw(
   DBD::mysqlPP
   Devel::StackTrace
   Devel::ebug
+  Devel::ebug::HTTP
   Digest::MD5
   Dist::Zilla::App::Command::aliendeps
   Dist::Zilla::Plugin::AlienBuild
