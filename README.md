@@ -83,7 +83,6 @@ comes with this distribution for details.
 - AnyEvent::Ident
 - AnyEvent::Open3::Simple
 - AnyEvent::WebSocket::Client
-- App::Ack
 - App::af
 - App::cpangitify
 - App::cpanminus
@@ -100,34 +99,24 @@ comes with this distribution for details.
 - Archive::Libarchive::Extract
 - Archive::Libarchive::Peek
 - Archive::Libarchive::Unwrap
-- Archive::Tar::Wrapper
-- autodie
 - Browser::Start
 - Clang::CastXML
 - Class::Inspector
 - Const::Introspect::C
 - Cpanel::JSON::XS
-- DBD::mysqlPP
-- DBD::PgPP
 - DBD::SQLite
 - Devel::ebug
 - Devel::ebug::HTTP
-- Devel::StackTrace
-- Digest::MD5
 - Dist::Zilla::App::Command::aliendeps
 - Dist::Zilla::Plugin::AlienBuild
 - Dist::Zilla::Plugin::Alt
-- Dist::Zilla::Plugin::Bootstrap::lib
 - Dist::Zilla::Plugin::CommentOut
 - Dist::Zilla::Plugin::CSS::Compressor
-- Dist::Zilla::Plugin::DynamicPrereqs
 - Dist::Zilla::Plugin::FFI
 - Dist::Zilla::Plugin::InsertExample
 - Dist::Zilla::Plugin::JavaScript::Minifier
 - Dist::Zilla::Plugin::MathInt64
-- Dist::Zilla::Plugin::Meta::Dynamic::Config
 - Dist::Zilla::Plugin::OurPkgVersion
-- Dist::Zilla::Plugin::PPPort
 - Dist::Zilla::Plugin::Test::Version
 - Dist::Zilla::Plugin::TextTabs
 - Dist::Zilla::PluginBundle::Author::Plicease
@@ -158,7 +147,6 @@ comes with this distribution for details.
 - File::ReadBackwards
 - File::ShareDir::Dist
 - File::Which
-- JSON
 - JSON::MaybeXS
 - Kafka::Librd
 - Lingua::Alphabet::Phonetic::LAPD
@@ -167,7 +155,6 @@ comes with this distribution for details.
 - Module::Which
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer
-- Moose
 - NewFangle
 - Package::Checkpoint
 - PeekPoke::FFI
@@ -206,7 +193,6 @@ comes with this distribution for details.
 - Test::Spelling
 - Test::Version
 - Text::HumanComputerWords
-- Text::Hunspell
 - Text::Hunspell::FFI
 - URI::ws
 - UUID::FFI
@@ -219,7 +205,6 @@ comes with this distribution for details.
 - Win32API::ProcessStatus
 - WWW::Bugzilla::BugTree
 - YAML
-- YAML::XS
 
 # AUTHOR
 

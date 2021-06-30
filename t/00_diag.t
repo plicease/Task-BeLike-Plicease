@@ -77,7 +77,6 @@ $modules{$_} = $_ for qw(
   AnyEvent::Ident
   AnyEvent::Open3::Simple
   AnyEvent::WebSocket::Client
-  App::Ack
   App::Prove::Plugin::TermTable
   App::Prove::Plugin::TermTableStty
   App::RegexFileUtils
@@ -94,33 +93,24 @@ $modules{$_} = $_ for qw(
   Archive::Libarchive::Extract
   Archive::Libarchive::Peek
   Archive::Libarchive::Unwrap
-  Archive::Tar::Wrapper
   Browser::Start
   Clang::CastXML
   Class::Inspector
   Const::Introspect::C
   Cpanel::JSON::XS
-  DBD::PgPP
   DBD::SQLite
-  DBD::mysqlPP
-  Devel::StackTrace
   Devel::ebug
   Devel::ebug::HTTP
-  Digest::MD5
   Dist::Zilla::App::Command::aliendeps
   Dist::Zilla::Plugin::AlienBuild
   Dist::Zilla::Plugin::Alt
-  Dist::Zilla::Plugin::Bootstrap::lib
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
-  Dist::Zilla::Plugin::DynamicPrereqs
   Dist::Zilla::Plugin::FFI
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::MathInt64
-  Dist::Zilla::Plugin::Meta::Dynamic::Config
   Dist::Zilla::Plugin::OurPkgVersion
-  Dist::Zilla::Plugin::PPPort
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
@@ -152,7 +142,6 @@ $modules{$_} = $_ for qw(
   File::ReadBackwards
   File::ShareDir::Dist
   File::Which
-  JSON
   JSON::MaybeXS
   JSON::PP
   JSON::XS
@@ -162,7 +151,6 @@ $modules{$_} = $_ for qw(
   Module::Which
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
-  Moose
   NewFangle
   PPIx::DocumentName
   Package::Checkpoint
@@ -201,7 +189,6 @@ $modules{$_} = $_ for qw(
   Test::Spelling
   Test::Version
   Text::HumanComputerWords
-  Text::Hunspell
   Text::Hunspell::FFI
   URI::ws
   UUID::FFI
@@ -214,8 +201,6 @@ $modules{$_} = $_ for qw(
   Win32::Vcpkg
   Win32API::ProcessStatus
   YAML
-  YAML::XS
-  autodie
   local::lib
 );
 

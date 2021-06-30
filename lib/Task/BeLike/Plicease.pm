@@ -289,10 +289,6 @@ AnyEvent::WebSocket::Client
 
 =item *
 
-App::Ack
-
-=item *
-
 App::af
 
 =item *
@@ -357,14 +353,6 @@ Archive::Libarchive::Unwrap
 
 =item *
 
-Archive::Tar::Wrapper
-
-=item *
-
-autodie
-
-=item *
-
 Browser::Start
 
 =item *
@@ -385,14 +373,6 @@ Cpanel::JSON::XS
 
 =item *
 
-DBD::mysqlPP
-
-=item *
-
-DBD::PgPP
-
-=item *
-
 DBD::SQLite
 
 =item *
@@ -402,14 +382,6 @@ Devel::ebug
 =item *
 
 Devel::ebug::HTTP
-
-=item *
-
-Devel::StackTrace
-
-=item *
-
-Digest::MD5
 
 =item *
 
@@ -425,19 +397,11 @@ Dist::Zilla::Plugin::Alt
 
 =item *
 
-Dist::Zilla::Plugin::Bootstrap::lib
-
-=item *
-
 Dist::Zilla::Plugin::CommentOut
 
 =item *
 
 Dist::Zilla::Plugin::CSS::Compressor
-
-=item *
-
-Dist::Zilla::Plugin::DynamicPrereqs
 
 =item *
 
@@ -457,15 +421,7 @@ Dist::Zilla::Plugin::MathInt64
 
 =item *
 
-Dist::Zilla::Plugin::Meta::Dynamic::Config
-
-=item *
-
 Dist::Zilla::Plugin::OurPkgVersion
-
-=item *
-
-Dist::Zilla::Plugin::PPPort
 
 =item *
 
@@ -589,10 +545,6 @@ File::Which
 
 =item *
 
-JSON
-
-=item *
-
 JSON::MaybeXS
 
 =item *
@@ -622,10 +574,6 @@ Mojolicious::Plugin::Ident
 =item *
 
 Mojolicious::Plugin::TtRenderer
-
-=item *
-
-Moose
 
 =item *
 
@@ -781,10 +729,6 @@ Text::HumanComputerWords
 
 =item *
 
-Text::Hunspell
-
-=item *
-
 Text::Hunspell::FFI
 
 =item *
@@ -830,10 +774,6 @@ WWW::Bugzilla::BugTree
 =item *
 
 YAML
-
-=item *
-
-YAML::XS
 
 =back
 
