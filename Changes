@@ -1,6 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Dist::Zilla::Plugin::ArchiveTar
+  - Added Dist::Zilla::Plugin::Libarchive
+  - Added Eval::LineNumbers
+  - Added File::BaseDir
+  - Added File::XDG
   - Remove App::Ack
   - Remove Archive::Tar::Wrapper
   - Remove autodie

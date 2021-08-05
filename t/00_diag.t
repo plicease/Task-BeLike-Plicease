@@ -104,17 +104,20 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::App::Command::aliendeps
   Dist::Zilla::Plugin::AlienBuild
   Dist::Zilla::Plugin::Alt
+  Dist::Zilla::Plugin::ArchiveTar
   Dist::Zilla::Plugin::CSS::Compressor
   Dist::Zilla::Plugin::CommentOut
   Dist::Zilla::Plugin::FFI
   Dist::Zilla::Plugin::InsertExample
   Dist::Zilla::Plugin::JavaScript::Minifier
+  Dist::Zilla::Plugin::Libarchive
   Dist::Zilla::Plugin::MathInt64
   Dist::Zilla::Plugin::OurPkgVersion
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
   Env::ShellWords
+  Eval::LineNumbers
   Exception::Class::DBI
   ExtUtils::MakeMaker
   FFI
@@ -136,12 +139,14 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Type::PtrObject
   FFI::TinyCC
   FFI::TinyCC::Inline
+  File::BaseDir
   File::LibMagic::FFI
   File::Listing
   File::Listing::Ftpcopy
   File::ReadBackwards
   File::ShareDir::Dist
   File::Which
+  File::XDG
   JSON::MaybeXS
   JSON::PP
   JSON::XS

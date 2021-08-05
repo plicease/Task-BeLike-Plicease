@@ -397,6 +397,10 @@ Dist::Zilla::Plugin::Alt
 
 =item *
 
+Dist::Zilla::Plugin::ArchiveTar
+
+=item *
+
 Dist::Zilla::Plugin::CommentOut
 
 =item *
@@ -414,6 +418,10 @@ Dist::Zilla::Plugin::InsertExample
 =item *
 
 Dist::Zilla::Plugin::JavaScript::Minifier
+
+=item *
+
+Dist::Zilla::Plugin::Libarchive
 
 =item *
 
@@ -438,6 +446,10 @@ Dist::Zilla::PluginBundle::Author::Plicease
 =item *
 
 Env::ShellWords
+
+=item *
+
+Eval::LineNumbers
 
 =item *
 
@@ -521,6 +533,10 @@ FFI::TinyCC::Inline
 
 =item *
 
+File::BaseDir
+
+=item *
+
 File::LibMagic::FFI
 
 =item *
@@ -542,6 +558,10 @@ File::ShareDir::Dist
 =item *
 
 File::Which
+
+=item *
+
+File::XDG
 
 =item *
 
