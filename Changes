@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.26      2021-08-05 06:10:59 -0600
   - Added Dist::Zilla::Plugin::ArchiveTar
   - Added Dist::Zilla::Plugin::Libarchive
   - Added Eval::LineNumbers
