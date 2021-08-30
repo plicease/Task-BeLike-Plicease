@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
 
 2.26      2021-08-05 06:10:59 -0600
   - Added Dist::Zilla::Plugin::ArchiveTar
