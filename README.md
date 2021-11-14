@@ -108,6 +108,8 @@ comes with this distribution for details.
 - Devel::ebug
 - Devel::ebug::HTTP
 - Dist::Zilla::App::Command::aliendeps
+- Dist::Zilla::MintingProfile::AlienBuild
+- Dist::Zilla::MintingProfile::FFI
 - Dist::Zilla::Plugin::AlienBuild
 - Dist::Zilla::Plugin::Alt
 - Dist::Zilla::Plugin::ArchiveTar
@@ -170,9 +172,12 @@ comes with this distribution for details.
 - PkgConfig::LibPkgConf
 - Pod::Simple::Words
 - PPIx::DocumentName
+- Return::MultiLevel
 - Shell::Config::Generate
 - Shell::Guess
 - String::Template
+- Task::AlienDev
+- Task::FFIDev
 - Term::Clui
 - Term::EditLine
 - Test2::Plugin::FauxHomeDir

@@ -56,6 +56,13 @@ sub myWriteMakefile
     push @skip, qw(
       FFI::TinyCC
       FFI::TinyCC::Inline
+    );
+  }
+
+  # Linux x86_64 only
+  if($^O eq 'linux' && $Config{archname} !~ /^x86_64-linux/)
+  {
+    push @skip, qw(
       Win32::Vcpkg
     );
   }

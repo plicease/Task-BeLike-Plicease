@@ -102,6 +102,8 @@ $modules{$_} = $_ for qw(
   Devel::ebug
   Devel::ebug::HTTP
   Dist::Zilla::App::Command::aliendeps
+  Dist::Zilla::MintingProfile::AlienBuild
+  Dist::Zilla::MintingProfile::FFI
   Dist::Zilla::Plugin::AlienBuild
   Dist::Zilla::Plugin::Alt
   Dist::Zilla::Plugin::ArchiveTar
@@ -166,9 +168,12 @@ $modules{$_} = $_ for qw(
   PkgConfig
   PkgConfig::LibPkgConf
   Pod::Simple::Words
+  Return::MultiLevel
   Shell::Config::Generate
   Shell::Guess
   String::Template
+  Task::AlienDev
+  Task::FFIDev
   Term::Clui
   Term::EditLine
   Test2::Plugin::FauxHomeDir

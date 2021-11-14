@@ -1,6 +1,13 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Updated my dists to latest
+  - Do not try to install Win32::Vcpkg on anything but 64 bit intel Linux
+  - Added Return::MultiLevel
+  - Added Dist::Zilla::MintingProfile::FFI
+  - Added Task::FFIDev
+  - Added Dist::Zilla::MintingProfile::AlienBuild
+  - Added Task::ALienDev
 
 2.27      2021-08-30 16:45:03 -0600
   - Updated my dists to latest

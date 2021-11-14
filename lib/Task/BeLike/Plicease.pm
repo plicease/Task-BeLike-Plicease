@@ -389,6 +389,14 @@ Dist::Zilla::App::Command::aliendeps
 
 =item *
 
+Dist::Zilla::MintingProfile::AlienBuild
+
+=item *
+
+Dist::Zilla::MintingProfile::FFI
+
+=item *
+
 Dist::Zilla::Plugin::AlienBuild
 
 =item *
@@ -637,6 +645,10 @@ PPIx::DocumentName
 
 =item *
 
+Return::MultiLevel
+
+=item *
+
 Shell::Config::Generate
 
 =item *
@@ -646,6 +658,14 @@ Shell::Guess
 =item *
 
 String::Template
+
+=item *
+
+Task::AlienDev
+
+=item *
+
+Task::FFIDev
 
 =item *
 
