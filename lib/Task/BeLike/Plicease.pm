@@ -717,10 +717,6 @@ Test::Archive::Libarchive
 
 =item *
 
-Test::CChecker
-
-=item *
-
 Test::CPAN::Changes
 
 =item *

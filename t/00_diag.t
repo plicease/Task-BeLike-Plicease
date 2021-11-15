@@ -186,7 +186,6 @@ $modules{$_} = $_ for qw(
   Test2::Tools::URL
   Test::Alien::CPP
   Test::Archive::Libarchive
-  Test::CChecker
   Test::CPAN::Changes
   Test::EOL
   Test::Fixme
