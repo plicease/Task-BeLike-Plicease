@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.30      2022-01-22 03:44:41 -0700
   - Added Dist::Zilla::Plugin::Meta::Dynamic::Config
   - Added Dist::Zilla::Plugin::PPPort
   - Added MooseX::Types::JSON
