@@ -437,7 +437,15 @@ Dist::Zilla::Plugin::MathInt64
 
 =item *
 
+Dist::Zilla::Plugin::Meta::Dynamic::Config
+
+=item *
+
 Dist::Zilla::Plugin::OurPkgVersion
+
+=item *
+
+Dist::Zilla::Plugin::PPPort
 
 =item *
 
@@ -602,6 +610,10 @@ Mojolicious::Plugin::Ident
 =item *
 
 Mojolicious::Plugin::TtRenderer
+
+=item *
+
+MooseX::Types::JSON
 
 =item *
 

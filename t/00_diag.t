@@ -114,7 +114,9 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::JavaScript::Minifier
   Dist::Zilla::Plugin::Libarchive
   Dist::Zilla::Plugin::MathInt64
+  Dist::Zilla::Plugin::Meta::Dynamic::Config
   Dist::Zilla::Plugin::OurPkgVersion
+  Dist::Zilla::Plugin::PPPort
   Dist::Zilla::Plugin::Test::Version
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
@@ -158,6 +160,7 @@ $modules{$_} = $_ for qw(
   Module::Which
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
+  MooseX::Types::JSON
   NewFangle
   PPIx::DocumentName
   Package::Checkpoint
