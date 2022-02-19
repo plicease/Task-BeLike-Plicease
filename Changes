@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - Remove some skips on macOS that appear to be working
+  - Updated my dists to latest
 
 2.30      2022-01-22 03:44:41 -0700
   - Added Dist::Zilla::Plugin::Meta::Dynamic::Config
