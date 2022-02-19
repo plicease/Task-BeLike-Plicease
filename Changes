@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.31      2022-02-18 19:07:58 -0700
   - Remove some skips on macOS that appear to be working
   - Updated my dists to latest
 
