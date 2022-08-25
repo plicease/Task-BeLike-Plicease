@@ -9,7 +9,7 @@ sub wasm_ok
 {
   if($^O eq 'linux')
   {
-    return $Config{archname} =~ /^x86_64-linux/ && $Config{ptrsize} == 8;
+    return $Config{archname} =~ /^(x86_64|aarch64)-linux/ && $Config{ptrsize} == 8;
   }
   elsif($^O eq 'MSWin32')
   {
