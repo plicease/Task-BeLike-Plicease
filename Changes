@@ -2,6 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - Enable Wasm on Linux Arm64
+  - Updated my dists to latest
 
 2.31      2022-02-18 19:07:58 -0700
   - Remove some skips on macOS that appear to be working
