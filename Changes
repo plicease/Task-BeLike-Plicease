@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.32      2022-08-26 20:30:32 -0600
   - Enable Wasm on Linux Arm64
   - Updated my dists to latest
 
