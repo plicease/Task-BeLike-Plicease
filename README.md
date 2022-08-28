@@ -36,6 +36,8 @@ comes with this distribution for details.
 - Alien::Build::Plugin::Download::GitHub
 - Alien::Build::Plugin::Extract::Libarchive
 - Alien::Build::Plugin::Fetch::Cache
+- Alien::Build::Plugin::Fetch::HostAllowList
+- Alien::Build::Plugin::Fetch::HostBlockList
 - Alien::Build::Plugin::Fetch::Prompt
 - Alien::Build::Plugin::Fetch::Rewrite
 - Alien::Build::Plugin::Probe::GnuWin32

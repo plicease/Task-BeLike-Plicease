@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Alien::Build::Plugin::Fetch::HostAllowList
+  - Added Alien::Build::Plugin::Fetch::HostBlockList
 
 2.32      2022-08-26 20:30:32 -0600
   - Enable Wasm on Linux Arm64

@@ -101,6 +101,14 @@ Alien::Build::Plugin::Fetch::Cache
 
 =item *
 
+Alien::Build::Plugin::Fetch::HostAllowList
+
+=item *
+
+Alien::Build::Plugin::Fetch::HostBlockList
+
+=item *
+
 Alien::Build::Plugin::Fetch::Prompt
 
 =item *
