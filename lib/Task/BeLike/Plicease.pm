@@ -337,6 +337,10 @@ App::supertouch
 
 =item *
 
+App::tarweb
+
+=item *
+
 App::whichdll
 
 =item *
@@ -654,6 +658,14 @@ PkgConfig
 =item *
 
 PkgConfig::LibPkgConf
+
+=item *
+
+Plack::App::GitHubPages::Faux
+
+=item *
+
+Plack::App::Libarchive
 
 =item *
 

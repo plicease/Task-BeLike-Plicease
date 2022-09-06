@@ -1,6 +1,10 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added App::tarweb
+  - Added Plack::App::Libarchive
+  - Added Plack::App::GitHubPages::Faux
+  - Updated my dists to latest
 
 2.33      2022-08-28 12:39:37 -0600
   - Added Alien::Build::Plugin::Fetch::HostAllowList

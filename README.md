@@ -95,6 +95,7 @@ comes with this distribution for details.
 - App::RegexFileUtils
 - App::spaceless
 - App::supertouch
+- App::tarweb
 - App::whichdll
 - Archive::Ar::Libarchive
 - Archive::Libarchive
@@ -175,6 +176,8 @@ comes with this distribution for details.
 - Photography::EV
 - PkgConfig
 - PkgConfig::LibPkgConf
+- Plack::App::GitHubPages::Faux
+- Plack::App::Libarchive
 - Pod::Simple::Words
 - PPIx::DocumentName
 - Return::MultiLevel

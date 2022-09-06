@@ -89,6 +89,7 @@ $modules{$_} = $_ for qw(
   App::pwhich
   App::spaceless
   App::supertouch
+  App::tarweb
   App::whichdll
   Archive::Ar::Libarchive
   Archive::Libarchive
@@ -172,6 +173,8 @@ $modules{$_} = $_ for qw(
   Photography::EV
   PkgConfig
   PkgConfig::LibPkgConf
+  Plack::App::GitHubPages::Faux
+  Plack::App::Libarchive
   Pod::Simple::Words
   Return::MultiLevel
   Shell::Config::Generate
