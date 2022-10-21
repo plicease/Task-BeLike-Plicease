@@ -249,6 +249,13 @@ sub myWriteMakefile
     push @skip, 'Photography::DX';
   }
 
+  unless($] >= 5.034000)
+  {
+    push @skip,
+      'Plack::App::Libarchive',
+      'App::tarweb';
+  }
+
   print "Note: skipping on this platform:\n";
   print " + $_\n" for @skip;
   delete $args{PREREQ_PM}->{$_} for @skip;
