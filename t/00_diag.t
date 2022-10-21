@@ -12,6 +12,7 @@ my $post_diag;
 $modules{$_} = $_ for qw(
   Acme::Alien::DontPanic
   Acme::Alien::DontPanic2
+  Acme::Color::Rust
   Acme::Ford::Prefect
   Acme::Ford::Prefect2
   Acme::Ford::Prefect2::FFI
@@ -25,6 +26,7 @@ $modules{$_} = $_ for qw(
   Alien::Build::MB
   Alien::Build::Plugin::Decode::SourceForge
   Alien::Build::Plugin::Download::GitHub
+  Alien::Build::Plugin::Download::GitLab
   Alien::Build::Plugin::Extract::Libarchive
   Alien::Build::Plugin::Fetch::Cache
   Alien::Build::Plugin::Fetch::HostAllowList
@@ -60,6 +62,7 @@ $modules{$_} = $_ for qw(
   Alien::cmake3
   Alien::curl
   Alien::flex
+  Alien::ghostunnel
   Alien::gmake
   Alien::gzip
   Alien::help2man
@@ -126,6 +129,7 @@ $modules{$_} = $_ for qw(
   Env::ShellWords
   Eval::LineNumbers
   Exception::Class::DBI
+  Exception::FFI::ErrorCode
   ExtUtils::MakeMaker
   FFI
   FFI::C
@@ -189,6 +193,7 @@ $modules{$_} = $_ for qw(
   Test2::Tools::HTTP
   Test2::Tools::HTTP::UA::Mojo
   Test2::Tools::JSON::Pointer
+  Test2::Tools::MemoryCycle
   Test2::Tools::PerlCritic
   Test2::Tools::Process
   Test2::Tools::URL

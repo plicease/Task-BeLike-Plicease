@@ -1,6 +1,11 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Acme::Color::Rust
+  - Added Exception::FFI::ErrorCode
+  - Added Test2::Tools::MemoryCycle
+  - Added Alien::Build::Plugin::Download::GitLab
+  - Updated my dists to latest
 
 2.34      2022-09-05 22:33:51 -0600
   - Added App::tarweb

@@ -18,6 +18,7 @@ comes with this distribution for details.
 
 - Acme::Alien::DontPanic
 - Acme::Alien::DontPanic2
+- Acme::Color::Rust
 - Acme::Ford::Prefect
 - Acme::Ford::Prefect2
 - Acme::Ford::Prefect2::FFI
@@ -34,6 +35,7 @@ comes with this distribution for details.
 - Alien::Build::MB
 - Alien::Build::Plugin::Decode::SourceForge
 - Alien::Build::Plugin::Download::GitHub
+- Alien::Build::Plugin::Download::GitLab
 - Alien::Build::Plugin::Extract::Libarchive
 - Alien::Build::Plugin::Fetch::Cache
 - Alien::Build::Plugin::Fetch::HostAllowList
@@ -51,6 +53,7 @@ comes with this distribution for details.
 - Alien::Expat
 - Alien::FFI
 - Alien::flex
+- Alien::ghostunnel
 - Alien::gmake
 - Alien::GMP
 - Alien::GSL
@@ -132,6 +135,7 @@ comes with this distribution for details.
 - Env::ShellWords
 - Eval::LineNumbers
 - Exception::Class::DBI
+- Exception::FFI::ErrorCode
 - FFI
 - FFI::C
 - FFI::C::Stat
@@ -193,6 +197,7 @@ comes with this distribution for details.
 - Test2::Tools::HTTP
 - Test2::Tools::HTTP::UA::Mojo
 - Test2::Tools::JSON::Pointer
+- Test2::Tools::MemoryCycle
 - Test2::Tools::PerlCritic
 - Test2::Tools::Process
 - Test2::Tools::URL

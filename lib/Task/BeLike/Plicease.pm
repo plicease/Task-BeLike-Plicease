@@ -29,6 +29,10 @@ Acme::Alien::DontPanic2
 
 =item *
 
+Acme::Color::Rust
+
+=item *
+
 Acme::Ford::Prefect
 
 =item *
@@ -90,6 +94,10 @@ Alien::Build::Plugin::Decode::SourceForge
 =item *
 
 Alien::Build::Plugin::Download::GitHub
+
+=item *
+
+Alien::Build::Plugin::Download::GitLab
 
 =item *
 
@@ -158,6 +166,10 @@ Alien::FFI
 =item *
 
 Alien::flex
+
+=item *
+
+Alien::ghostunnel
 
 =item *
 
@@ -485,6 +497,10 @@ Exception::Class::DBI
 
 =item *
 
+Exception::FFI::ErrorCode
+
+=item *
+
 FFI
 
 =item *
@@ -726,6 +742,10 @@ Test2::Tools::HTTP::UA::Mojo
 =item *
 
 Test2::Tools::JSON::Pointer
+
+=item *
+
+Test2::Tools::MemoryCycle
 
 =item *
 
