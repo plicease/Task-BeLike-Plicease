@@ -7,6 +7,7 @@ use ExtUtils::MakeMaker ();
 
 sub wasm_ok
 {
+  return 0 if $ENV{TASK_BELIKE_PLICEASE_NOWASM};
   if($^O eq 'linux')
   {
     return $Config{archname} =~ /^(x86_64|aarch64)-linux/ && $Config{ptrsize} == 8;

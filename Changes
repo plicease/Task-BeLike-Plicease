@@ -6,6 +6,8 @@ Revision history for {{$dist->name}}
   - Added Test2::Tools::MemoryCycle
   - Added Alien::Build::Plugin::Download::GitLab
   - Updated my dists to latest
+  - Setting TASK_BELIKE_PLICEASE_NOWASM to true will
+    skip Wasm dependencies
 
 2.34      2022-09-05 22:33:51 -0600
   - Added App::tarweb
