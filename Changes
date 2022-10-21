@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.35      2022-10-20 18:48:30 -0600
   - Added Acme::Color::Rust
   - Added Exception::FFI::ErrorCode
   - Added Test2::Tools::MemoryCycle
