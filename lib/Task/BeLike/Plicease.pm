@@ -629,6 +629,10 @@ Log::Log4perl::Appender::TAP
 
 =item *
 
+Memcached::RateLimit
+
+=item *
+
 Module::Which
 
 =item *
@@ -754,6 +758,10 @@ Test2::Tools::PerlCritic
 =item *
 
 Test2::Tools::Process
+
+=item *
+
+Test2::Tools::Rustfmt
 
 =item *
 

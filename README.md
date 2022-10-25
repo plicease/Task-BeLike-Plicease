@@ -168,6 +168,7 @@ comes with this distribution for details.
 - Lingua::Alphabet::Phonetic::LAPD
 - local::lib
 - Log::Log4perl::Appender::TAP
+- Memcached::RateLimit
 - Module::Which
 - Mojolicious::Plugin::Ident
 - Mojolicious::Plugin::TtRenderer
@@ -200,6 +201,7 @@ comes with this distribution for details.
 - Test2::Tools::MemoryCycle
 - Test2::Tools::PerlCritic
 - Test2::Tools::Process
+- Test2::Tools::Rustfmt
 - Test2::Tools::URL
 - Test::Alien::CPP
 - Test::Archive::Libarchive

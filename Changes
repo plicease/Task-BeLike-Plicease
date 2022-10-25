@@ -2,6 +2,9 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - Update some Perl prereq skips
+  - Added Memcached::RateLimit
+  - Added Test2::Tools::Rustfmt
+  - Updated my dists to latest
 
 2.35      2022-10-20 18:48:30 -0600
   - Added Acme::Color::Rust

@@ -164,6 +164,7 @@ $modules{$_} = $_ for qw(
   Kafka::Librd
   Lingua::Alphabet::Phonetic::LAPD
   Log::Log4perl::Appender::TAP
+  Memcached::RateLimit
   Module::Which
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
@@ -196,6 +197,7 @@ $modules{$_} = $_ for qw(
   Test2::Tools::MemoryCycle
   Test2::Tools::PerlCritic
   Test2::Tools::Process
+  Test2::Tools::Rustfmt
   Test2::Tools::URL
   Test::Alien::CPP
   Test::Archive::Libarchive
