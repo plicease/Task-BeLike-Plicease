@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.36      2022-10-25 10:18:52 -0600
   - Update some Perl prereq skips
   - Added Memcached::RateLimit
   - Added Test2::Tools::Rustfmt
