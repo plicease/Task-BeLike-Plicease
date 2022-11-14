@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Update NetBSD to skip modules that do not install there
 
 2.36      2022-10-25 10:18:52 -0600
   - Update some Perl prereq skips

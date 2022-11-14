@@ -51,6 +51,21 @@ sub myWriteMakefile
     );
   }
 
+  if($^O eq 'netbsd')
+  {
+    # Go: -buildmode=c-shared not supported on netbsd/amd64
+    # Pascal: doesn't seem to have a package
+    push @skip, qw(
+      FFI::Platypus::Lang::Go
+      FFI::Platypus::Lang::Pascal
+      FFI::TinyCC
+      FFI::TinyCC::Inline
+      Alien::castxml
+      Memcached::RateLimit
+      Clang::CastXML
+    );
+  }
+
   # Linux PPC64
   if($^O eq 'linux' && $Config{archname} =~ /^ppc64/)
   {
