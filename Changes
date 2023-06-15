@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.37      2023-06-14 18:21:32 -0600
   - Update NetBSD to skip modules that do not install there
   - Updated my dists to latest
   - Added FFI::Platypus::Lang::Zig
