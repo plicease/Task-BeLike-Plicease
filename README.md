@@ -149,6 +149,7 @@ comes with this distribution for details.
 - FFI::Platypus::Lang::Go
 - FFI::Platypus::Lang::Pascal
 - FFI::Platypus::Lang::Rust
+- FFI::Platypus::Lang::Zig
 - FFI::Platypus::Legacy::Raw
 - FFI::Platypus::Record::StringArray
 - FFI::Platypus::Type::Enum

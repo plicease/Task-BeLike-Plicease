@@ -2,6 +2,8 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
   - Update NetBSD to skip modules that do not install there
+  - Updated my dists to latest
+  - Added FFI::Platypus::Lang::Zig
 
 2.36      2022-10-25 10:18:52 -0600
   - Update some Perl prereq skips

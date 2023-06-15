@@ -553,6 +553,10 @@ FFI::Platypus::Lang::Rust
 
 =item *
 
+FFI::Platypus::Lang::Zig
+
+=item *
+
 FFI::Platypus::Legacy::Raw
 
 =item *
