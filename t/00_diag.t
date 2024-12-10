@@ -57,9 +57,13 @@ $modules{$_} = $_ for qw(
   Alien::autoconf
   Alien::automake
   Alien::bison
+  Alien::cargo
+  Alien::cargo::capi
+  Alien::cargo::clone
   Alien::castxml
   Alien::chromaprint
   Alien::cmake3
+  Alien::cue
   Alien::curl
   Alien::flex
   Alien::ghostunnel
@@ -96,6 +100,7 @@ $modules{$_} = $_ for qw(
   App::whichdll
   Archive::Ar::Libarchive
   Archive::Libarchive
+  Archive::Libarchive::Compress
   Archive::Libarchive::Extract
   Archive::Libarchive::Peek
   Archive::Libarchive::Unwrap
@@ -105,6 +110,9 @@ $modules{$_} = $_ for qw(
   Const::Introspect::C
   Cpanel::JSON::XS
   DBD::SQLite
+  Data::Section::Pluggable
+  Data::Section::Pluggable::Plugin::Yaml
+  Data::Section::Writer
   Devel::ebug
   Devel::ebug::HTTP
   Dist::Zilla::App::Command::aliendeps
@@ -127,6 +135,7 @@ $modules{$_} = $_ for qw(
   Dist::Zilla::Plugin::TextTabs
   Dist::Zilla::PluginBundle::Author::Plicease
   Env::ShellWords
+  Environment::Is
   Eval::LineNumbers
   Exception::Class::DBI
   Exception::FFI::ErrorCode
@@ -159,6 +168,7 @@ $modules{$_} = $_ for qw(
   File::ShareDir::Dist
   File::Which
   File::XDG
+  JSON::LD
   JSON::MaybeXS
   JSON::PP
   JSON::XS
@@ -181,8 +191,10 @@ $modules{$_} = $_ for qw(
   PkgConfig::LibPkgConf
   Plack::App::GitHubPages::Faux
   Plack::App::Libarchive
+  Plack::Middleware::Zstandard
   Pod::Simple::Words
   Return::MultiLevel
+  SQL::Formatter
   Shell::Config::Generate
   Shell::Guess
   String::Template
@@ -191,6 +203,7 @@ $modules{$_} = $_ for qw(
   Term::Clui
   Term::EditLine
   Test2::Plugin::FauxHomeDir
+  Test2::Tools::ComboObject
   Test2::Tools::FFI
   Test2::Tools::HTTP
   Test2::Tools::HTTP::UA::Mojo

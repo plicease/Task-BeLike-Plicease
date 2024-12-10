@@ -1,6 +1,20 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added JSON::LD
+  - Added Data::Section::Pluggable
+  - Added Data::Section::Pluggable::Plugin::Yaml
+  - Added Data::Section::Writer
+  - Added Alien::cargo
+  - Added Alien::cargo::capi
+  - Added Alien::cargo::clone
+  - Added Environment::Is
+  - Added Test2::Tools::ComboObject
+  - Archive::Libarchive::Compress
+  - Added SQL::Formatter
+  - Added Plack::Middleware::Zstandard
+  - Added Alien::cue
+  - Updated my dists to latest
 
 2.37      2023-06-14 18:21:32 -0600
   - Update NetBSD to skip modules that do not install there

@@ -133,6 +133,18 @@ Alien::Build::Plugin::Probe::Override
 
 =item *
 
+Alien::cargo
+
+=item *
+
+Alien::cargo::capi
+
+=item *
+
+Alien::cargo::clone
+
+=item *
+
 Alien::castxml
 
 =item *
@@ -146,6 +158,10 @@ Alien::CMake
 =item *
 
 Alien::cmake3
+
+=item *
+
+Alien::cue
 
 =item *
 
@@ -365,6 +381,10 @@ Archive::Libarchive
 
 =item *
 
+Archive::Libarchive::Compress
+
+=item *
+
 Archive::Libarchive::Extract
 
 =item *
@@ -394,6 +414,18 @@ Const::Introspect::C
 =item *
 
 Cpanel::JSON::XS
+
+=item *
+
+Data::Section::Pluggable
+
+=item *
+
+Data::Section::Pluggable::Plugin::Yaml
+
+=item *
+
+Data::Section::Writer
 
 =item *
 
@@ -486,6 +518,10 @@ Dist::Zilla::PluginBundle::Author::Plicease
 =item *
 
 Env::ShellWords
+
+=item *
+
+Environment::Is
 
 =item *
 
@@ -613,6 +649,10 @@ File::XDG
 
 =item *
 
+JSON::LD
+
+=item *
+
 JSON::MaybeXS
 
 =item *
@@ -693,6 +733,10 @@ Plack::App::Libarchive
 
 =item *
 
+Plack::Middleware::Zstandard
+
+=item *
+
 Pod::Simple::Words
 
 =item *
@@ -710,6 +754,10 @@ Shell::Config::Generate
 =item *
 
 Shell::Guess
+
+=item *
+
+SQL::Formatter
 
 =item *
 
@@ -734,6 +782,10 @@ Term::EditLine
 =item *
 
 Test2::Plugin::FauxHomeDir
+
+=item *
+
+Test2::Tools::ComboObject
 
 =item *
 
