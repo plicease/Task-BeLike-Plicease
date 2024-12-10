@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.38      2024-12-10 07:35:29 -0700
   - Added JSON::LD
   - Added Data::Section::Pluggable
   - Added Data::Section::Pluggable::Plugin::Yaml
