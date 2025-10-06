@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+2.39      2025-10-05 23:15:11 -0600
   - Added Test2::Require::ProgramInPath
   - Added WebService::WTFIsMyIP
   - Added Perl::Critic::Policy::Plicease::ProhibitArrayAssignAref
