@@ -1,6 +1,15 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Test2::Require::ProgramInPath
+  - Added WebService::WTFIsMyIP
+  - Added Perl::Critic::Policy::Plicease::ProhibitArrayAssignAref
+  - Added Test::SpellCheck and Test::SpellCheck::Plugin::Lang::EN::US
+  - Added Tie::Hash::DataSection
+  - Added App::datasection
+  - Added FFI::Platypus::Lang::V
+  - Added Linux::Inotify
+  - updated my dists to latest
 
 2.38      2024-12-10 07:35:29 -0700
   - Added JSON::LD

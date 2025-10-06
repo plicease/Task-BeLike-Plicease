@@ -92,6 +92,7 @@ $modules{$_} = $_ for qw(
   App::af
   App::cpangitify
   App::cpanminus
+  App::datasection
   App::plasm
   App::pwhich
   App::spaceless
@@ -153,6 +154,7 @@ $modules{$_} = $_ for qw(
   FFI::Platypus::Lang::Go
   FFI::Platypus::Lang::Pascal
   FFI::Platypus::Lang::Rust
+  FFI::Platypus::Lang::V
   FFI::Platypus::Lang::Zig
   FFI::Platypus::Legacy::Raw
   FFI::Platypus::Record::StringArray
@@ -174,17 +176,20 @@ $modules{$_} = $_ for qw(
   JSON::XS
   Kafka::Librd
   Lingua::Alphabet::Phonetic::LAPD
+  Linux::Inotify
   Log::Log4perl::Appender::TAP
   Memcached::RateLimit
   Module::Which
   Mojolicious::Plugin::Ident
   Mojolicious::Plugin::TtRenderer
+  MooseX::NonMoose
   MooseX::Types::JSON
   NewFangle
   PPIx::DocumentName
   Package::Checkpoint
   PeekPoke::FFI
   Perl::Critic::Plicease
+  Perl::Critic::Policy::Plicease::ProhibitArrayAssignAref
   Photography::DX
   Photography::EV
   PkgConfig
@@ -203,6 +208,7 @@ $modules{$_} = $_ for qw(
   Term::Clui
   Term::EditLine
   Test2::Plugin::FauxHomeDir
+  Test2::Require::ProgramInPath
   Test2::Tools::ComboObject
   Test2::Tools::FFI
   Test2::Tools::HTTP
@@ -224,14 +230,18 @@ $modules{$_} = $_ for qw(
   Test::Pod::Coverage
   Test::Pod::Spelling::CommonMistakes
   Test::Script
+  Test::SpellCheck
+  Test::SpellCheck::Plugin::Lang::EN::US
   Test::Spelling
   Test::Version
   Text::HumanComputerWords
   Text::Hunspell::FFI
+  Tie::Hash::DataSection
   URI::ws
   UUID::FFI
   WWW::Bugzilla::BugTree
   Wasm
+  WebService::WTFIsMyIP
   Win32::ErrorMode
   Win32::Getppid
   Win32::Process::Info

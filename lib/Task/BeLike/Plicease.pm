@@ -337,6 +337,10 @@ App::cpanminus
 
 =item *
 
+App::datasection
+
+=item *
+
 App::plasm
 
 =item *
@@ -589,6 +593,10 @@ FFI::Platypus::Lang::Rust
 
 =item *
 
+FFI::Platypus::Lang::V
+
+=item *
+
 FFI::Platypus::Lang::Zig
 
 =item *
@@ -665,6 +673,10 @@ Lingua::Alphabet::Phonetic::LAPD
 
 =item *
 
+Linux::Inotify
+
+=item *
+
 local::lib
 
 =item *
@@ -689,6 +701,10 @@ Mojolicious::Plugin::TtRenderer
 
 =item *
 
+MooseX::NonMoose
+
+=item *
+
 MooseX::Types::JSON
 
 =item *
@@ -706,6 +722,10 @@ PeekPoke::FFI
 =item *
 
 Perl::Critic::Plicease
+
+=item *
+
+Perl::Critic::Policy::Plicease::ProhibitArrayAssignAref
 
 =item *
 
@@ -782,6 +802,10 @@ Term::EditLine
 =item *
 
 Test2::Plugin::FauxHomeDir
+
+=item *
+
+Test2::Require::ProgramInPath
 
 =item *
 
@@ -869,6 +893,14 @@ Test::Script
 
 =item *
 
+Test::SpellCheck
+
+=item *
+
+Test::SpellCheck::Plugin::Lang::EN::US
+
+=item *
+
 Test::Spelling
 
 =item *
@@ -885,6 +917,10 @@ Text::Hunspell::FFI
 
 =item *
 
+Tie::Hash::DataSection
+
+=item *
+
 URI::ws
 
 =item *
@@ -894,6 +930,10 @@ UUID::FFI
 =item *
 
 Wasm
+
+=item *
+
+WebService::WTFIsMyIP
 
 =item *
 
