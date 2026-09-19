@@ -6,6 +6,7 @@ Revision history for {{$dist->name}}
   - Added IO::Async::Open3::Simple
   - Added Tie::Google::Sheets
   - Added Test2::Tools::PerlTidy
+  - Added WebService::DailyConnect (back)
   - updated my dists to latest
 
 2.39      2025-10-05 23:15:11 -0600
@@ -1084,3 +1085,4 @@ Revision history for {{$dist->name}}
 
 0.1       2012-08-11 13:14:39 America/New_York
   - initial version
+
