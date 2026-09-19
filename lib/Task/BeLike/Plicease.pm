@@ -953,6 +953,10 @@ Wasm
 
 =item *
 
+WebService::DailyConnect
+
+=item *
+
 WebService::WTFIsMyIP
 
 =item *
