@@ -100,6 +100,7 @@ $modules{$_} = $_ for qw(
   App::tarweb
   App::whichdll
   Archive::Ar::Libarchive
+  Archive::HAR::Writer
   Archive::Libarchive
   Archive::Libarchive::Compress
   Archive::Libarchive::Extract
@@ -170,6 +171,7 @@ $modules{$_} = $_ for qw(
   File::ShareDir::Dist
   File::Which
   File::XDG
+  IO::Async::Open3::Simple
   JSON::LD
   JSON::MaybeXS
   JSON::PP
@@ -187,6 +189,7 @@ $modules{$_} = $_ for qw(
   NewFangle
   PPIx::DocumentName
   Package::Checkpoint
+  Params::SomeUtil
   PeekPoke::FFI
   Perl::Critic::Plicease
   Perl::Critic::Policy::Plicease::ProhibitArrayAssignAref
@@ -216,6 +219,7 @@ $modules{$_} = $_ for qw(
   Test2::Tools::JSON::Pointer
   Test2::Tools::MemoryCycle
   Test2::Tools::PerlCritic
+  Test2::Tools::PerlTidy
   Test2::Tools::Process
   Test2::Tools::Rustfmt
   Test2::Tools::URL
@@ -236,6 +240,7 @@ $modules{$_} = $_ for qw(
   Test::Version
   Text::HumanComputerWords
   Text::Hunspell::FFI
+  Tie::Google::Sheets
   Tie::Hash::DataSection
   URI::ws
   UUID::FFI

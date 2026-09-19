@@ -381,6 +381,10 @@ Archive::Ar::Libarchive
 
 =item *
 
+Archive::HAR::Writer
+
+=item *
+
 Archive::Libarchive
 
 =item *
@@ -657,6 +661,10 @@ File::XDG
 
 =item *
 
+IO::Async::Open3::Simple
+
+=item *
+
 JSON::LD
 
 =item *
@@ -714,6 +722,10 @@ NewFangle
 =item *
 
 Package::Checkpoint
+
+=item *
+
+Params::SomeUtil
 
 =item *
 
@@ -837,6 +849,10 @@ Test2::Tools::PerlCritic
 
 =item *
 
+Test2::Tools::PerlTidy
+
+=item *
+
 Test2::Tools::Process
 
 =item *
@@ -914,6 +930,10 @@ Text::HumanComputerWords
 =item *
 
 Text::Hunspell::FFI
+
+=item *
+
+Tie::Google::Sheets
 
 =item *
 

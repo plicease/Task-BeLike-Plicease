@@ -1,6 +1,12 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+  - Added Params::SomeUtil
+  - Added Archive::HAR::Writer
+  - Added IO::Async::Open3::Simple
+  - Added Tie::Google::Sheets
+  - Added Test2::Tools::PerlTidy
+  - updated my dists to latest
 
 2.39      2025-10-05 23:15:11 -0600
   - Added Test2::Require::ProgramInPath
