@@ -98,6 +98,7 @@ sub myWriteMakefile
     push @skip, qw(
       Alien::libnewrelic
       NewFangle
+      Linux::Inotify
     );
   }
 
